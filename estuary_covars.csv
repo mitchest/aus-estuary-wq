@@ -1,0 +1,975 @@
+STATE,estuary,DLAT,DLONG,CONDITION,CLASSIFICATION,SUBCLASS,BARRIER_BACKBARRIER,CENTRAL_BASIN,FLUVIAL_BAYHEAD_DELTA,FLOOD_EBB_DELTA,INTERTIDAL_FLATS,MANGROVE,SALTMARSH_SALTFLAT,TIDAL_SANDBANKS,ROCKY_REEF,CORAL,CHANNEL,BEDROCK,FLOODPLAIN,BEDROCK_PERIMETER,PERIMETER,CATCHMENTAREA,WATERAREA,MAXLENGTH,MAXWIDTH,ENTLENGTH,ENTRANCEWIDTH,MEANWAVEHEIGHT,MEANWAVEPERIOD,MAXWAVEHEIGHT,MAXWAVEPERIOD,TIDALRANGE,TIDALTYPE
+NSW,Arrawarra/Yarrawarra Creek,-30.058,153.197,largely unmodified,wave dominated,OTHER,0.03502,,,0.05937,0.01822,0.02372,,,,,0.11493,,,,2.94,,0.093,1.39,0.092,,0.086,,,,,,
+NSW,Avoca Lake,-33.465,151.435,modified,wave dominated,OTHER,0.22639,0.46223,0.02927,0.01465,0.0976,0.006,0.15206,,,,0.00564,,,0.04602,10.07,,0.63,1.39,0.6,0.63,0.044,,,,,,
+NSW,Back Lagoon,-36.883,149.929,modified,wave dominated,OTHER,0.33253,0.32766,0.14619,0.02481,0.0103,,,,0.00292,,0.1042,,,4.70497,5.82,,0.41,1.38,0.63,,0.22,,,,,,
+NSW,Baragoot Lake,-36.471,150.065,largely unmodified,wave dominated,OTHER,0.31216,0.47082,0.18258,0.05383,0.034,,,,0.00142,,,,,2.68991,5.27,,0.47,1.93,0.59,0.38,0.04,,,,,,
+NSW,Bega River,-36.706,149.984,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.79346,0.37899,1.29864,0.34935,0.5358,0.04052,0.02586,0.12513,0.02259,,2.73705,,,20.60032,39.92,1956,2.25,11.78,0.53,0.55,0.14,1.039,6.319,5.1,11.4,1.2,Semi Diurnal
+NSW,Bellambi Creek,-34.364,150.92,extensively modified,wave dominated,OTHER,0.0617,,,,0.05426,0.03541,,,,,0.02761,,,,1.27,,0.031,0.58,,,,,,,,,
+NSW,Bellambi Lake,-34.377,150.921,extensively modified,wave dominated,OTHER,0.06037,,,,0.02788,,,,,,0.04933,,,,1.24,,0.027,0.47,0.19,0.36,0.025,,,,,,
+NSW,Bellinger River,-30.5,153.034,modified,river dominated,WAVE-DOMINATED DELTA,2.18638,,,0.506,0.98968,1.04625,0.10733,0.41242,,,4.48345,,2.25448,1.2067,72.86,1039,6.615,16.08,0.4,,0.33,1.373,7.135,6.7,14,1.3,Semi Diurnal
+NSW,Belongil Creek,-28.626,153.592,modified,wave dominated,OTHER,,0.05355,,,0.47311,0.05171,0.06916,0.00395,,,0.11411,,,,4.26,41,0.15,1.89,0.26,,0.052,1.106,6.673,3.4,11.6,1.3,Semi Diurnal
+NSW,Bermagui River,-36.425,150.065,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.20377,0.19928,0.97496,0.39799,0.27543,0.43458,0.3467,,0.12768,,0.63618,,0.1547,0.09129,19.6,78,0.87,7.68,0.25,1.05,0.089,1.259,6.605,6.1,11.9,1.1,Semi Diurnal
+NSW,Berrara Creek,-35.209,150.548,largely unmodified,wave dominated,OTHER,,,,0.02972,0.15943,,,0.10808,0.07202,,0.23421,,,,6.96,,0.21,3.32,0.18,,0.072,,,,,,
+NSW,Boambee Creek,-30.297,153.138,modified,river dominated,WAVE-DOMINATED DELTA,,,,0.03893,0.27191,0.1925,0.02391,0.04792,,,0.52504,,,,9.06,48,0.28,4.15,0.12,,0.067,0.68,7.427,4.9,14.4,1.3,Semi Diurnal
+NSW,Bonville Creek,-30.376,153.101,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.60379,,,0.19045,0.00691,0.11506,0.30348,0.11802,,,0.84558,,,,31.42,162,1.323,7.29,0.45,1.59,0.052,0.68,7.427,4.9,14.4,1.3,Semi Diurnal
+NSW,Botany Bay,-34.003,151.234,extensively modified,tide dominated,OTHER,,,0.05194,,4.38422,6.71176,2.52822,0.46381,0.49049,,56.81502,,,1.44722,49.39,1143,38.31,8.72,7.77,,1.37,1.322,6.83,9.2,13.1,1.2,Semi Diurnal
+NSW,Brisbane Water,-33.524,151.334,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,14.74592,1.56331,4.65419,1.63192,0.61843,1.78227,,0.01207,,13.63152,,,1.20754,89.43,217,28.898,17.72,3.74,7.85,0.32,1.388,6.958,9.4,13.3,0.8,Semi Diurnal
+NSW,Brunswick River,-28.538,153.557,extensively modified,river dominated,WAVE-DOMINATED DELTA,,,,,1.55731,0.69942,0.2106,0.51451,0.01,,0.68677,,,0.01638,40.72,198,1.96,9.31,0.24,,0.059,1.269,6.749,4.3,11.8,1.3,Semi Diurnal
+NSW,Bunga Lagoon,-36.547,150.055,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.13795,0.08782,0.08158,0.01469,0.04194,,,,,,0.03391,,,3.18669,2.85,,0.1,1.07,0.33,0.32,0.022,,,,,,
+NSW,Burrill Lake,-35.39,150.445,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.66203,3.39179,0.86128,0.20873,0.11232,,0.0596,0.20922,0.03994,,0.33052,,,,31.3,87,4.2,8.14,0.83,2.44,0.054,1.334,6.711,7.9,12.1,1.2,Semi Diurnal
+NSW,Camden Haven River,-31.637,152.837,modified,wave dominated,WAVE-DOMINATED ESTUARY,,22.98495,2.45733,0.37851,0.4458,0.17116,1.57774,0.38666,,,5.38229,,,1.01357,116.55,601,32.198,27.38,4.23,8.77,0.35,1.46,7.128,7.9,13.5,0.9,Semi Diurnal
+NSW,Candlagan Creek And Lagoon,-35.842,150.179,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.04712,,,0.04391,0.01441,0.03652,0.09934,,0.01102,,0.11528,,,1.45595,4.56,,0.1,2.09,0.17,,0.038,,,,,,
+NSW,Clarence River,-29.428,153.361,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,40.86113,119.51025,0.32164,4.79536,15.30793,7.38103,8.51873,0.02863,,66.62788,23.67979,41.53349,0.54066,279.63,22220,107.7,59.95,1.73,,0.36,1.444,7.066,6.2,13.6,1.2,Semi Diurnal
+NSW,Clyde River/Batemans Bay,-35.747,150.255,largely unmodified,tide dominated,OTHER,,,5.20938,1.24143,3.68788,0.90927,1.35359,0.02039,0.60289,,45.55038,,,0.38195,131.29,1837,48.66,37.19,7.04,,7.04,1.314,6.709,7.3,11.9,1.2,Semi Diurnal
+NSW,Cobaki Broadwater,-28.183,153.551,largely unmodified,other,OTHER,,0.98417,0.07953,,0.46019,0.724,,,,,,,,,46.54,,7.615,10.21,2.84,5.89,0.17,,,,,,
+NSW,Cockrone Lake,-33.494,151.428,extensively modified,wave dominated,OTHER,0.05517,0.20261,0.04813,,0.18352,,0.05009,,,,0.01138,,,,3.52,,0.28,1.2,0.48,0.4,0.019,,,,,,
+NSW,Coffs Harbour Creek,-30.266,153.139,extensively modified,wave dominated,OTHER,0.10588,,,0.10731,0.06551,0.12507,0.06027,0.02184,,,0.24793,,,,0,,0,,,,,,,,,,
+NSW,Coila Lake,-36.048,150.139,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.50359,6.1651,0.70075,0.38347,0.27522,,0.05586,,0.0333,,0.10125,,,0.01674,18.93,70,6.85,6.45,1.87,0.68,0.075,1.307,6.631,6.7,11.9,1.1,Semi Diurnal
+NSW,Congo Creek And Lagoon,-35.953,150.157,largely unmodified,wave dominated,OTHER,0.12132,,,0.04457,0.03597,,0.03765,,0.06964,,0.10791,,,4.34536,4.94,,0.12,2.3,0.11,,0.071,,,,,,
+NSW,Cooks River,-33.95,151.168,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,0.0545,,0.07424,,,,1.31411,,,,27.34,,1.07,9.31,0.16,,0.16,,,,,,
+NSW,Corindi River/Red Rock River,-29.981,153.232,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.08185,,,0.21383,0.20148,0.13618,1.5889,0.04173,,,0.6343,,,0.09242,18.57,156,0.65,6.44,0.31,,0.056,1.486,7.122,6.5,13.7,1.4,Semi Diurnal
+NSW,Corunna Lake,-36.288,150.133,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.26975,1.79917,0.23851,0.25567,,,,,0.00616,,0.17244,,,13.69172,19.65,19,2.05,4.51,1.12,1.5,0.059,1.386,6.593,6.4,11.9,1.1,Semi Diurnal
+NSW,Crooked River And Lagoon,-34.772,150.815,largely unmodified,wave dominated,OTHER,0.11955,,,0.02292,0.01598,,,,0.04635,,0.23154,,,,5.23,,0.32,2.5,0.19,0.62,0.08,,,,,,
+NSW,Cudgen Lake,-28.257,153.586,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,0.04501,0.33612,0.01563,0.055,0.19084,0.1234,,0.17551,,,,22.62,54,2.43,10.58,1.17,8.23,0.077,1.279,6.717,4.6,12.5,1.1,Semi Diurnal
+NSW,Cudgera Creek,-28.36,153.577,largely unmodified,wave dominated,STRANDPLAIN,0.01273,,,,0.0948,0.12114,0.05725,0.14593,,,0.05572,,,0.0067,4.47,55,0.13,1.96,0.17,,0.058,1.303,6.737,4.7,12.3,1.2,Semi Diurnal
+NSW,Cullendulla Creek,-35.703,150.209,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.20505,0.9198,0.1182,0.24258,,0.01078,,0.19495,,,0.22905,6.4,,0.27,2.25,0.17,,0.098,,,,,,
+NSW,Curalo Lagoon,-37.048,149.921,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.37575,0.42143,0.24083,0.25225,0.02855,0.02259,0.03181,,0.01859,,0.12632,,,0.15138,4.22,19,0.44,1.56,0.9,0.98,0.17,0.437,6.763,2.4,11.8,1.5,Semi Diurnal
+NSW,Curl Curl/Harbord Lagoon,-33.767,151.298,extensively modified,wave dominated,OTHER,0.22231,,,,0.02202,,0.05305,0.03427,,,0.14487,,,,3.96,,0.13,1.84,0.18,,0.085,,,,,,
+NSW,Currambeen Creek,-35.037,150.671,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.17871,,,,0.11391,1.36417,0.79421,0.15286,0.07649,,0.54301,,,0.01024,23.57,163,1.2,9.36,0.18,0.28,0.12,0.503,6.836,6.5,12.6,1.2,Semi Diurnal
+NSW,Cuttagee Lake,-36.495,150.054,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.23647,1.10023,0.52849,0.09272,,,,,,,0.23334,,,12.63863,12.86,80,1.14,2.58,1.06,0.67,0.095,1.34,6.633,6.1,11.9,1.1,Semi Diurnal
+NSW,Dalhousie Creek And Lagoon,-30.524,153.026,largely unmodified,wave dominated,STRANDPLAIN,0.1633,,,0.02583,0.06732,,,,,,0.09649,,,,3.96,,0.1,1.68,0.24,,0.038,,,,,,
+NSW,Dee Why Lagoon,-33.748,151.304,extensively modified,wave dominated,OTHER,0.25852,0.15162,0.04754,,0.25605,,0.1718,,,,,,,,3.22,,0.24,1.08,0.38,0.36,0.036,,,,,,
+NSW,Deep Creek,-30.6,153.012,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.65991,0.34187,1.85756,0.14436,0.03992,0.00307,0.79622,0.06717,0.01447,,0.61014,,,7.73307,18.39,136,0.78,6.78,0.39,3.73,0.095,0.482,7.18,2.1,13.1,1.2,Diurnal
+NSW,Durras Lake,-35.639,150.305,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.18495,2.29098,0.38839,0.24,0.78469,,0.36093,,0.04992,,0.36584,,,0.00224,28.99,81,3.94,7,1.62,3.19,0.15,1.344,6.735,7.6,12.1,1.2,Semi Diurnal
+NSW,Evans River,-29.113,153.438,modified,river dominated,WAVE-DOMINATED DELTA,0.11774,,,0.08046,0.2594,0.08904,,0.39579,,,1.41462,,,0.07146,24.73,122,0.77,10.28,0.27,,0.061,1.449,7.11,6.4,13.8,1.2,Semi Diurnal
+NSW,Fairy Creek,-34.409,150.901,modified,wave dominated,STRANDPLAIN,0.14875,,,0.00781,0.04201,0.11175,,,0.03661,,0.05922,,,,1.71,,0.026,0.86,0.061,,0.028,,,,,,
+NSW,Georges River,-33.998,151.156,extensively modified,tide dominated,OTHER,,,0.05222,,1.52208,2.098,0.37063,0.25113,0.03416,,11.14329,,,69.71577,116.44,,23.34,27.81,,,1.44,,,,,,
+NSW,Hastings River,-31.426,152.916,extensively modified,river dominated,WAVE-DOMINATED DELTA,1.4146,0.63877,,1.48595,1.29289,3.01044,0.96855,0.48301,,,16.24077,,9.92893,0.80451,193.51,3699,27.888,33.33,1.45,3.83,0.38,1.56,7.133,7.9,13.5,1.1,Semi Diurnal
+NSW,Hawkesbury River,-33.563,151.341,extensively modified,tide dominated,OTHER,0.353,,21.66215,,6.73757,2.24461,4.87636,,,,94.67452,,,1.82626,400.69,21909,117.37,67.52,5.17,,3.78,1.388,6.958,9.4,13.3,1.1,Semi Diurnal
+NSW,Hearns Lake,-30.133,153.201,largely unmodified,wave dominated,OTHER,0.1845,0.09734,,0.00928,0.0644,,0.04572,,,,0.02047,,,,4.33,,0.12,1.59,0.22,,0.051,,,,,,
+NSW,Hunter River,-32.918,151.794,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,4.93452,7.9083,,,0.62212,16.66856,6.69407,,,,18.22351,,15.35934,0.46037,135.2,21437,28.42,46.09,1.58,,0.55,1.394,6.996,9.2,13.4,1.3,Semi Diurnal
+NSW,Jerusalem Creek,-29.208,153.396,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,10.72,,,5.01,0.14,,0.03,,,,,,
+NSW,Jervis Bay,-35.107,150.787,largely unmodified,tide dominated,OTHER,0.17871,,1.0786,0.07506,3.28999,1.87997,3.5002,0.13338,2.48217,,120.71644,,,1.00375,66.33,376,126.11,13.73,16.42,,4.83,1.197,6.828,9.2,13.2,1.2,Semi Diurnal
+NSW,Karuah River,-32.671,151.989,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,2.24694,0.91689,4.52905,11.93747,,,,8.11304,,,1.58034,98.06,,,26.22,,,1.45,,,,,,
+NSW,Khappinghat Creek,-32.01,152.565,near pristine,river dominated,WAVE-DOMINATED DELTA,0.15973,,0.0574,0.0811,0.1546,,1.20147,,0.02784,,1.12176,,,0.08479,19.27,117,1.31,7.55,0.31,,0.12,1.24,7.016,7.4,14.1,1.2,Semi Diurnal
+NSW,Kianga Lake,-36.2,150.132,modified,wave dominated,OTHER,0.16067,0.1449,,0.01417,0.01629,,,,0.02622,,0.01947,,,1.37393,2.37,,0.14,0.93,0.5,0.34,0.037,,,,,,
+NSW,Killick Creek,-31.251,152.962,modified,wave dominated,STRANDPLAIN,1.5451,,,0.04366,,,0.01787,0.0252,0.01839,,0.25479,,,0.41699,0,,0,,,,,,,,,,
+NSW,Kioloa Lagoon,-35.549,150.383,largely unmodified,wave dominated,OTHER,0.15608,,,0.02296,,,0.00399,,0.0053,,0.02549,,,,0.79,,0.015,0.27,0.22,,0.027,,,,,,
+NSW,Korogoro Creek,-31.055,153.054,largely unmodified,wave dominated,STRANDPLAIN,0.05154,,,,0.00935,0.03833,,0.00636,0.05368,,0.35661,,,0.63465,4.63,,0.16,1.83,0.12,,0.044,,,,,,
+NSW,Lake Ainsworth,-28.781,153.594,modified,other,OTHER,,,,,,,,,,,,,,,1.83,,0.12,0.66,0.33,,0.055,,,,,,
+NSW,Lake Arragan And River,-29.565,153.338,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,9.59,,0.85,3.49,0.81,2.5,0.053,,,,,,
+NSW,Lake Brou,-36.137,150.124,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.50971,1.74297,1.76547,0.531,0.95947,,0.00604,,,,0.27808,,,1.4382,13.7,58,2.28,3.06,1.78,0.31,0.079,1.359,6.664,6.7,11.8,1.1,Semi Diurnal
+NSW,Lake Brunderee,-36.098,150.132,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0,,0,,,,,,,,,,
+NSW,Lake Cakora/Lagoon,-29.602,153.332,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.18,,0.38,1.72,0.31,,0.04,,,,,,
+NSW,Lake Cathie/Innes,-31.55,152.859,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.07269,4.94664,,0.27479,0.23455,,11.3689,,,,0.70081,,,0.08119,27.51,197,5.98,8.9,1.84,4.54,0.25,1.46,7.128,7.9,13.5,1,Semi Diurnal
+NSW,Lake Conjola,-35.269,150.508,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.85494,4.64153,0.61758,0.77924,0.33817,0.31331,0.03405,,0.06828,,0.80382,,,0.64952,46.94,146,6.01,11.43,2.16,3.38,0.059,1.205,6.635,7.8,12.3,1.2,Semi Diurnal
+NSW,Lake Illawarra,-34.544,150.873,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.13832,31.52697,4.04493,0.74446,0.42708,,0.56605,0.09788,0.09294,,0.83287,,,0.13727,53.63,332,35.81,9.48,9.79,2.32,0.28,1.171,6.752,8.6,12.9,1.2,Semi Diurnal
+NSW,Lake Macquarie,-33.086,151.662,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,105.48106,3.5383,1.21341,0.86403,0.53599,1.64296,1.60616,,,3.23,,,1.07667,196.15,786,114.1,25.3,21.36,4.91,0.42,1.366,6.963,9,13.5,1.1,Semi Diurnal
+NSW,Lake Mummuga,-36.162,150.129,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.22124,1.26345,0.17027,0.29737,,0.02549,0.06433,,0.07306,,0.11977,,,0.17205,9.94,41,1.4,2.71,1.33,0.85,0.045,1.384,6.655,6.6,11.7,1.1,Semi Diurnal
+NSW,Lake Tarourga,-36.115,150.134,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.07245,0.24628,0.00344,0.02597,0.02786,,0.04619,,,,0.01747,,,,2.85,,0.26,1.39,0.48,0.46,0.041,,,,,,
+NSW,Macleay River,-30.874,153.024,extensively modified,river dominated,WAVE-DOMINATED DELTA,3.67416,0.91202,,1.13007,1.73881,5.94272,4.2163,1.22428,,,10.21248,,4.75519,3.00239,157.73,11273,19.909,49.65,0.56,,0.18,1.547,7.108,6.9,13.5,1.2,Semi Diurnal
+NSW,Manly Lagoon And Creek,-33.788,151.288,extensively modified,wave dominated,OTHER,0.06821,,,,,,,,,,0.19706,,,0.56108,4.77,,0.19,2.23,0.13,,0.13,,,,,,
+NSW,Manning River,-31.879,152.686,extensively modified,river dominated,WAVE-DOMINATED DELTA,8.46066,,70.39206,1.07433,1.66893,4.82797,0.12803,0.30349,,,28.32948,,,1.34711,192.64,8080,31.575,51.98,0.74,,0.3,1.009,7.175,7.2,14.2,1.3,Semi Diurnal
+NSW,Merimbula Lake,-36.896,149.922,modified,wave dominated,WAVE-DOMINATED ESTUARY,2.99472,2.26939,0.56467,2.02111,0.30402,,,,0.02279,,0.4263,,,3.64374,17.89,86,4.89,5.3,1.87,1.46,0.1,0.26,7.377,2.4,12.2,1.4,Semi Diurnal
+NSW,Meringo Creek And Lagoon,-35.978,150.15,largely unmodified,wave dominated,OTHER,0.14685,0.06903,,0.04137,0.07878,0.00909,,,,,,,,0.18775,2.54,,0.1,0.9,0.27,,0.033,,,,,,
+NSW,Meroo Lake,-35.484,150.391,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.15579,0.63311,0.30066,,0.25367,,0.39106,,0.01467,,0.15577,,,,8.78,18,1.14,3.1,0.58,0.8,0.066,1.184,6.631,7,12.2,1.2,Semi Diurnal
+NSW,Merrica River,-37.297,149.951,near pristine,wave dominated,OTHER,0.04198,,,0.02814,0.01446,,0.00292,,0.01885,,0.09435,,,,4.74,70,0.14,2.03,0.19,,0.066,1.352,6.683,5.1,12.1,1.2,Diurnal
+NSW,Middle Lagoon,-36.656,150.008,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.32455,0.40076,0.41676,0.11697,0.01236,0.01644,,,0.02294,,0.17806,,,0.03096,8.1,31,0.56,2.57,0.65,0.36,0.074,1.039,6.319,5.1,11.4,1.2,Semi Diurnal
+NSW,Minnamurra River,-34.628,150.861,modified,river dominated,WAVE-DOMINATED DELTA,0.40948,,,0.09312,0.27489,0.93543,0.52907,,0.05515,,0.3727,,,0.45233,14.84,144,0.87,6.16,0.24,0.58,0.13,1.171,6.752,8.6,12.9,1.2,Semi Diurnal
+NSW,Mollymook Creek,-35.334,150.475,largely unmodified,wave dominated,OTHER,,,,,0.09467,,0.01012,,,,0.01652,,,,2.74,,0,1.36,0.082,,0.015,,,,,,
+NSW,Mooball Creek,-28.389,153.57,modified,wave dominated,STRANDPLAIN,,,,0.05497,0.2745,0.11129,,0.18794,,,0.23072,,,,10.46,140,0.37,4.82,0.094,,0.07,1.303,6.737,4.7,12.3,1.2,Semi Diurnal
+NSW,Moonee Creek And Lagoon,-30.212,153.16,largely unmodified,wave dominated,OTHER,0.04939,,,0.29592,0.06559,0.0566,0.13436,,0.01551,,0.27641,,,,9.03,40,0.32,4.01,0.12,,0.099,1.302,7.068,5.9,13.8,1.3,Semi Diurnal
+NSW,Moruya River,-35.905,150.151,modified,wave dominated,WAVE-DOMINATED ESTUARY,,0.3791,2.37487,1.70689,0.79536,0.08839,0.35583,0.73518,0.02935,,2.15223,,,0.21944,43.53,1499,4.55,16.63,0.84,0.58,0.18,1.215,6.578,6.5,11.9,1,Semi Diurnal
+NSW,Murrah Lagoon,-36.495,150.054,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.53265,0.05888,2.90903,0.1061,0.06789,,0.02009,,,,0.82762,,,1.78484,7.47,200,0.22,2.29,0.42,0.52,0.034,1.34,6.633,6.1,11.9,1.1,Semi Diurnal
+NSW,Myall Lake And Myall River,-32.679,152.145,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.93875,100.31847,1.17318,1.53089,2.571,3.36064,3.14257,,,,5.12363,,,1.65363,215.53,,108.786,42.2,5.65,26.56,0.24,,,,,,
+NSW,Nadgee Lake And Inlet,-37.469,149.973,near pristine,wave dominated,OTHER,0.19439,0.7555,0.06369,0.22166,0.17326,,1.08824,,0.01364,,0.04352,,,,4.79,,1.32,1.57,1.12,,0.45,,,,,,
+NSW,Nambucca River,-30.65,153.015,extensively modified,river dominated,WAVE-DOMINATED DELTA,0.33764,,,0.93703,0.59448,1.28051,1.98809,0.38,0.03346,,6.44754,,,0.62437,106.39,1341,9.264,20.1,0.63,,0.2,0.482,7.18,2.1,13.1,1.2,Diurnal
+NSW,Nangudga Lake,-36.261,150.143,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.2069,0.32358,0.05481,0.34174,0.03304,,,,0.01223,,0.18646,,,2.09196,8.38,,0.45,2.9,0.35,1.72,0.058,,,,,,
+NSW,Narrabeen Lagoon,-33.705,151.307,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,1.48085,1.98233,0.50388,0.03197,0.03014,,,,0.08885,,0.26458,,,0.05149,13.23,54,2.369,5.43,0.93,2.27,0.11,0.97,6.955,8.6,13.5,1.2,Semi Diurnal
+NSW,Narrawallee Inlet,-35.302,150.475,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.58307,,,0.20642,0.2777,0.24737,0.71278,,0.03202,,0.40903,,,0.04721,11.41,77,0.34,4.72,0.27,,0.046,1.205,6.635,7.8,12.3,1.2,Semi Diurnal
+NSW,Nelson Lagoon,-36.691,149.994,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.15487,0.18358,0.44907,0.31058,0.0613,0.2174,0.44009,,0.0225,,0.29826,,,0.00751,8.72,18,0.4,3.65,0.26,2.97,0.034,1.039,6.319,5.1,11.4,1.2,Semi Diurnal
+NSW,Nerrindillah Creek,-35.229,150.532,largely unmodified,wave dominated,OTHER,0.05933,,,0.00912,0.00789,0.00786,,,,,0.05682,,,2.4613,2.56,,0.069,1.04,0.1,,0.068,,,,,,
+NSW,Nullica River,-37.092,149.872,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.58832,0.09868,0.40679,0.13602,0.01134,,,,0.01644,,0.26109,,,0.98728,5.19,128,0.28,2.26,0.23,0.31,0.094,0.437,6.763,2.4,11.8,1.5,Semi Diurnal
+NSW,Oyster Creek,-30.563,153.017,largely unmodified,wave dominated,STRANDPLAIN,1.67302,,,0.02083,,,,,,,0.17325,,,,5.44,,0.12,1,0.15,,0.038,,,,,,
+NSW,Pambula Lake,-36.948,149.916,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,1.50871,4.97362,0.66084,0.52338,0.26755,,,0.01383,,1.35659,,,11.36085,26.02,289,3.7,7.51,2.34,1.78,0.21,0.26,7.377,2.4,12.2,1.5,Semi Diurnal
+NSW,Pittwater,-33.58,151.317,modified,tide dominated,OTHER,,,,,0.21268,,0.17316,,,,17.31743,,,0.66886,52.05,70,18.57,10.94,2.06,,1.07,1.388,6.958,9.4,13.3,1.4,Semi Diurnal
+NSW,Port Hacking,-34.072,151.163,modified,tide dominated,OTHER,0.17364,,0.17818,2.77521,0.14698,0.16252,0.35014,0.17325,0.10967,,6.30528,,,0.00558,70.33,192,11.68,14.66,1.53,,1.33,1.454,6.889,9.8,12.8,1.2,Semi Diurnal
+NSW,Port Jackson,-33.828,151.283,extensively modified,tide dominated,OTHER,,,0.19279,,2.48577,2.41675,,,0.5245,,47.71235,,,0.38759,237.21,589,50.472,29.7,5.32,,1.58,0.97,6.955,8.6,13.5,1.2,Semi Diurnal
+NSW,Port Kembla Harbour,-34.47,150.9,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,1.48838,1.06717,,,,,0.07963,,,,,,,0.05725,14.37,15,2.24,4.64,1.41,,0.37,1.467,6.836,9.5,12.5,1.2,Semi Diurnal
+NSW,Port Stephens,-32.708,152.19,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,1.30217,198.94609,3.64282,,11.98749,20.01895,31.91564,8.20493,1.36133,,14.30137,1.90774,,6.19327,234.08,3041,128.36,45.94,5.59,,1.31,1.028,7.1,9.1,14.6,1.3,Semi Diurnal
+NSW,Richmond River,-28.877,153.592,extensively modified,river dominated,WAVE-DOMINATED DELTA,1.18897,,,0.85199,1.5785,7.60254,,0.68585,,,17.24535,,,5.84043,127.67,6878,19.73,41.47,0.83,,0.27,1.382,7.099,6.4,13.7,1.2,Semi Diurnal
+NSW,Saint Georges Basin,-35.184,150.594,modified,wave dominated,WAVE-DOMINATED ESTUARY,16.06281,34.54946,3.75395,0.56961,1.22626,0.09454,0.93989,0.27947,0.2732,,2.65214,,,1.12709,91.53,407,41.96,21.8,7.42,6.28,0.19,0.916,6.504,7.2,13,1.2,Semi Diurnal
+NSW,Saltwater Lagoon,-30.884,153.043,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.06398,0.16251,0.12394,0.03514,,,0.1851,,0.0086,,0.0761,,,,9.95,,0.42,3.83,0.41,,0.04,,,,,,
+NSW,Sandon River,-29.674,153.331,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,23.35,182,1.39,7.74,0.6,1.86,0.2,1.5,7.07,6.4,13.6,1.3,Semi Diurnal
+NSW,Shoalhaven/Crookhaven River,-34.9,150.763,extensively modified,river dominated,WAVE-DOMINATED DELTA,3.00039,1.43382,101.68148,4.4895,0.84879,3.21867,2.62498,,,,19.69845,,,0.24423,178.82,7326,28.06,49.47,0.64,6.48,0.83,1.153,6.563,7.8,12.8,1.2,Semi Diurnal
+NSW,Smiths Lake,-32.393,152.519,largely unmodified,wave dominated,OTHER,0.98341,8.24145,,1.22303,0.02421,,,,,,0.2574,,,0.35045,25.62,46,10.503,7.51,2.85,,0.19,1.652,7.111,9.1,13.2,1.3,Semi Diurnal
+NSW,South West Rocks Creek,-30.883,153.038,extensively modified,wave dominated,OTHER,,,,0.05428,0.1318,0.43428,0.48646,,,,0.12783,,,0.00995,4.01,,0.16,1.74,0.09,,0.064,,,,,,
+NSW,Station Creek,-29.951,153.253,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,8.02,22,0.23,3.48,0.16,,0.058,1.486,7.122,6.5,13.7,1.4,Semi Diurnal
+NSW,Swan Lake,-35.201,150.561,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,1.67602,4.12464,,0.9245,0.37213,,0.08629,,0.12307,,0.18055,,,0.03385,12.35,35,4.69,4.28,2.48,1.14,0.036,0.916,6.504,7.2,13,1.2,Semi Diurnal
+NSW,Tabourie Lake,-35.438,150.411,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.32074,0.71653,0.31927,0.28981,0.47685,,0.40452,,0.03813,,0.53255,,,0.04501,13.67,30,1.57,5.45,1.28,3.61,0.054,1.184,6.631,7,12.2,1.2,Semi Diurnal
+NSW,Tallow Creek,-28.668,153.622,modified,wave dominated,STRANDPLAIN,,,,,0.40057,0.01258,0.05386,,,,0.09284,,,,3.93,,0.11,1.55,0.15,,0.046,,,,,,
+NSW,Termeil Lake,-35.462,150.395,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.04461,0.35115,0.13238,0.05896,0.04778,,0.25146,,0.00802,,0.11481,,,,8.29,,0.57,2.81,0.64,0.74,0.025,,,,,,
+NSW,Terrigal Lagoon,-33.444,151.443,modified,wave dominated,OTHER,0.12212,0.22919,,0.0085,0.07781,,,,,,,,,,5.68,,0.24,1.76,0.26,0.54,0.034,,,,,,
+NSW,Tilba Tilba Lake,-36.339,150.1,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.48394,0.79475,0.18942,0.2176,0.0331,,0.04784,,0.00875,,0.13862,,,1.8832,7.33,16,1.01,2.53,0.89,0.96,0.053,1.259,6.605,6.1,11.9,1.1,Semi Diurnal
+NSW,Tilligery Creek,-32.728,152.046,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,11.54254,,,2.20294,7.4174,5.5405,,,,0.44078,,,2.10404,43.72,,10.727,14.62,1.2,,1.29,,,,,,
+NSW,Tomaga River,-35.837,150.185,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.15074,,0.4281,0.09261,0.2407,0.19049,0.50033,,0.2479,,0.69287,,,7.73505,20.19,125,1.21,9.11,0.34,0.62,0.086,1.215,6.578,6.5,11.9,1.1,Semi Diurnal
+NSW,Towamba River,-37.112,149.913,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.19625,,3.42478,0.90409,0.12922,,0.24554,0.2425,0.00998,,1.45473,,,0.11202,24.42,1063,1.51,8.67,0.46,1.97,0.16,0.437,6.763,2.4,11.8,1.5,Semi Diurnal
+NSW,Towradgi Creek,-34.383,150.915,extensively modified,wave dominated,OTHER,,,,,,,,,,,0.05764,,,,1.99,,,0.92,,,0.072,,,,,,
+NSW,Tuggerah Lakes,-33.346,151.502,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.03962,69.3183,7.00435,2.96575,1.56442,0.17674,0.13003,,0.17234,,1.58902,,,0.09345,102.2,822,82.5,17.87,4.92,1.53,0.1,1.182,6.896,8.6,13.7,1,Semi Diurnal
+NSW,Tuross Lake,-36.067,150.132,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.53911,5.62781,17.69419,1.74876,0.55731,0.27517,0.93264,0.89186,0.02811,,5.34083,,,0.69856,93.66,1811,12.95,22.02,0.67,1.62,0.14,1.359,6.664,6.7,11.8,1.1,Semi Diurnal
+NSW,Tweed River,-28.17,153.556,modified,wave dominated,WAVE-DOMINATED ESTUARY,5.82825,4.86588,1.39561,0.68325,1.21094,4.37165,0.18818,0.58434,,,9.17306,,,0.24281,90.31,1126,9.228,36.51,0.54,,0.2,1.296,6.726,4.5,12.1,1.2,Semi Diurnal
+NSW,Twofold Bay / Eden,-37.078,149.947,modified,tide dominated,OTHER,1.24387,0.53852,4.17022,1.33063,0.35338,0.02259,0.30641,0.2425,0.4874,,34.45343,,,0.2634,31.5,,29.96,7.36,5.11,,5.11,,,,,,
+NSW,Ulladulla Harbour/Millards Creek,-35.357,150.485,extensively modified,wave dominated,OTHER,,,,,0.02968,,,,0.11479,,0.56358,,,0.94464,6.13,,0.51,1.82,0.83,0.84,0.64,,,,,,
+NSW,Wagonga Inlet,-36.214,150.132,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.13062,4.17188,1.22045,1.54613,0.42762,0.06338,0.01459,,0.0576,,0.53121,,,0.11258,39.27,144,5.65,9.75,1.98,2.81,0.1,1.384,6.655,6.6,11.7,1.1,Semi Diurnal
+NSW,Wallaga Lake,-36.365,150.079,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.53982,7.50976,2.0683,1.76145,0.01965,,,,0.22554,,0.45843,,,0.04287,60.97,291,7.91,10.1,3.22,1.83,0.15,1.259,6.605,6.1,11.9,1.1,Semi Diurnal
+NSW,Wallagoot Lake,-36.795,149.959,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.83244,3.10318,0.78572,0.81916,0.18359,,,,0.01679,,0.26742,,,0.08558,11.49,45,3.59,3.3,1.96,1.29,0.12,1.18,6.417,5.5,11.5,1.3,Semi Diurnal
+NSW,Wallis Lake,-32.174,152.51,modified,wave dominated,WAVE-DOMINATED ESTUARY,,74.81486,8.24706,2.48853,1.30162,,5.25107,2.78205,0.0822,,5.97643,,,14.85353,227.88,1349,93.822,40.89,10.46,3.05,0.13,1.518,7.051,8.2,13.6,1.2,Semi Diurnal
+NSW,Wamberal Lagoon,-33.431,151.448,extensively modified,wave dominated,OTHER,0.67823,0.41086,,,0.07088,,0.04268,,,,,,,,4.64,,0.41,1.91,0.33,0.56,0.054,,,,,,
+NSW,Wapengo Lagoon,-36.635,150.021,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,1.02044,1.81334,1.2867,0.18518,0.32905,0.31372,,,,0.37153,,,2.70548,18.47,82,2,6.12,1.61,3.43,0.31,1.039,6.319,5.1,11.4,1.1,Semi Diurnal
+NSW,Werri Lagoon,-34.728,150.839,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.67116,0.19309,,0.05174,,,,,0.0107,,0.0283,,,0.67735,2.35,,0.095,1.29,0.13,,0.054,,,,,,
+NSW,Willinga Lake,-35.5,150.391,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.0897,0.13455,0.01145,0.01307,0.0238,,0.31957,,0.00854,,0.14063,,,,8.38,20,0.35,2.41,0.687,1.97,0.025,1.184,6.631,7,12.2,1.2,Semi Diurnal
+NSW,Wollumboola Lake,-34.94,150.776,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,2.6167,4.93458,0.76852,0.55523,0.31638,0.04439,,,0.0602,,0.21167,,,,19.14,34,5.53,6.6,2.1,0.54,0.27,1.015,6.625,7.5,12.7,1.2,Semi Diurnal
+NSW,Wonboyn River,-37.25,149.966,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.2825,0.97631,0.09755,1.07487,0.10481,,0.65773,,0.02642,,1.64798,,,0.05069,28.83,352,3.27,11.37,1.22,3.55,0.083,1.352,6.683,5.1,12.1,1.3,Diurnal
+NSW,Woolgoolga Lake,-30.099,153.198,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.03882,0.14976,0.19513,0.04561,0.04968,,,,,,,,,,3.95,36,0.16,1.33,0.35,0.58,0.047,1.302,7.068,5.9,13.8,1.4,Semi Diurnal
+NSW,Wooli Wooli River,-29.888,153.268,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,1.82351,,,,0.92834,0.76319,0.84234,0.37498,0.1368,,1.18046,,,0.02539,31.21,192,2.07,13.63,0.3,0.51,0.05,1.397,7.178,6.5,14,1.4,Semi Diurnal
+NT,Adelaide River,-12.204,131.214,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,0.44738,135.68163,94.26621,,0.20029,,42.69572,,34.22155,,254.83,7216,53.92,68.7,,,3.85,0.061,3.539,1,6.2,3.7,Semi Diurnal
+NT,All Night Creek,-11.787,133.672,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.33,44,0.49,3.7,,,0.43,0.681,4.128,2.5,9.5,2.5,Diurnal
+NT,Anamayirra Creek,-12.07,134.475,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.73,231,0.48,3.14,,,0.21,0.215,3.946,1.4,10.5,3,Semi Diurnal
+NT,Andranangoo Creek,-11.353,130.846,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,25.83,529,1.71,7.85,,,0.58,0.478,4.142,2.3,7.6,2.8,Semi Diurnal
+NT,Angurugubira Lake,-13.967,136.766,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,27.87,251,15.6,8.49,5.95,3.08,0.11,0.605,3.995,2.4,7.7,1.2,Diurnal
+NT,Anguruki Creek,-13.953,135.941,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,11.58,46,1.49,2.74,0.75,1.33,0.28,0.405,3.227,1.7,6.3,1.8,Diurnal
+NT,Apsley Strait,-11.319,130.37,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,340.97,1790,246.92,69.69,5.23,,14.49,0.074,6.296,1.1,14.7,3.4,Semi Diurnal
+NT,Arnhem Bay,-12.22,136.098,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,205.07,5092,1123.85,42.31,43.15,,14.31,0.157,2.559,0.9,6.7,4.1,Semi Diurnal
+NT,Baralminar River,-12.461,136.031,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,82.09,303,13.02,15.65,,,3.05,0.026,2.279,0.2,6.8,3.4,Semi Diurnal
+NT,Barungbirinung River,-12.204,136.322,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.86,48,1.11,7.49,,,0.5,0.069,2.653,0.8,7.5,3.3,Semi Diurnal
+NT,Bing Bong Creek,-15.597,136.324,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,2.29958,4.51446,1.57736,15.26115,0.49203,,,1.26009,,3.7323,,24.78,509,2.06,7.56,,,0.97,0.056,3.709,0.6,7.7,2.2,Diurnal
+NT,Blue Mud Bay,-11.199,131.851,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,18.52,58,9.63,4.1,,,5.56,0.188,4.92,2.6,8.7,2.4,Diurnal
+NT,Blyth River,-12.055,134.59,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,133.56,7656,17.03,43.77,,,1.73,0.198,3.993,1.5,10.5,3.2,Semi Diurnal
+NT,Bonkalii Creek,-11.836,131.084,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,33.94,157,1.89,7.99,,,0.33,0.284,4.044,1.2,9.1,3.6,Semi Diurnal
+NT,Buckingham River,-12.267,135.729,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,111.78,1345,24.03,27.08,,,4.61,0.117,2.289,0.5,6.2,3.4,Semi Diurnal
+NT,Buffalo Creek,-12.338,130.911,modified,tide dominated,TIDAL FLAT/CREEK,,,,,3.06738,2.64931,2.85494,,,,,,0.06882,,4.32,,0.1,1.85,,,0.17,,,,,,
+NT,Bynoe Harbour,-12.56,130.543,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,311.86,1014,206.42,40.64,5.75,,9.19,0.075,3.099,0.9,8.2,5.2,Semi Diurnal
+NT,Calvert River,-16.257,137.743,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,72.87,7536,11.36,33.14,,,1.66,0.217,3.777,1.9,9.2,2.4,Diurnal
+NT,Cato River,-12.273,136.351,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,25.74,836,1.73,12.3,,,0.5,0.069,2.653,0.8,7.5,3.1,Semi Diurnal
+NT,Corrawara  Creek,-12.449,130.618,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.29,191,0.91,7.38,,,0.66,0.401,4.444,3.2,11.1,5.2,Semi Diurnal
+NT,Cullala Creek,-11.512,130.197,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,58.14,135,11.11,15.55,,,1.13,0.111,7.351,1.5,14.8,3.5,Semi Diurnal
+NT,Curtis Haven,-11.394,130.68,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,130.46,852,76.96,34.49,6.81,,4.24,0.55,4.314,2.5,7.5,2.5,Diurnal
+NT,Daly River,-13.312,130.232,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,153.78,53776,68.26,65.76,,,7.36,0.292,4.338,2.4,10.6,5.6,Semi Diurnal
+NT,Darwarunga River,-12.39,135.976,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,64.58,160,9.06,10.94,,,1.28,0.026,2.279,0.2,6.8,3.6,Semi Diurnal
+NT,Darwin Harbour,-12.421,130.802,largely unmodified,tide dominated,OTHER,,,,,74.36269,171.84917,34.96602,9.72737,4.64051,,172.39996,9.18021,2.11024,0.04524,125.03,1990,161.34,20.15,11.4,,6.45,0.18,2.976,1.5,7.3,5.5,Semi Diurnal
+NT,De Vere Creek,-11.888,131.018,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.4,142,0.56,6.95,,,0.26,0.284,4.044,1.2,9.1,3.8,Semi Diurnal
+NT,Djigagila Creek,-12.134,134.922,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,149.51,978,43.68,22.53,,,5.88,0.217,3.677,1.4,10.5,3.6,Semi Diurnal
+NT,Dongau Creek,-11.297,131.382,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,17.09,208,0.67,7.81,,,0.42,0.739,4.498,3.2,8.1,3,Diurnal
+NT,Dudwell Creek,-11.369,130.248,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,69.12,193,5.61,14.8,,,0.8,0.28,6.04,2.6,13.8,3.4,Semi Diurnal
+NT,East Alligator,-12.098,132.616,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,164.28,9078,92.47,64.31,,,7.42,0.113,2.762,0.8,7.4,2.9,Semi Diurnal
+NT,East Arm,-12.495,130.888,modified,tide dominated,OTHER,,,,,12.99238,32.24814,11.627,0.37861,0.41479,,18.5916,1.8438,0.3215,,105.18,498,38.38,21.21,,,2.56,0.134,2.991,1.1,7.3,5.5,Semi Diurnal
+NT,Fat Fellows Creek,-15.868,136.992,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,79.63,156,8.81,16.35,,,1.29,0.012,4.057,1,8.4,2.3,Diurnal
+NT,Finnis River,-12.89,130.335,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,,0.79239,6.79471,7.32719,,0.0176,,2.48452,,1.10183,3.96432,34.68,2823,2.47,16.48,,,0.59,0.142,4.379,1.9,10.9,5.2,Semi Diurnal
+NT,Fitzmaurice River,-14.794,129.656,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,282.67,8522,186.63,77.72,,,9.46,0.168,3.061,1.3,8.6,5.4,Semi Diurnal
+NT,Forsyth Creek,-14.909,129.384,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,62.22,684,19.46,23.67,,,1.26,0.196,3.531,1.7,9,5.3,Semi Diurnal
+NT,Giddy River,-12.279,136.665,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.13,300,0.61,4.24,,,0.61,0.709,4.059,2.9,7.6,2.1,Semi Diurnal
+NT,Glyde River,-12.261,135.058,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,71.35,10234,5.25,34.61,,,0.43,0.152,2.976,0.9,10.3,3.4,Semi Diurnal
+NT,Goomadeer River,-11.843,133.823,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,19.05,2156,2.49,8.61,,,1.47,0.67,4.131,2.5,9.7,2.7,Semi Diurnal
+NT,Goromuru River,-12.46,136.225,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,67.04,1026,5.35,25.13,,,1.3,0.161,2.422,0.9,6.6,3.2,Semi Diurnal
+NT,Gudgerama Creek,-12.03,134.254,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,3.81,142,0.11,1.82,,,0.073,0.025,4.555,0.3,10.8,2.8,Semi Diurnal
+NT,Habgood River,-12.441,135.996,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,29.93,784,2.7,14.17,,,0.56,0.026,2.279,0.2,6.8,3.5,Semi Diurnal
+NT,Hart River,-14.094,135.889,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,3.74,155,0.1,1.68,,,0.24,0.234,3.449,1.6,6.8,2,Diurnal
+NT,Hope Inlet,-12.333,131.012,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,4.54218,38.36584,23.44466,18.26596,,,8.01736,,2.71686,0.20584,61.16,767,18.35,10.88,,,3.09,0.179,4.911,1.5,11.5,5.2,Semi Diurnal
+NT,Hutchinson Strait,-12.215,135.24,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,112.77,644,42.89,47.45,2.76,,4.38,0.149,2.858,0.9,9.8,3.3,Semi Diurnal
+NT,Ilamaryi River,-11.525,132.521,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,229.67,290,40.21,10.74,,,5.6,0.276,3.407,1.9,8,2.6,Semi Diurnal
+NT,Jessie River,-11.364,131.028,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,86.53,424,18,24.73,,,1.43,0.51,4.277,2.8,7.4,3.1,Semi Diurnal
+NT,Johnston River,-11.263,131.182,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,111.05,781,47,37.64,,,3.8,0.706,4.456,3.2,8.2,3.1,Semi Diurnal
+NT,Keep River,-14.917,129.181,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,267.93,7495,230.25,44.12,,,12.95,0.284,3.433,2.3,8,5.2,Semi Diurnal
+NT,Kilu-Impini Creek,-11.28,130.516,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,23.99,218,1.79,5.67,,,0.22,0.16,4.747,1.7,9.4,3.2,Semi Diurnal
+NT,King Creek,-12.357,131.008,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,13.61,,,7.89,,,0.43,,,,,,
+NT,King River,-11.811,133.541,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,69.15,1110,17.55,23.42,,,2.51,0.464,3.692,1.2,7.4,2.4,Diurnal
+NT,Koolatong River,-13.254,135.946,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,25.08,2845,2.37,8.03,,,0.28,0.213,2.569,0.8,4.8,2,Diurnal
+NT,Kurala River,-12.178,135.892,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,54.52,81,6.12,9.67,,,1.12,0.147,2.515,0.7,7,3.7,Semi Diurnal
+NT,Latram River,-12.265,136.746,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.35,133,0.17,2.31,,,0.31,0.84,4.382,3.7,8.7,2.1,Semi Diurnal
+NT,Leaders Creek,-12.174,131.115,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,24.2,88,1.33,7.18,,,0.36,0.036,4.529,1.1,10.1,4.1,Semi Diurnal
+NT,Limmen Bight River,-15.108,135.721,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,218.9,22855,62.12,63.62,,,1.09,0.085,3.657,0.7,7.8,2,Diurnal
+NT,Little Lagoon,-13.843,136.795,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,18.18,72,21.22,7.38,3.99,,1.06,0.134,3.622,0.9,9.4,1.2,Diurnal
+NT,Little Moyle Inlet,-13.782,129.784,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,28.49,1302,6.14,11.4,,,1.4,0.457,3.899,3.9,8.9,5.3,Semi Diurnal
+NT,Liverpool River,-12.031,134.21,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,92.34,8626,33.8,39.8,,,3.91,0.025,4.555,0.3,10.8,2.8,Semi Diurnal
+NT,Majari Creek,-11.913,133.92,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,13.78,120,0.74,5.23,,,0.44,0.508,3.98,2,10,2.8,Semi Diurnal
+NT,Marligur Creek,-11.728,133.248,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,7.92,310,0.43,3.5,,,0.13,0.203,3.645,1.5,9.2,2.3,Diurnal
+NT,Mcarthur River,-15.811,136.676,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,4.61003,53.86374,152.21613,33.04378,,,41.34505,,46.96736,,193.33,20139,23.08,,,,1.89,0.145,2.523,0.9,7,2.3,Diurnal
+NT,Melville Bay,-12.218,136.659,largely unmodified,tide dominated,OTHER,,,3.28557,1.64178,10.83455,21.59641,4.88439,0.08583,,,71.57437,2.57293,0.59269,,76.12,603,88.77,13.68,9.05,,5.28,0.709,4.059,2.9,7.6,2.1,Semi Diurnal
+NT,Micket Creek,-12.343,130.95,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,3.59003,3.71743,3.6585,0.49541,,,0.5127,,0.09867,5.19889,11.74,35,0.64,4.13,,,0.53,0.359,4.5,2.8,11.2,5.4,Semi Diurnal
+NT,Middle Arm,-12.585,130.875,largely unmodified,tide dominated,OTHER,,,,,13.16636,63.4594,10.97564,3.05567,1.58344,,27.00432,1.68436,0.45703,,164.3,1027,49.24,26.17,,,3.2,0.098,2.737,0.9,6.3,5.4,Semi Diurnal
+NT,Minimini Creek,-11.754,132.613,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,191.83,351,80.59,25.85,,,8.29,0.107,3.344,0.9,7.2,2.6,Semi Diurnal
+NT,Mirikau-Yunga Creek,-11.4,130.583,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,90.05,488,14.29,20.8,,,0.77,0.16,4.747,1.7,9.4,2.7,Diurnal
+NT,Miyangkala Creek,-14.443,135.611,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,8.53,396,0.3,3.81,,,0.22,0.208,3.402,1.6,6.5,2.2,Diurnal
+NT,Moyle River,-13.975,129.745,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,20.06,3835,0.78,9.69,,,0.22,0.25,3.569,2.2,9.1,5.4,Semi Diurnal
+NT,Mule Creek,-15.638,136.426,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,26.4,242,1.66,9,,,0.35,0.056,3.709,0.6,7.7,2.2,Diurnal
+NT,Muntak Creek,-14.17,135.879,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.64,78,0.87,7.48,,,0.24,0.234,3.449,1.6,6.8,2.1,Diurnal
+NT,Murgenella Creek,-11.884,132.655,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,70.22,2063,8.17,33.74,,,0.94,0.206,3.834,1.6,8.8,2.8,Semi Diurnal
+NT,Nayampi Creek,-14.809,135.397,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,22.77,73,0.83,10.51,,,0.27,0.052,3.067,0.5,6.4,2.1,Diurnal
+NT,New Moon Inlet,-14.589,129.558,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,169.18,1242,128.95,30.5,,,11.91,0.237,3.48,1.6,8.6,5.6,Semi Diurnal
+NT,Ngandadauda Creek,-11.995,134.764,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,22.29,183,1.11,10.44,,,0.39,0.217,3.677,1.4,10.5,3.5,Semi Diurnal
+NT,Nt001,-14.884,129.042,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,79.91,100,12.33,15.81,,,3,0.075,3.802,1.7,8.6,5.3,Semi Diurnal
+NT,Nt007,-14.501,129.478,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,63.25,241,6.97,7.79,,,2.52,0.331,3.832,2.2,8.7,5.7,Semi Diurnal
+NT,Nt009,-14.085,129.586,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,55.1,373,8.45,13.45,,,2.11,0.061,4.088,1.8,9.3,5.5,Semi Diurnal
+NT,Nt014,-12.671,130.386,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,58.65,275,11.6,13.64,,,2.44,0.411,4.513,3.5,11,5.2,Semi Diurnal
+NT,Nt037,-11.515,132.12,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.98,29,0.88,4.29,,,0.44,0.278,3.723,1.6,9.3,3.1,Semi Diurnal
+NT,Nt038,-11.456,132.05,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,13.96,62,0.78,5.93,,,0.55,0.389,4.011,2.7,8.3,3.1,Semi Diurnal
+NT,Nt039,-11.423,132.043,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.43,33,0.23,3.54,,,0.25,0.389,4.011,2.7,8.3,3,Semi Diurnal
+NT,Nt055,-11.967,134.156,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.26,125,0.36,4.12,,,0.16,0.025,4.555,0.3,10.8,2.8,Semi Diurnal
+NT,Nt079,-12.283,136.911,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,6.83,58,0.19,3.12,,,0.16,0.84,4.382,3.7,8.7,2.2,Semi Diurnal
+NT,Nt080,-12.346,136.928,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,19.99,56,3.71,8.75,1.11,,0.68,0.283,4.394,2.1,8.2,2.2,Semi Diurnal
+NT,Nt082,-12.7,136.629,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,9.87,214,0.42,4.18,,,0.093,0.531,3.878,2.3,7.5,1.9,Semi Diurnal
+NT,Nt093,-14.691,135.442,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.93,98,0.24,3.6,,,0.24,0.305,3.098,1.7,5.7,2.1,Diurnal
+NT,Nt096,-14.858,135.416,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.88,440,0.2,3.12,,,0.22,0.052,3.067,0.5,6.4,2,Diurnal
+NT,Nt104,-15.906,136.793,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,58.92,116,3.62,12.4,,,0.91,0.026,2.946,0.5,8.8,2.3,Diurnal
+NT,Nt106,-15.911,136.901,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,55.17,928,12.33,10.18,,,3.56,0.004,3.279,0.2,9.2,2.3,Diurnal
+NT,Nt111,-16.139,137.411,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,40.75,437,2.96,12.39,,,1.16,0.199,3.742,1.6,9.4,2.3,Diurnal
+NT,Nt112,-16.165,137.501,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,13.17,432,0.86,6.29,,,0.24,0.385,3.613,2.3,9,2.3,Diurnal
+NT,Nt113,-16.163,137.515,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,31.98,177,5.04,13.42,,,0.63,0.385,3.613,2.3,9,2.3,Diurnal
+NT,Nt114,-16.177,137.578,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,12.35,35,0.79,5.96,,,0.2,0.481,3.78,2.8,9,2.3,Diurnal
+NT,Nt115,-16.201,137.635,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.82,168,0.69,5.19,,,0.28,0.223,3.836,2,9.3,2.3,Diurnal
+NT,Nt117,-16.362,137.819,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,15.21,695,0.76,7.38,,,0.26,0.217,3.777,1.9,9.2,2.5,Diurnal
+NT,Nt118,-16.39,137.841,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.49,271,0.45,3.83,,,0.24,0.309,3.572,2.2,9.1,2.5,Diurnal
+NT,Nt128,-11.267,131.328,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,21.79,237,0.93,9.91,,,0.16,0.637,4.375,2.8,8.3,3,Semi Diurnal
+NT,Nt130,-11.398,131.484,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,9.47,50,0.48,4.21,,,0.28,0.642,4.373,2.8,8,2.9,Diurnal
+NT,Nungbalgarri Creek,-11.928,134.076,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.81,785,1.21,7.09,,,0.82,0.117,4.473,1,10.7,2.8,Semi Diurnal
+NT,Perakery Creek,-11.707,130.151,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.4,97,0.25,4.28,,,0.29,0.561,5.443,4.1,12.5,3.8,Semi Diurnal
+NT,Peter John River,-12.253,136.362,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,38.67,493,4.38,17.67,,,0.63,0.069,2.653,0.8,7.5,3,Semi Diurnal
+NT,Popham Bay,-11.256,131.82,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,15.41,22,11.47,4.56,,,3.7,0.506,3.881,2.9,7.4,2.3,Diurnal
+NT,Port Bradshaw,-12.564,136.767,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,92.06,623,62.9,14.38,11.02,,2.18,0.77,4.162,3,7.4,2.1,Semi Diurnal
+NT,Port Bremer,-11.183,132.254,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,35.61,319,31.67,11.69,,,4.17,0.687,4.248,3.6,8.6,2.4,Semi Diurnal
+NT,Port Essington,-11.17,132.113,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,134.42,698,254.33,30.3,,,7.92,0.369,3.757,2,9,2.6,Semi Diurnal
+NT,Port Hurd,-11.648,130.195,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,121.63,221,33.95,18.78,2.94,,1.01,0.111,7.351,1.5,14.8,3.7,Semi Diurnal
+NT,Port Keats,-14.085,129.551,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,122.54,322,30.52,18.32,,,3.48,0.061,4.088,1.8,9.3,5.5,Semi Diurnal
+NT,Raffles Bay,-11.225,132.397,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,35.36,213,40.59,10.16,,,5.79,0.344,3.455,1.9,9.2,2.1,Semi Diurnal
+NT,Reichardt Creek,-12.467,130.89,modified,tide dominated,TIDAL FLAT/CREEK,,,,,0.88378,8.28386,0.95811,0.19061,,,,0.01462,0.01598,,21.58,47,2.49,3.52,,,1.52,0.134,2.991,1.1,7.3,5.5,Semi Diurnal
+NT,Reynolds River,-13.251,130.226,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+NT,Robinson Inlet,-11.303,131.084,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,39.85,104,5.78,7.67,1.84,,0.56,0.51,4.277,2.8,7.4,3.1,Semi Diurnal
+NT,Robinson River,-16.033,137.266,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,66.77,5766,10.15,21.91,,,0.41,0.4,3.712,2.5,8.7,2.3,Diurnal
+NT,Roper River,-14.756,135.405,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,,84655,,,,,3.16,0.052,3.067,0.5,6.4,2.1,Diurnal
+NT,Rose River,-14.285,135.74,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,52.69,3572,5.47,12.11,,,1.12,0.365,3.289,1.9,6.4,2.2,Diurnal
+NT,Rosie Creek,-15.397,136.211,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,71.83,2857,7.04,14.85,,,1.03,0.381,3.529,2.1,6.7,2.1,Diurnal
+NT,Saltwater Creek,-11.862,132.644,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,1427,262,0.74,6.74,,,0.47,0.206,3.834,1.6,8.8,2.8,Semi Diurnal
+NT,Sampan Creek,-12.267,131.775,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,1.21299,0.27682,8.84692,5.47286,,,,2.43659,,2.03888,,17.98,7073,0.97,8.58,,,0.26,0.316,3.148,1.7,6.2,3.6,Semi Diurnal
+NT,Saunders Creek,-11.591,131.383,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.06,50,0.6,2.28,,,0.66,0.164,3.539,1.1,6.3,3.1,Diurnal
+NT,Seven Emu Creek,-16.112,137.353,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,19.97,523,1.53,5.96,0.52,0.73,0.39,0.199,3.742,1.6,9.4,2.3,Diurnal
+NT,Shamrock Bay,-11.38,131.933,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,27.36,76,19.52,7.64,,,3.19,0.402,3.837,2.8,7.4,2.8,Semi Diurnal
+NT,Shark Creek,-16.085,137.305,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,18.16,83,0.95,6.28,,,0.31,0.4,3.712,2.5,8.7,2.3,Diurnal
+NT,Silvio Bay,-11.408,131.993,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.91,37,1.07,7.85,,,0.38,0.402,3.837,2.8,7.4,2.9,Semi Diurnal
+NT,Slippery Creek,-12.271,135.963,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.58,117,0.38,2.85,,,0.59,0.141,2.42,0.7,6.3,3.8,Semi Diurnal
+NT,South Alligator River,-12.218,132.396,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,172.7,13539,105.2,78.52,,,7.35,0.027,2.88,0.6,7.5,3.2,Semi Diurnal
+NT,Spillen Creek,-15.039,135.579,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.6,56,0.31,3.22,,,0.28,0.248,2.909,1.1,6,2,Diurnal
+NT,Tommycut Creek,-12.28,131.699,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,,3.80203,7.2252,20.05899,,,,2.42389,,5.61099,,11.14,67,0.32,5.03,,,0.11,0.33,3.216,1.7,6.4,3.7,Semi Diurnal
+NT,Towns River,-14.904,135.435,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,40.32,4755,2.5,19.45,,,0.53,0.208,2.547,0.8,5.5,2,Diurnal
+NT,Trepang Bay,-11.16,131.929,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,62.58,242,82.93,13.12,,,10.89,0.188,4.92,2.6,8.7,2.5,Diurnal
+NT,Trial Bay,-12.992,136.496,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,16.53,350,7.36,6.93,2.25,,0.51,0.243,4.207,1.9,8.2,1.5,Diurnal
+NT,Tunganapu Creek,-11.758,130.056,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,27.75,60,2.9,5.92,,,0.84,0.653,5.433,4.5,11.6,3.9,Semi Diurnal
+NT,Victoria River,-14.883,129.5,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,5.83134,198.90095,522.03361,78.23624,,,566.77191,7.34043,55.24793,62.11071,491.2,81216,637.84,129.35,,,23.82,0.213,3.384,1.7,9,5.3,Semi Diurnal
+NT,Walker River,-13.59,135.837,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,46.5,2232,2.85,22.59,,,0.47,0.29,3.048,1,6.6,1.8,Diurnal
+NT,Wearyan River,-15.911,136.86,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,83.96,3704,7.56,32.01,,,0.67,0.004,3.279,0.2,9.2,2.3,Diurnal
+NT,West Alligator River,-12.221,132.281,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,58.82,2228,9.43,28.02,,,1.45,0.05,2.882,0.7,7.1,3.2,Semi Diurnal
+NT,West Arm,-12.547,130.783,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,83.87,179,22.47,14.63,,,3.56,0.18,2.976,1.5,7.3,5.4,Semi Diurnal
+NT,Wildman River,-12.304,132.076,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,66.2,2476,4.37,32.31,,,0.53,0.218,2.945,1.5,6.7,3.4,Semi Diurnal
+NT,Woods Inlet,-12.48,130.76,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,26.67,80,3.49,7.72,,,0.7,0.18,2.976,1.5,7.3,5.4,Semi Diurnal
+NT,Woolen River,-12.235,135.153,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,130.6,1325,36.65,27.91,3.17,,1.55,0.152,2.976,0.9,10.3,3.4,Semi Diurnal
+NT,Wurugoij Creek,-11.905,133.887,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,12.91,367,0.62,5.67,,,0.28,0.508,3.98,2,10,2.7,Semi Diurnal
+QLD,Accident Inlet,-17.184,140.939,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,56.43,1889,3.8,27.38,,,0.48,0.034,3.482,0.4,10,3.3,Diurnal
+QLD,Albert River,-17.566,139.758,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,149.42,20941,21.98,49.88,,,0.73,0.268,2.885,1.9,5.9,3.5,Diurnal
+QLD,Alligator Creek,-19.303,146.927,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,2.28556,0.3818,4.90382,5.01612,,,,1.06838,,,1.28889,,149,,,,,,0.186,5.528,1.5,10,2.3,Semi Diurnal
+QLD,Althaus Creek,-19.152,146.601,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.04306,,,0.29877,0.06036,0.35778,0.61008,,,,0.13817,,0.09818,,9.32,81,0.29,2.73,,,0.045,0.583,5.512,2.8,12.7,2.5,Diurnal
+QLD,Andoom Creek,-12.587,141.88,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,2.38756,2.43559,8.80407,3.83593,,,,1.53084,,,0.03349,26.42,172,1.89,8.34,,,0.77,0.046,3.799,0.7,9.9,2.1,Diurnal
+QLD,Annan River,-15.53,145.271,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.35952,,,1.69066,0.1262,4.5125,1.8362,0.83717,,,2.02314,,,1.45581,37.49,992,3.01,13.48,0.74,,0.19,0.797,6.056,2.1,14,2,Semi Diurnal
+QLD,Archer Bay,-13.348,141.651,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,257.35,16310,66.12,37.49,,,2.14,0.125,3.666,2.3,11.4,1.7,Diurnal
+QLD,Auckland Inlet,-23.833,151.252,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,,0.20497,0.11237,,,,1.41956,,,0.00944,19.52,56,1.02,6.97,0.16,0.13,0.18,0.44,6.241,2.1,9.8,3.2,Semi Diurnal
+QLD,Baffle Creek,-24.514,152.059,near pristine,river dominated,TIDE-DOMINATED DELTA,0.33673,,,1.78669,2.59902,2.50227,3.38417,0.71651,,,7.59418,,,1.94616,74.83,2652,9.95,19.81,0.84,,0.41,0.863,5.836,2.7,9.1,2.3,Semi Diurnal
+QLD,Bakers Creek,-21.216,149.187,modified,tide dominated,TIDE-DOMINATED ESTUARY,0.83576,,,3.55022,1.31018,4.09728,1.91386,1.2603,,,2.2039,,,0.58252,23.29,230,2.14,10.08,,,0.46,0.188,5.776,1.3,9.5,4.7,Semi Diurnal
+QLD,Barramundi Creek,-19.411,147.168,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,5.31432,0.72177,16.67631,19.92313,,,,4.65788,,,11.43782,,20,,,,,,0.222,4.911,1.6,9.8,2.4,Semi Diurnal
+QLD,Barratta Creek,-19.433,147.253,modified,river dominated,TIDE-DOMINATED DELTA,,,,10.9323,,17.8235,21.879,0.89423,,,2.89012,,,7.03004,,1466,,,,,,0.225,5.094,1.9,9.7,2.4,Semi Diurnal
+QLD,Barron River,-16.863,145.765,modified,river dominated,WAVE-DOMINATED DELTA,0.2995,,,1.48121,0.57828,6.45331,0.7164,,,,2.16804,,,,32.57,2159,1.54,11.57,,,0.423,0.371,4.8,1.2,12.2,2,Diurnal
+QLD,Basin Creek,-21.749,149.435,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,11.19868,2.83193,1.34638,0.96193,,,1.05291,,,,18.19,110,1.59,6.62,,,0.88,0.67,4.869,2.6,7.9,5.1,Semi Diurnal
+QLD,Bauer Inlet,-15.871,145.363,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,3.69,63,0.086,1.53,,,0.38,1.099,5.975,2.8,13.7,2,Semi Diurnal
+QLD,Beeber Creek,-16.733,139.281,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,2.2,24,0.042,1.03,,,0.056,0.33,2.898,2.4,6,3.6,Diurnal
+QLD,Beelbi Creek,-25.249,152.662,largely unmodified,tide dominated,TIDAL FLAT/CREEK,0.14656,,,8.44453,0.13505,1.05181,3.77235,0.28014,,,0.6386,,,0.25347,13.25,155,0.55,6.29,,,0.17,0.345,4.427,1,10.6,2.4,Semi Diurnal
+QLD,Bizant River,-14.48,144.031,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,57.37,284,3.98,19.88,,,0.48,0.381,3.336,1.4,7.9,2.1,Semi Diurnal
+QLD,Black River,-19.178,146.651,modified,river dominated,WAVE-DOMINATED DELTA,,,,1.80073,0.66833,0.44016,0.13002,0.01482,,,0.31114,,,,13.2,293,0.46,4.37,,,0.3,0.867,5.711,3.9,12.6,2.4,Diurnal
+QLD,Blackrock Creek,-20.811,148.828,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,2.54388,11.55242,3.22254,3.22147,0.02874,,6.51615,0.07466,,,35.85,226,6.05,7.58,2.9,,2.95,0.579,4.293,2.2,8,3.6,Semi Diurnal
+QLD,Blackwater/Mitchell Creek,-24.439,152.011,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,12.6,268,0.39,5.75,,,0.045,0.475,6.304,2.1,10.2,2.4,Semi Diurnal
+QLD,Bloomfield River,-15.922,145.363,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,24.55,591,1.05,8.21,0.39,,0.068,1.099,5.975,2.8,13.7,1.9,Semi Diurnal
+QLD,Bluewater Creek,-19.147,146.593,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,0.66756,0.05157,0.21445,0.09812,0.00303,,,0.11491,,0.07843,,5.62,150,0.14,2.46,,,0.034,0.583,5.512,2.8,12.7,2.5,Diurnal
+QLD,Bohle River,-19.192,146.7,modified,river dominated,TIDE-DOMINATED DELTA,,,,2.24753,1.45786,3.80425,12.88961,0.03166,0.00419,,1.38997,,3.15237,,20.91,305,0.79,8.72,,,0.61,0.867,5.711,3.9,12.6,2.4,Diurnal
+QLD,Boyne River,-23.859,151.303,modified,river dominated,TIDE-DOMINATED DELTA,,,,3.61804,3.66483,9.43675,7.90574,0.49403,0.48488,,7.24504,,1.2285,26.36481,50.15,2484,6.6,16.24,1.02,,1.43,0.44,6.241,2.1,9.8,3,Semi Diurnal
+QLD,Boyorunga Inlet,-16.71,139.208,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.14,158,1.83,6.28,,,0.55,0.14,2.897,1.5,6.8,3.6,Diurnal
+QLD,Branch Creek,-19.925,147.986,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,8.9,147,0.5,3.49,0.19,,0.43,0.519,5.47,2.1,11.8,2.4,Semi Diurnal
+QLD,Brannigan Creek,-17.212,140.922,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,36.79,783,2.45,16.16,,,0.53,0.034,3.482,0.4,10,3.3,Diurnal
+QLD,Breakfast Creek,-13.975,143.628,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.83,534,0.4,2.94,0.31,,0.024,0.661,4.765,1.9,9.7,2.1,Semi Diurnal
+QLD,Brisbane Airport Floodway/Kedron Brook,-27.348,153.111,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,1.22576,1.32728,0.06792,,,,0.95122,,,0.52353,13.71,40,0.84,6.37,0.36,,0.25,0.5,5.857,1.2,9.7,1.8,Semi Diurnal
+QLD,Brisbane River,-27.373,153.166,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,23.50464,9.37042,6.49358,1.48684,,,,14.38054,,,7.64306,123.54,13643,18.67,45.88,1.34,,1.75,0.5,5.857,1.2,9.7,1.8,Semi Diurnal
+QLD,Burdekin River,-19.687,147.611,modified,river dominated,TIDE-DOMINATED DELTA,,,,23.524,18.47282,46.04442,25.9366,2.34168,,,39.14407,,,20.12524,234.61,130475,32,69.36,2.52,,3.98,0.483,5.27,2.1,11.4,2.3,Semi Diurnal
+QLD,Burnett River,-24.755,152.405,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,,1.07261,8.67014,0.3241,3.27243,,,7.88696,,3.3705,,72.58,33323,9.87,24.51,,,0.62,0.816,5.637,2.5,9.1,2.3,Semi Diurnal
+QLD,Burpengary Creek,-27.162,153.04,modified,tide dominated,TIDAL FLAT/CREEK,,,,1.26237,0.40318,1.95561,1.12272,0.1601,,,0.31936,,,,8.98,108,0.41,2.92,0.62,,0.62,0.092,5.508,0.5,10.1,1.6,Semi Diurnal
+QLD,Burrum River,-25.178,152.621,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,36.59107,1.58645,6.68714,1.70989,5.7669,0.18698,,12.97699,,,,112.14,2368,12.51,21.61,2,,0.96,0.345,4.427,1,10.6,2.4,Semi Diurnal
+QLD,Caboolture River,-27.153,153.044,modified,river dominated,TIDE-DOMINATED DELTA,,,,3.30352,0.70685,2.39389,1.0859,0.54118,,,1.62305,,,2.65982,20,354,1.77,7.85,0.36,,0.37,0.092,5.508,0.5,10.1,1.6,Semi Diurnal
+QLD,Calliope River,-23.823,151.218,modified,river dominated,TIDE-DOMINATED DELTA,,,,,1.92632,7.09872,6.5443,0.67579,,,4.93455,0.15499,3.1864,,50.22,1834,5.1,17.79,0.53,,0.63,0.44,6.241,2.1,9.8,3.2,Semi Diurnal
+QLD,Canoe Passage,-22.267,150.463,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,,56,,,,,,0.512,4.361,1.6,8.5,5.2,Semi Diurnal
+QLD,Cape Creek,-21.551,149.446,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,3.94714,3.0273,12.87073,9.72574,5.11301,0.01519,,3.64727,,1.78006,,32.06,51,5.06,6.58,,,1.84,0.242,5.292,1.8,8.7,4.9,Semi Diurnal
+QLD,Carmila Creek,-21.906,149.464,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.98598,2.42181,1.96618,0.44041,0.12293,,,0.3197,,0.13439,,9.43,150,0.36,3.04,,,0.31,0.606,4.731,2.2,7.7,5.7,Semi Diurnal
+QLD,Castrades Inlet,-21.37,149.312,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.85599,,,,0.27145,1.64536,0.66575,0.11737,0.01992,,0.39498,,,,12.91,45,0.75,4.82,,,0.25,0.727,4.926,2.9,8.7,5.2,Semi Diurnal
+QLD,Cattle Creek,-18.861,146.275,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,2.84344,0.42517,16.63393,14.23772,0.06811,,,1.59041,,,,27.85,513,1.9,8.28,,,0.61,0.605,5.609,2.3,12.6,2.3,Semi Diurnal
+QLD,Causeway Lake,-23.201,150.793,modified,wave dominated,WAVE-DOMINATED ESTUARY,,0.6263,,0.34254,0.70202,0.56718,3.60169,,,,0.38711,,0.0886,0.21134,11.7,32,0.88,2.82,0.83,0.51,0.044,0.181,6.621,1.5,10,3.6,Semi Diurnal
+QLD,Cawarral Creek,-23.316,150.793,largely unmodified,tide dominated,TIDAL FLAT/CREEK,0.35824,,,6.83063,2.81174,13.46149,15.37944,,0.03819,,6.29677,,,1.08427,45.02,169,5.61,11.45,1.26,,1.06,0.789,5.629,3.1,8.6,3.7,Semi Diurnal
+QLD,Channon Creek,-17.414,139.495,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,12.83,50,0.51,4.2,,,0.076,0.051,2.725,1,5.4,3.6,Diurnal
+QLD,Chapman River,-14.919,141.62,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,17.83,339,0.48,8.44,,,0.18,0.101,3.435,1,10.7,2,Diurnal
+QLD,Chester River,-13.702,143.545,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.91,233,0.2,2.71,,,0.12,0.946,5.173,2.5,10,2,Semi Diurnal
+QLD,Clairview Creek,-22.188,149.556,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,10.65506,17.18077,,0.33461,,3.31319,,1.81925,0.60617,59.72,264,3.54,0.72,,,0.72,0.35,3.675,1,7.9,6.2,Semi Diurnal
+QLD,Claudie River,-12.84,143.358,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,16.92,379,0.73,6.8,,,0.32,0.545,5.742,1.4,13,2.1,Diurnal
+QLD,Cliffdale Creek,-16.833,138.757,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,4.29,2869,0.065,2.07,,,0.076,0.048,3.871,0.7,10.7,3.5,Diurnal
+QLD,Coconut Creek,-21.544,149.406,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,1.24403,1.8148,4.92056,4.18533,0.58022,,,0.69852,,1.0665,,15.39,16,0.85,3.88,,,0.86,0.105,5.515,0.7,9.7,4.9,Semi Diurnal
+QLD,Colloseum Inlet,-23.988,151.435,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,184.61,475,46,13.75,,,3.15,0.429,4.897,1.4,9.9,2.8,Semi Diurnal
+QLD,Constant Creek,-20.982,149.031,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,0.0854,,,,5.93149,8.35651,3.92403,2.90229,,,3.75111,,,3.5577,25.11,139,3.05,9.77,1.6,,1.35,0.17,5.084,1.2,9.5,4.1,Semi Diurnal
+QLD,Coombabah Lake,-27.87,153.4,extensively modified,tide dominated,TIDE-DOMINATED ESTUARY,,0.84792,,0.10732,1.17481,3.3677,0.91229,0.2439,,,1.66569,,,0.34161,34.62,,4.647,9.37,1.47,7.03,0.47,,,,,,
+QLD,Coomera River,-27.831,153.396,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,,0.88049,4.57788,0.76189,,,,4.08228,,0.14103,0.84515,45.29,,3.62,16.68,0.36,0,0.23,,,,,,
+QLD,Coonar Creek,-24.968,152.49,largely unmodified,wave dominated,STRANDPLAIN,0.1175,,,0.27552,0.17521,0.3079,0.25313,0.04931,,,,,0.04133,0.10039,5.83,62,0.41,2.36,,,0.58,0.152,5.885,0.9,10,2.3,Semi Diurnal
+QLD,Cooper Creek,-16.177,145.441,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,7.44,29,0.19,2.81,,,0.21,1.055,5.783,2.6,13.2,1.9,Diurnal
+QLD,Coral Creek,-18.243,146.23,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.02,16,8.216,6.72,,,0.79,1.02,6.14,3.8,13.3,2.3,Diurnal
+QLD,Corio Bay,-22.952,150.785,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,1.53906,,,5.64617,3.84713,16.94062,5.70204,8.75532,,,4.37309,,,1.30215,65.12,514,13.44,17.86,2.18,,1.95,0.717,6.202,3.2,9.9,3.7,Semi Diurnal
+QLD,Cowal Creek,-10.91,142.322,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.82,219,0.35,5.13,,,0.34,0.415,3.154,2.6,7.6,2.7,Diurnal
+QLD,Crocodile Creek,-19.301,146.952,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,,131,,,,,,0.186,5.528,1.5,10,2.3,Semi Diurnal
+QLD,Crystal Creek,-18.928,146.324,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.02253,,,0.08435,0.02885,0.11464,0.05264,,,,0.10042,,,,10.85,119,0.31,5,,,0.19,0.847,5.89,3.3,13.2,2.4,Diurnal
+QLD,Crystal Creek,-11.087,142.151,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,30.15,353,2.64,9.44,,,0.15,0.555,3.554,3.4,8.5,3.1,Diurnal
+QLD,Currimundi Creek,-26.766,153.135,modified,wave dominated,STRANDPLAIN,0.0761,,,0.06079,0.01666,,,,,,0.54327,,,,8.88,9,0.32,3.24,0.13,,0.17,1.24,6.553,3.2,9.3,1.4,Semi Diurnal
+QLD,Currumbin Creek,-28.128,153.484,modified,tide dominated,TIDAL FLAT/CREEK,0.09005,0.19533,,0.21233,0.17034,0.26916,0.14486,,0.03131,,0.16741,,,2.54635,16.52,54,0.68,4.25,0.61,0.16,0.089,0.967,6.668,2.6,10.8,1.2,Semi Diurnal
+QLD,Curtis Island Creek,-23.487,151.114,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.27,46,0.4,2.78,0.31,,0.56,0.521,6.368,2.8,9.8,3.5,Semi Diurnal
+QLD,Daintree River,-16.291,145.451,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,2.52204,1.73157,11.67954,9.1317,0.06342,,,6.93342,,,,78.3,1120,8.785,26.28,0.7,,0.9,0.513,5.694,1.7,13.7,1.9,Diurnal
+QLD,Dallachy Creek,-18.164,146.009,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,13.31,99,0.058,3.94,,,0.42,0.577,5.87,2.2,13.8,2.3,Semi Diurnal
+QLD,Dalmumeah Creek,-16.539,139.632,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.62,26,0.26,3.16,,,0.13,0.388,3.11,2.9,6.8,3.6,Diurnal
+QLD,Dead Dog Creek,-14.612,144.88,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,14.54,54,0.45,6.42,,,0.4,0.977,5.584,2.3,11.5,2,Semi Diurnal
+QLD,Deep Creek,-18.276,146.225,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,43.95,58,5.13,7,,,2.19,1.02,6.14,3.8,13.3,2.3,Diurnal
+QLD,Dempster Creek,-20.671,148.721,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.39,119,3.39,5.98,2.02,,1.9,0.137,4.889,1.1,8.6,3.4,Semi Diurnal
+QLD,Dicksons Inlet,-16.483,145.459,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,0.2096,2.01521,1.98545,,0.23599,,0.54223,,,0.73338,14.12,17,0.52,4.58,,,0.13,0.821,5.67,2.1,13.2,2,Diurnal
+QLD,Disaster Inlet,-17.645,139.939,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,69.09,602,5.19,33.91,,,0.43,0.057,3.112,0.9,7.8,3.5,Diurnal
+QLD,Don River,-19.962,148.224,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.0771,0.18124,,0.49688,,0.69545,0.90492,0.0292,,,0.04757,,,0.44156,5.1,1230,0.26,1.56,0.41,,0.16,1.034,5.754,4,11.6,2.2,Semi Diurnal
+QLD,Doughboy River,-11.457,142.085,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,31.51,515,3.27,8.02,,,0.5,0.444,3.38,3.4,9.2,2.8,Diurnal
+QLD,Ducie River,-12.046,142.026,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,99,3454,19.68,32.42,,,1.21,0.286,3.345,3,10.5,2.3,Diurnal
+QLD,Duck Creek,-16.802,141.089,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,67.1,858,4.66,23.67,,,0.96,0.31,3.437,2.4,9.2,3.3,Diurnal
+QLD,East Creek,-22.511,150.563,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,60.47,67,11.59,10.93,1.11,,1.59,0.211,2.692,0.7,8.1,4.4,Semi Diurnal
+QLD,Edward River,-14.771,141.573,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.52,8092,0.53,9.91,,,0.051,0.323,3.548,2.7,10.2,2,Diurnal
+QLD,Eight Mile Creek,-16.783,138.537,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,1.32,1334,0.03,0.6,,,0.036,0.396,3.525,2,9.7,3.4,Diurnal
+QLD,Elizabeth River,-16.502,139.556,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,21.22,62,1.19,8.61,,,0.11,0.159,3.97,3.1,10.1,3.6,Diurnal
+QLD,Elliot River,-24.932,152.489,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.23356,1.92079,2.08296,1.85967,1.16069,0.04384,,0.7358,,0.10435,,20.65,293,1.25,4.12,,,1.42,0.401,5.928,1.6,9.9,2.3,Semi Diurnal
+QLD,Elliot River,-19.879,147.888,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,28.86,478,2.73,7.76,0.54,,0.35,0.889,5.391,3.4,10.5,2.4,Semi Diurnal
+QLD,Embley River,-12.664,141.817,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,42.67526,83.36796,32.68656,1.39903,1.41472,,62.11783,,0.75949,9.17335,245.01,2076,106.73,38.38,4.01,,3.19,0.05,4.448,1.6,11.9,2.1,Diurnal
+QLD,Endeavour River,-15.459,145.245,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.23719,,,1.63471,0.21549,9.66639,2.13507,1.47884,,,3.24251,,,,58.03,918,5.13,19.1,,,0.85,0.797,6.056,2.1,14,2,Semi Diurnal
+QLD,Eprapah Creek,-27.562,153.294,modified,tide dominated,TIDAL FLAT/CREEK,,,,1.18466,1.44791,1.2923,1.34135,,,,0.21249,,,,3.62,31,0.08,1.61,0.14,,0.042,0.475,7.175,1.6,11.7,1.6,Semi Diurnal
+QLD,Escape River,-10.958,142.711,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,122.25,236,38.1,16.33,,,2.68,0.908,5.214,2.3,10.4,2.7,Diurnal
+QLD,Euri Creek,-19.949,148.162,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,30.11,414,3.08,5.13,,,0.92,1.034,5.754,4,11.6,2.3,Semi Diurnal
+QLD,Eurimbula Creek,-24.17,151.843,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.52,83,0.53,4.34,,,0.23,0.742,6.075,2.7,9.5,2.5,Semi Diurnal
+QLD,Feather Creek,-21.958,149.482,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,0.6906,0.22081,1.02524,0.67703,,0.00569,,0.14145,,,0.26617,4.33,49,0.082,2.04,,,0.096,0.257,5.035,1,9.2,6.2,Semi Diurnal
+QLD,Fig Tree Creek,-18.875,146.283,largely unmodified,tide dominated,TIDAL FLAT/CREEK,0.07738,,,0.92326,0.07098,2.52515,4.94714,0.00714,,0.34428,0.17098,,,0.03222,7.12,42,0.2,3.12,,,0.19,0.605,5.609,2.3,12.6,2.3,Semi Diurnal
+QLD,Fitzroy River,-23.523,150.875,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,13.34347,129.35211,274.27443,17.95098,,,195.67198,,,58.82745,194.59,142733,58.85,77.96,7.43,,7.36,0.397,6.195,1.7,9.8,4,Semi Diurnal
+QLD,Five-Mile Creek,-14.091,143.696,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,4.95,32,0.13,1.86,,,0.49,0.355,5.097,1.5,11,2.1,Semi Diurnal
+QLD,Flinders River/Bynoe River,-17.513,140.732,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,345.4,109460,70.98,74.19,,,1.57,0.074,3.114,0.7,8.7,3.3,Diurnal
+QLD,Gentle Annie Creek,-18.564,146.344,modified,river dominated,WAVE-DOMINATED DELTA,0.19128,,,,0.02975,17.25467,,0.33223,,,1.38985,,,,17.8,30,1.72,4.07,,,0.78,1.125,6.038,4,12.5,2.2,Semi Diurnal
+QLD,Georges Creek,-22.562,150.551,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,35.3,127,3.33,6.88,1.01,,0.99,0.211,2.692,0.7,8.1,4.4,Semi Diurnal
+QLD,Gilbert River,-16.552,141.271,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,94.85,42148,9.84,39.25,,,1.02,0.212,3.156,1.5,9.4,3.3,Diurnal
+QLD,Gin Arm Creek,-17.465,139.544,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,71.87,2340,11.65,34.59,,,0.54,0.024,2.735,0.6,5.9,3.5,Diurnal
+QLD,Glennie Inlet,-12.344,143.104,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.26,38,0.91,7.3,,,0.27,0.808,5.367,2,11.8,2.3,Diurnal
+QLD,Great Sandy Strait,-25.436,152.971,largely unmodified,tide dominated,OTHER,,,,23.14576,93.28328,76.11776,47.02192,95.95097,,,151.25123,,10.79042,,405.09,11636,286.1,50.63,8.69,,5.27,0.284,4.243,0.9,12.1,2.7,Semi Diurnal
+QLD,Gregory River,-20.159,148.427,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,39.77,185,3.58,18.38,,,1.27,0.378,4.166,1.7,9.6,2.5,Semi Diurnal
+QLD,Gum Creek,-16.618,138.084,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,5.28,357,0.12,2.38,,,0.13,0.187,3.597,1.5,9.7,2.9,Diurnal
+QLD,Half Moon Creek,-16.801,145.715,no assessment,tide dominated,TIDAL FLAT/CREEK,0.03725,,,0.08669,,1.33122,0.77235,,,,0.11671,,,1.19687,3.52,25,0.081,1.64,,,0.062,0.98,6.084,2.8,13.7,2,Diurnal
+QLD,Harmer Creek,-11.913,142.956,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,9.58,778,0.26,4.31,,,0.22,0.301,4.821,1.7,11.6,2.3,Diurnal
+QLD,Haughton River,-19.416,147.126,modified,river dominated,TIDE-DOMINATED DELTA,,,,9.72612,1.2193,25.62134,16.28461,1.16866,,,6.36233,,,8.66031,,2111,,,,,,0.087,5.53,1,11.7,2.4,Semi Diurnal
+QLD,Head Creek,-22.561,150.576,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,77.29,224,16.51,13.5,1.65,,2.18,0.211,2.692,0.7,8.1,4.3,Semi Diurnal
+QLD,Herbert Creek,-22.393,149.889,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,0.04799,35.11208,85.73408,91.66326,,,88.91037,,13.53974,,117.36,2286,174.44,46.03,,,9.54,0.047,2.568,0.5,8,5.2,Semi Diurnal
+QLD,Herbert River,-18.503,146.273,modified,river dominated,TIDE-DOMINATED DELTA,,,,6.37585,2.65991,50.15904,0.71199,2.28186,,,7.79191,,,,96.34,,9.48,31.38,,,3.02,,,,,,
+QLD,Hersey Creek,-14.371,141.555,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.42,437,0.15,3.04,,,0.061,0.341,3.547,3,10.3,1.9,Diurnal
+QLD,Hervey Bay,-24.719,152.71,largely unmodified,tide dominated,OTHER,1.22763,,47.37143,,35.72853,23.99651,15.42521,199.99922,0.62254,,3522.3496,,0.09928,5.96951,287.97,,3814.4,65.59,,,88.48,,,,,,
+QLD,Hervey Creek,-20.716,148.734,largely unmodified,tide dominated,TIDAL FLAT/CREEK,0.05151,,,0.31753,0.02912,1.64883,0.60222,0.06673,0.01242,,0.46247,,,,14.18,65,0.78,4.63,0.29,,0.13,0.601,4.365,2.4,8.1,3.4,Semi Diurnal
+QLD,Hilliards Creek,-27.49,153.266,modified,tide dominated,TIDAL FLAT/CREEK,,,,0.62621,2.0463,1.12144,1.39285,,,,0.0797,,,,4.93,62,0.35,1.64,0.52,,0.16,0.789,6.111,1.9,9.6,1.7,Semi Diurnal
+QLD,Hinchinbrook Channel,-18.258,146.053,largely unmodified,tide dominated,OTHER,,,,,,93.18847,6.98725,,,,120.90514,,0.98475,,249.62,9455,150.42,44.53,,,9.25,0.577,5.87,2.2,13.8,2.3,Semi Diurnal
+QLD,Horse Creek,-15.66,141.436,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.77,84,0.4,4.11,,,0.27,0.189,3.402,1.8,10,2.7,Diurnal
+QLD,Horse Place Creek,-16.597,139.18,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,,21,,,,,,0.379,3.507,2.5,10.5,3.6,Diurnal
+QLD,Howick River,-14.557,144.717,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.52,312,0.52,6.37,,,0.13,0.907,5.129,2.3,10.4,1.9,Semi Diurnal
+QLD,Hull River,-17.992,146.077,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.1736,,,0.52185,0.58026,9.66596,8.8805,0.06996,,,1.37286,1.4671,,2.72307,39.89,155,2.13,10.31,,,0.12,0.794,6.04,2.8,13.5,2.1,Semi Diurnal
+QLD,Hummock Creek,-14.739,144.959,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.7,94,0.17,3.14,,,0.077,1.149,5.759,2.7,11.3,2,Semi Diurnal
+QLD,Hunter Inlet,-12.347,143.133,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,21.85,28,1.39,5.51,,,0.49,0.808,5.367,2,11.8,2.3,Diurnal
+QLD,Island Head Creek,-22.348,150.654,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,75.76,138,20.2,12.59,2.33,,1.46,0.961,6.015,4.4,9.9,4.5,Semi Diurnal
+QLD,Jackson River,-11.669,142.012,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,57.57,1699,8.27,17.8,,,0.66,0.195,3.707,3,10.3,2.6,Diurnal
+QLD,Janie Creek,-12.026,141.823,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.84,176,1.4,8.01,,,0.39,0.509,3.633,4.9,10.5,2.2,Diurnal
+QLD,Jardine River,-10.922,142.213,near pristine,river dominated,WAVE-DOMINATED DELTA,0.61198,,,,1.33013,14.39331,18.65721,3.16504,,,2.25378,,,,46.38,2828,5.26,16.9,,,0.4,0.506,3.372,3,7.6,3.2,Diurnal
+QLD,Jeannie River,-14.656,144.922,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,16.28,486,0.76,7.71,,,0.14,0.977,5.584,2.3,11.5,2,Semi Diurnal
+QLD,John'S Creek,-17.395,139.452,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,31.08,113,1.71,12.2,,,0.25,0.051,2.725,1,5.4,3.6,Diurnal
+QLD,Johnstone River,-17.509,146.066,modified,river dominated,TIDE-DOMINATED DELTA,,,,2.62705,0.47257,2.71536,0.04299,0.31533,,,4.05223,,,,26.27,1674,2.36,10.66,,,0.31,0.897,5.9,3,13.4,2.1,Diurnal
+QLD,Kangaroo River,-12.347,143.127,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,12.94,109,0.57,5.28,,,0.28,0.808,5.367,2,11.8,2.3,Diurnal
+QLD,Kendall River,-14.163,141.594,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,94.65,9979,7.08,53.94,0.9,,0.25,0.042,4.051,0.7,11.4,1.9,Diurnal
+QLD,Kennedy Inlet,-10.841,142.571,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,129.17,721,66.18,25.87,,,5.09,0.612,4.849,2,10.7,2.6,Diurnal
+QLD,Kirke River,-13.932,141.472,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,137.04,1365,41.54,42.79,9.88,,0.23,0.481,3.75,4.7,10.6,1.9,Diurnal
+QLD,Knobler Creek,-21.663,149.446,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.21327,0.71367,1.04271,0.36545,0.03737,0.21005,,0.15005,,,0.37141,4.84,17,0.18,2.33,,,0.13,0.57,4.907,2.4,8.2,5,Semi Diurnal
+QLD,Kolan River,-24.651,152.188,modified,river dominated,WAVE-DOMINATED DELTA,0.37233,,,1.69707,1.95244,7.10244,0.15959,2.72565,,,4.81286,,1.90018,,60.65,2823,5.17,18.22,,,0.32,0.797,5.661,2.4,10.6,2.3,Semi Diurnal
+QLD,Kungunmeah Creek,-16.689,139.357,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,4.23,63,0.088,1.91,,,0.097,0.179,2.92,1.8,6.4,3.6,Diurnal
+QLD,Lagoon Creek,-16.774,138.461,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,0,57,0,,,,,0.283,3.405,1.7,9.7,3.3,Diurnal
+QLD,Leichhardt Creek,-19.099,146.51,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,0.13314,0.13023,0.42922,0.40765,,,0.31776,0.12248,,,0.71509,9.78,66,0.28,2.78,,,0.22,0.583,5.512,2.8,12.7,2.5,Diurnal
+QLD,Leichhardt River,-17.575,139.796,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,149.25,32568,21.04,70.47,,,0.54,0.268,2.885,1.9,5.9,3.5,Diurnal
+QLD,Littabella Creek,-24.579,152.108,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.89688,,,0.37141,,1.78366,0.008,0.92915,,,0.51421,,0.01549,,31.67,189,0.88,11.75,,,0.12,0.797,5.661,2.4,10.6,2.3,Semi Diurnal
+QLD,Liverpool Creek,-17.709,146.109,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.03269,,,0.32067,0.22931,0.5585,,0.09775,,,0.30041,,,0.14327,8.57,313,0.21,4.02,,,0.031,1.154,5.947,4,12.3,2.2,Diurnal
+QLD,Lockhardt River,-12.877,143.371,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,1.52341,1.56834,41.68299,27.80528,0.63716,,,20.36299,,,,118.12,900,16.42,16.84,,,2.95,0.545,5.742,1.4,13,2.1,Diurnal
+QLD,Logan Albert River,-27.694,153.349,modified,river dominated,TIDE-DOMINATED DELTA,,,,,0.01992,2.27386,0.21879,0.60686,,,2.13824,,,1.21896,53.71,3822,5.01,21.81,0.79,0,0.32,0.475,7.175,1.6,11.7,1.4,Semi Diurnal
+QLD,Logan Jack Creek,-11.22,142.787,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.52,126,0.13,1.81,,,0.16,0.213,5.751,1.1,13.2,2.6,Diurnal
+QLD,Longford Creek,-20.163,148.411,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.82,325,2.18,7.46,,,1.83,0.378,4.166,1.7,9.6,2.5,Semi Diurnal
+QLD,Louisa Creek,-21.272,149.27,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,0.54856,,,,0.03372,2.03163,1.36572,0.07447,,,0.5711,,,,12.55,33,0.61,4.92,,,0.33,0.838,5.193,3.7,9.5,4.9,Semi Diurnal
+QLD,Love River,-13.495,141.562,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,52.69,327,12.79,20.13,3.44,,1.08,0.377,3.456,4.3,10.9,1.8,Diurnal
+QLD,Macdonald River,-11.529,142.061,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,35.72,212,5.39,12.7,,,0.75,0.532,3.587,3.9,9.7,2.7,Diurnal
+QLD,Mackenzie Creek,-16.202,145.445,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.19,40,0.17,2.1,,,0.076,1.055,5.783,2.6,13.2,1.9,Diurnal
+QLD,Macmillan River,-11.973,143.17,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,14.03,55,1.07,5.11,,,0.71,1.214,5.71,3,11.8,2.2,Semi Diurnal
+QLD,Malaman Creek,-15.033,141.664,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,30.22,1392,0.87,13.62,,,0.41,0.171,3.284,1.4,9.9,2.1,Diurnal
+QLD,Maria Creek,-17.803,146.093,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.19451,,,0.33293,0.02475,6.53229,1.21233,0.1928,,,0.70203,,,1.224,14.51,180,0.47,6.26,,,0.038,0.303,6.3,1.9,14.1,2.1,Semi Diurnal
+QLD,Marion Creek,-21.729,149.458,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,5.28286,2.31951,0.53469,0.50453,0.09198,,0.4617,,,0.03376,10.21,107,0.45,3.73,,,,0.57,4.907,2.4,8.2,5.1,Semi Diurnal
+QLD,Marless Creek,-17.351,139.286,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.16,412,0.93,4.25,,,0.08,0.069,2.379,0.8,4.3,3.6,Diurnal
+QLD,Maroochy River,-26.647,153.102,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.60878,,,0.61697,0.59405,4.59128,0.04897,0.1062,0.1133,,4.31722,,,0.73342,30.74,688,3.841,7.74,0.82,0.41,0.3,0.3,7.307,1.4,11.1,1.4,Semi Diurnal
+QLD,Marrett River,-14.38,144.168,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,40.43,1295,2.19,19.3,,,0.63,0.152,3.58,1,8.4,2.1,Semi Diurnal
+QLD,Mary River,-25.433,152.926,extensively modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,5.38888,30.75931,9.34382,32.36808,0.00429,,30.70554,,6.61837,,251.66,,44.92,48.62,2.14,,0.86,,,,,,
+QLD,Massacre Inlet,-16.736,138.335,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,19.14,647,1.82,7.89,,,0.95,0.171,3.477,1.2,10,3.2,Diurnal
+QLD,Massey Creek,-13.914,143.605,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.64,310,0.27,3.6,,,0.033,0.681,4.583,1.9,9.2,2.1,Semi Diurnal
+QLD,Mcivor River,-15.142,145.236,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,23.53,516,0.9,8.91,,,0.52,1.293,6.159,3.3,14,2.1,Semi Diurnal
+QLD,Mckenzie Creek,-17.098,139.472,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.17,38,0.39,3.52,,,0.46,0.05,2.765,0.7,5.9,3.6,Diurnal
+QLD,Meunga Creek,-18.231,146.019,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,0.85148,,1.85961,0.26431,0.07996,,,0.20381,,0.08334,,5.7,226,0.15,2.32,,,0.4,0.577,5.87,2.2,13.8,2.3,Semi Diurnal
+QLD,Miralda Creek,-20.122,148.463,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,18.64,57,1.81,4.79,,,1.27,0.378,4.166,1.7,9.6,2.5,Semi Diurnal
+QLD,Mission River,-12.597,141.894,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,123.31,1290,36.11,32.78,3.19,,1.01,0.046,3.799,0.7,9.9,2.1,Diurnal
+QLD,Missionary Bay,-18.216,146.177,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,35.31,169,59.99,9.31,,,11.12,0.908,6.14,3.3,13.9,2.3,Diurnal
+QLD,Mitchell River,-15.068,141.648,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,3.08159,9.55799,67.65109,112.65666,,,,41.10736,,,240.37468,89.07,65278,8.53,26.31,,,0.94,0.037,3.826,0.6,10.9,2.2,Diurnal
+QLD,Mooloolah River,-26.681,153.133,modified,river dominated,WAVE-DOMINATED DELTA,0.46756,,,,,0.32741,0.06895,,,,1.71119,,,0.09554,28.25,215,1.26,5.93,0.49,2.08,0.099,1.295,6.55,3.4,9.2,1.4,Semi Diurnal
+QLD,Moonkan Creek,-14.852,141.59,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,16.85,808,0.44,7.88,,,0.3,0.101,3.435,1,10.7,2,Diurnal
+QLD,Moonlight Creek,-17.3,139.219,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.39,1066,0.36,3.76,,,0.101,0.02,2.498,0.5,4.9,3.6,Diurnal
+QLD,Moresby River,-17.6,146.13,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,11.79399,18.82691,1.26477,,,4.13767,,4.24557,0.859,50.69,117,5.16,14.59,1.12,0.47,0.21,1.284,6.226,4.4,12.8,2.1,Diurnal
+QLD,Moreton Bay,-27.071,153.284,modified,wave dominated,WAVE-DOMINATED ESTUARY,436.59138,1056.98298,35.88784,149.03879,75.66198,80.33621,22.76444,422.7558,0.47991,,77.09499,,25.4298,8.06843,297.56,22807,1493.71,78,33.79,0,21.61,0.718,5.945,1.8,9.8,1.6,Semi Diurnal
+QLD,Morning Inlet,-17.706,140.215,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,29.02,1617,1.96,14.01,,,0.57,0.02,3.348,0.3,9.5,3.4,Diurnal
+QLD,Mossman River,-16.434,145.405,largely unmodified,river dominated,TIDE-DOMINATED DELTA,0.07706,,,0.5925,0.07581,1.44261,0.05452,0.00354,,,0.43429,,,,8.69,256,0.27,4.21,,,0.092,0.743,4.942,2.2,12.8,2,Diurnal
+QLD,Mowbray River,-16.545,145.488,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,0.62602,1.02107,0.18715,,,0.9559,0.44839,,,0.13554,6.72,119,0.21,2.4,,,0.56,0.821,5.67,2.1,13.2,2,Diurnal
+QLD,Mud Creek,-19.521,147.533,largely unmodified,wave dominated,STRANDPLAIN,0.36096,,,0.35569,0.10243,5.98371,0.64028,0.02743,,,0.70503,,,0.54856,12.62,36,1.08,4.48,0.78,,0.45,1.009,5.413,4,10.2,2.4,Semi Diurnal
+QLD,Murray Creek,-20.849,148.868,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,5.71238,22.34713,6.49775,10.49188,,,16.26301,,,0.31755,77.36,570,13.54,18.62,3.38,,3.13,0.579,4.293,2.2,8,3.7,Semi Diurnal
+QLD,Murray River,-18.085,146.029,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,4.26555,0.54903,19.95341,1.51036,0.16081,,,2.68949,,0.98006,5.20286,26.95,602,2.17,9.89,,,0.76,0.818,5.95,2.7,13.5,2.2,Semi Diurnal
+QLD,Mutchero Inlet/Russell Mulgrave,-17.224,145.968,modified,river dominated,WAVE-DOMINATED DELTA,0.26507,,,3.98757,0.18445,15.55721,0.59083,0.85906,,,2.93002,,0.11066,,40.51,1393,3.23,8.72,0.52,,0.18,0.949,5.989,2.9,13.4,1.9,Semi Diurnal
+QLD,Namaleta Creek,-11.981,141.946,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,37.69,208,3.48,15.77,,,0.58,0.286,3.345,3,10.5,2.3,Diurnal
+QLD,Nassau River,-15.909,141.394,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,,3.09611,45.13335,158.22408,,,,20.22545,,,69.8056,160.93,5797,17.43,39.77,,,0.73,0.04,3.816,0.6,10.7,3,Diurnal
+QLD,Nerang River,-27.975,153.424,modified,river dominated,WAVE-DOMINATED DELTA,,,,,0.13045,,,0.06737,,,3.9599,,,1.28572,47.31,,4,20.71,0.48,0,0.3,,,,,,
+QLD,Nesbit River,-13.543,143.586,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,,682,,,,,,1.159,5.7,2.9,10.5,2,Semi Diurnal
+QLD,Ngulwonmeah River,-16.536,139.483,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,64,,,,,,0.335,2.939,2.4,6.5,3.6,Diurnal
+QLD,Noah Creek,-16.143,145.448,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,4,33,0.11,1.41,0.21,,0.032,1.24,6.068,3.2,13.6,1.9,Diurnal
+QLD,Nobbies Inlet,-19.826,147.762,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,41.99,285,6.82,9.62,2.51,,2.5,0.91,5.49,3.4,11.1,2.3,Semi Diurnal
+QLD,Noosa River,-26.38,153.079,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.96688,10.92459,0.83139,0.90896,4.34509,1.45802,1.47489,0.01727,,,3.62547,,,0.35376,150.27,841,60.91,36.23,5.09,9.27,0.54,1.187,6.64,3.1,9.5,1.4,Semi Diurnal
+QLD,Norman Creek,-13.048,141.619,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,0.17199,0.37898,5.50557,4.81973,0.12522,,,0.8258,,,,15,231,1.1,7.16,,,0.091,0.284,3.536,2.9,11.5,1.9,Diurnal
+QLD,Norman River,-17.463,140.82,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,13.61342,23.45076,35.39915,409.40743,,,,35.67992,,,21.56463,213.89,49588,53.26,102.36,,,1.77,0.084,3.069,0.8,8.8,3.3,Diurnal
+QLD,Normanby River,-14.407,144.144,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,48.88,10880,3.27,23.33,,,1.34,0.152,3.58,1,8.4,2.1,Semi Diurnal
+QLD,North Kennedy River,-14.49,143.947,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,94.15,11854,11.73,44.45,,,2.12,0.411,3.312,1.5,7.4,2.1,Semi Diurnal
+QLD,Nundah/Cabbage Tree Creek,-27.33,153.088,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,0.18727,1.51902,2.41554,0.54691,,,,0.60375,,,0.32943,15.02,131,0.41,3.11,0.17,,0.14,0.275,5.108,0.7,9.6,1.8,Semi Diurnal
+QLD,O'Connell River,-20.571,148.662,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,2.65059,4.76891,0.14168,1.28111,,,0.794,,0.85395,,25.24,859,1.87,10.51,0.46,,0.71,0.137,4.889,1.1,8.6,3.2,Semi Diurnal
+QLD,Olive River,-12.166,143.092,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,39.18,1681,4.66,16.93,,,1.33,0.906,5.352,2.4,12.6,2.3,Diurnal
+QLD,Ollera Creek,-18.965,146.361,largely unmodified,river dominated,WAVE-DOMINATED DELTA,0.10668,,,,0.05148,0.35059,0.11288,,0.12957,,0.08002,,,,3.03,74,0.085,1.26,,,0.16,0.847,5.89,3.3,13.2,2.4,Diurnal
+QLD,Orient Creek,-18.808,146.277,modified,river dominated,WAVE-DOMINATED DELTA,0.30596,,,0.13034,,2.80368,4.92238,0.0272,,,0.51523,,,0.24146,12,19,0.4,2.24,,,0.097,0.605,5.609,2.3,12.6,2.3,Semi Diurnal
+QLD,Oyster Creek,-22.506,150.44,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,21.72,108,1.01,3.72,,,1.49,0.211,2.692,0.7,8.1,4.9,Semi Diurnal
+QLD,Palm Creek,-18.766,146.286,modified,river dominated,WAVE-DOMINATED DELTA,,,,0.36442,0.25756,10.22779,9.03727,0.17138,,,0.41946,,,,10.63,220,0.52,4.41,,,0.18,0.605,5.609,2.3,12.6,2.3,Semi Diurnal
+QLD,Pancake Creek/Jenny Lind Creek,-24.012,151.732,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,38.01,115,10.34,10.25,1.46,,2.33,0.911,6.04,3.2,9.5,2.5,Semi Diurnal
+QLD,Pascoe Inlet,-17.505,139.606,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,73.08,27959,9.57,35.43,,,0.34,0.024,2.735,0.6,5.9,3.5,Diurnal
+QLD,Pascoe River,-12.495,143.274,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,41.5,2077,3.16,18.64,0.74,,0.24,0.825,5.731,2.1,11.7,2.2,Semi Diurnal
+QLD,Passmore Creek,-16.888,138.977,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,0.32,902,11.83,5.79,,,0.1,0.036,3.253,0.6,8.6,3.5,Diurnal
+QLD,Pennefather River,-12.229,141.723,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,62.02,343,16.4,13.98,1.32,,0.24,0.491,3.669,5.2,10.6,2,Diurnal
+QLD,Pimpama River,-27.82,153.396,modified,river dominated,TIDE-DOMINATED DELTA,,,,,0.55001,5.54019,1.60692,0.2882,,,2.01712,,,,20.92,,1.76,7.64,0.36,0,0.21,,,,,,
+QLD,Pine River,-27.279,153.063,extensively modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,2.40201,0.61371,4.536,1.4,1.09552,,,2.82309,,1.03701,0.14332,44.41,806,4.043,12.61,0.66,,0.51,0.275,5.108,0.7,9.6,1.7,Semi Diurnal
+QLD,Pine River Bay,-12.531,141.708,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,128.27,535,55.65,29.23,4.23,,2.63,0.099,3.998,2.2,11.9,2.1,Diurnal
+QLD,Pioneer River,-21.149,149.221,extensively modified,river dominated,TIDE-DOMINATED DELTA,0.16611,,,3.5693,5.85313,6.45306,0.0867,1.61278,,,3.939,,,2.32057,70.73,1580,8.57,32.42,0.84,,0.36,0.188,5.776,1.3,9.5,4.6,Semi Diurnal
+QLD,Plantation Creek,-20.9,148.983,largely unmodified,wave dominated,STRANDPLAIN,0.19259,,,,0.72669,1.37958,0.13044,,,,0.2702,,,,8.46,49,0.32,3.28,0.21,,0.15,0.17,5.084,1.2,9.5,3.9,Semi Diurnal
+QLD,Plantation Creek,-19.522,147.537,largely unmodified,wave dominated,STRANDPLAIN,1.34105,,,,2.20463,10.59066,5.1933,1.12099,,,2.37576,,0.10226,0.42392,37.06,147,3.56,9.91,0.92,,0.071,1.009,5.413,4,10.2,2.3,Semi Diurnal
+QLD,Port Clinton,-22.498,150.762,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,127.98,257,80.09,21.65,10.59,,5.55,1.389,6.337,5.7,9.6,3.9,Semi Diurnal
+QLD,Port Curtis,-23.912,151.374,modified,tide dominated,OTHER,,,,,,,,,,,,,,,115.45,,,31.29,,,10.23,,,,,,
+QLD,Port Musgrave,-11.953,141.924,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,50.41,11211,98.01,19.11,8.31,,3.37,0.286,3.345,3,10.5,2.3,Diurnal
+QLD,Proserpine River,-20.491,148.729,modified,river dominated,TIDE-DOMINATED DELTA,,,,,8.05252,34.72426,3.9894,10.62539,,,5.14688,,0.02194,,56.72,1095,9.96,21.59,1.93,,2.56,0.201,3.948,1.1,8,3.1,Semi Diurnal
+QLD,Pumicestone Passage,-27.076,153.151,modified,tide dominated,OTHER,0.7119,,,0.44503,6.72397,20.29811,8.8907,36.54282,,,49.45088,,5.17444,141.30891,154.03,702,49.88,36.16,2.8,,2.27,0.162,6.483,0.5,10,1.5,Semi Diurnal
+QLD,Pumpkin Creek,-23.339,150.798,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.1723,0.24417,0.70606,0.63036,,0.07345,,0.15544,,,0.62321,2.6,104,0.055,1.04,0.18,,0.19,0.789,5.629,3.1,8.6,3.7,Semi Diurnal
+QLD,Q001,-16.567,138.032,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,2.8,64,0.074,1.17,,,0.2,0.187,3.597,1.5,9.7,2.8,Diurnal
+QLD,Q003,-16.649,138.118,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,6.64,63,0.16,3.01,,,0.25,0.187,3.597,1.5,9.7,2.9,Diurnal
+QLD,Q006,-16.768,138.43,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.34,52,0.41,4.09,,,0.62,0.283,3.405,1.7,9.7,3.3,Diurnal
+QLD,Q008,-16.777,138.477,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.93,2266,0.33,4,,,0.55,0.396,3.525,2,9.7,3.3,Diurnal
+QLD,Q010,-16.771,138.616,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,0.274,61,10.88,4.65,,,0.35,0.403,3.537,2.1,9.9,3.4,Diurnal
+QLD,Q013,-16.927,139.034,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,4.14,48,0.92,1.98,,,0.095,0.036,3.253,0.6,8.6,3.6,Diurnal
+QLD,Q017,-16.667,139.19,largely unmodified,tide dominated,TIDAL FLAT/CREEK,0.16409,,,,0.14109,0.41528,1.90786,,,,,,,0.07882,2.1,23,0.089,0.97,,,0.1,0.183,3.341,1.4,9.4,3.6,Diurnal
+QLD,Q029,-17.024,139.473,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.75,38,0.645,4.63,,,0.7,0.097,3.14,1.8,6.8,3.6,Diurnal
+QLD,Q030,-17,139.495,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,1.71,25,0.041,0.76,,,0.14,0.097,3.14,1.8,6.8,3.6,Diurnal
+QLD,Q031,-17.068,139.557,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,0.88,21,0.015,0.39,,,0.063,0.218,3.083,2.3,6.5,3.6,Diurnal
+QLD,Q033,-17.365,139.307,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,7.73,61,0.33,2.18,,,0.29,0.069,2.379,0.8,4.3,3.6,Diurnal
+QLD,Q034,-17.375,139.34,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,18.49,71,1,5.45,,,0.099,0.069,2.379,0.8,4.3,3.6,Diurnal
+QLD,Q037,-17.429,139.505,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,18.69,78,1.2,9.14,,,0.26,0.051,2.725,1,5.4,3.6,Diurnal
+QLD,Q039,-17.477,139.579,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,25.59,61,1.36,12.29,,,0.29,0.024,2.735,0.6,5.9,3.5,Diurnal
+QLD,Q040,-17.487,139.593,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.64,17,0.39,5.57,,,0.26,0.024,2.735,0.6,5.9,3.5,Diurnal
+QLD,Q045,-17.614,139.91,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,0.17535,8.06602,5.6066,0.30075,,,1.76679,,,,6.24,28,0.24,3,,,0.1,0.057,3.112,0.9,7.8,3.5,Diurnal
+QLD,Q047,-17.718,140.124,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.22,20,0.19,3.01,,,0.098,0.02,3.354,0.4,9.4,3.4,Diurnal
+QLD,Q048,-17.711,140.159,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.77,18,0.21,2.15,,,0.23,0.02,3.354,0.4,9.4,3.4,Diurnal
+QLD,Q049,-17.707,140.184,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.44,18,0.32,3.47,,,0.16,0.02,3.348,0.3,9.5,3.4,Diurnal
+QLD,Q061,-16.496,141.297,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,31.65,27,2.74,10.81,,,0.21,0.273,3.279,1.9,9.5,3.3,Diurnal
+QLD,Q062,-16.496,141.296,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,42.59,61,4.6,9.36,,,0.36,0.273,3.279,1.9,9.5,3.3,Diurnal
+QLD,Q093,-11.126,142.157,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,41.87,33,4.32,9.15,,,0.23,0.555,3.554,3.4,8.5,3,Diurnal
+QLD,Q100,-11.893,142.918,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.55,15,0.51,3.86,,,0.61,0.301,4.821,1.7,11.6,2.4,Diurnal
+QLD,Q102,-11.923,143.062,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.64,46,0.22,2.11,,,0.57,0.5,5.947,1.8,12.5,2.3,Diurnal
+QLD,Q105,-12.346,143.088,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.05,20,0.19,2.03,,,0.14,0.808,5.367,2,11.8,2.3,Diurnal
+QLD,Q113,-13.645,143.55,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,4.27,98,0.12,1.68,,,0.042,1.095,5.559,2.8,10.3,2,Semi Diurnal
+QLD,Q124,-14.307,144.343,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.82,59,0.48,4.19,,,0.18,0.182,3.807,1,9,2,Semi Diurnal
+QLD,Q125,-14.272,144.412,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,19.65,313,1.12,6.61,,,0.65,0.524,3.821,2.2,8.5,1.9,Semi Diurnal
+QLD,Q128,-14.552,144.684,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,6.07,15,0.15,2.27,,,0.11,0.907,5.129,2.3,10.4,1.9,Semi Diurnal
+QLD,Q134,-14.754,144.996,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.09,51,0.27,4.63,,,0.14,1.149,5.759,2.7,11.3,2,Semi Diurnal
+QLD,Q136,-14.798,145.043,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,12.65,46,0.64,5.04,,,0.34,1.029,5.605,2.4,11.7,2,Semi Diurnal
+QLD,Q137,-14.799,145.054,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,43.93,57,2.43,6.54,,,1.3,1.029,5.605,2.4,11.7,2,Semi Diurnal
+QLD,Q138,-14.82,145.106,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.82,14,0.51,6.2,,,0.14,1.029,5.605,2.4,11.7,2,Semi Diurnal
+QLD,Q139,-14.824,145.113,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.35,253,0.45,2.99,,,0.32,1.029,5.605,2.4,11.7,2,Semi Diurnal
+QLD,Q140,-14.831,145.133,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.25,16,0.56,3.33,,,0.63,1.029,5.605,2.4,11.7,2,Semi Diurnal
+QLD,Q171,-18.262,146.235,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.06,13,3.64,4.6,,,1.32,1.02,6.14,3.8,13.3,2.3,Diurnal
+QLD,Q195,-19.422,147.214,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,2.52445,0.75569,2.92327,6.1094,,,,0.86033,,,4.38755,,32,,,,,,0.222,4.911,1.6,9.8,2.4,Semi Diurnal
+QLD,Q221,-20.978,149.059,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.79959,3.31585,4.42815,3.47963,0.25392,,,1.8171,,,3.5577,14.68,27,1.322,2.7,0.92,,0.83,0.676,4.603,2.9,8.8,4.2,Semi Diurnal
+QLD,Q223,-21.074,149.212,modified,tide dominated,TIDAL FLAT/CREEK,0.64914,,,0.04318,0.08348,2.54761,4.25696,0.07083,,,0.45437,,,,8.9,36,0.51,3.4,0.25,,0.33,0.792,5.305,3.7,10,4.6,Semi Diurnal
+QLD,Q245,-22.33,149.914,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,0.57252,29.82585,41.69426,0.99758,,,7.70243,,,0.39871,52.97,488,10.03,11.35,,,2.17,0.047,2.568,0.5,8,5.3,Semi Diurnal
+QLD,Q246,-22.3,149.916,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,0.17535,8.06602,5.6066,0.30075,,,1.76679,,,,25.24,25,1.05,5.2,,,1,0.047,2.568,0.5,8,5.4,Semi Diurnal
+QLD,Q256,-22.449,150.536,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,19.76,24,2.43,6.9,0.55,,0.57,0.272,2.808,1,8.6,4.8,Semi Diurnal
+QLD,Q257,-22.43,150.538,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.74,14,0.83,2.71,0.65,,0.65,0.272,2.808,1,8.6,4.9,Semi Diurnal
+QLD,Q259,-22.315,150.484,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,17,,,,,,0.512,4.361,1.6,8.5,5.3,Semi Diurnal
+QLD,Raspberry Creek,-22.487,150.407,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,8.58,64,0.29,2.76,,,0.4,0.4,3.989,1.4,8.7,4.9,Semi Diurnal
+QLD,Reliance/Leila Creek,-21.001,149.126,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,4.69588,6.86473,8.24092,8.03149,0.92932,,,1.51252,,,0.4425,15.81,88,1.1,4.48,0.86,,0.46,0.792,5.305,3.7,10,4.3,Semi Diurnal
+QLD,Repulse Creek,-20.456,148.797,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,38.17,155,4.78,7.07,0.5,,2.54,0.201,3.948,1.1,8,3.1,Semi Diurnal
+QLD,Rocky Creek,-14.597,144.797,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,4.5,81,0.16,2.05,,,0.32,0.816,5.137,2,10.5,2,Semi Diurnal
+QLD,Rocky Dam Creek,-21.48,149.306,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,1.3569,29.68284,15.09981,4.42527,0.14788,,9.09914,,0.0629,,65.9,539,11.98,15.45,,,3.12,0.003,6.033,0.2,9.2,5,Semi Diurnal
+QLD,Rocky Ponds Creek,-19.816,147.666,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,19.96,198,1.37,5.58,0.49,,0.56,0.846,5.424,3.4,11.2,2.3,Semi Diurnal
+QLD,Rocky River,-13.777,143.542,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.73,71,0.12,1.96,,,0.085,0.75,4.609,2.2,9.1,2,Semi Diurnal
+QLD,Rodd'S Harbour,-24.02,151.588,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,79.21,231,43.61,16.1,3.76,,4.56,0.228,6.554,1.2,9.8,2.6,Semi Diurnal
+QLD,Rollingstone Creek,-19.008,146.402,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,,0.12195,0.14868,,,,0.23924,0.09089,,,,11.94,115,0.3,5.56,,,0.03,0.85,5.762,3.5,12.9,2.4,Diurnal
+QLD,Ross Creek,-22.39,150.22,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.66,57,0.21,2.36,,,0.64,0.2,4.393,0.7,9.1,4.9,Semi Diurnal
+QLD,Ross River,-19.25,146.829,modified,tide dominated,TIDAL FLAT/CREEK,,,,1.07437,1.01983,2.66411,0.71384,,,,1.52672,,,,54.73,881,3.29,21.92,,,0.38,0.186,5.528,1.5,10,2.3,Semi Diurnal
+QLD,Round Hill Creek,-24.164,151.877,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,23.55,99,3.33,7.54,0.72,,1.33,1.142,6.176,3.9,9.4,2.5,Semi Diurnal
+QLD,Saint Lawrence Creek,-22.284,149.613,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,5.01936,8.08824,19.18797,40.31007,0.06474,,24.60989,,1.88962,29.37787,46.73,469,19.1,15.98,,,3.89,0.35,3.675,1,7.9,6.1,Semi Diurnal
+QLD,Salt Arm Creek,-16.16,141.389,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,3.49,589,0.14,1.54,,,0.3,0.022,3.627,0.3,11.1,3.2,Diurnal
+QLD,Saltwater Creek,-16.41,145.41,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.67271,0.08566,1.90711,,,,,0.2249,,,,8.06,102,0.19,3.48,,,0.13,0.743,4.942,2.2,12.8,2,Semi Diurnal
+QLD,Saltwater Creek,-14.465,144.619,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.54,106,0.35,3.86,,,0.13,0.907,5.129,2.3,10.4,1.9,Semi Diurnal
+QLD,Sandalwood River,-16.467,139.35,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,102,,,,,,0.474,3.667,3.5,10.2,3.6,Diurnal
+QLD,Sandfly Creek,-19.289,146.862,modified,tide dominated,TIDAL FLAT/CREEK,,,,,0.12035,0.79543,4.29504,,,,0.17086,,0.15785,0.04889,3.93,113,0.1,1.86,,,0.065,0.186,5.528,1.5,10,2.3,Semi Diurnal
+QLD,Sandy Creek,-21.246,149.233,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,3.69761,1.80598,10.71583,7.14987,5.63333,0.11221,,10.87868,,,0.60247,60.71,678,11.81,16.08,,,2.61,0.188,5.776,1.3,9.5,4.8,Semi Diurnal
+QLD,Sarina Inlet,-21.402,149.32,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,0.09438,5.36841,5.21956,3.00364,0.18762,,6.21735,,0.14154,,32.17,144,8.8,10.43,,,2.28,0.727,4.926,2.9,8.7,5.2,Semi Diurnal
+QLD,Shoalwater Creek,-22.52,150.479,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,66.45,443,6.26,18.79,,,1.48,0.211,2.692,0.7,8.1,4.6,Semi Diurnal
+QLD,Skardon River,-11.757,141.994,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,92.26,353,12.09,20,,,1.4,0.195,3.707,3,10.3,2.6,Diurnal
+QLD,Sleeper Log Creek,-19.114,146.533,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,0.08788,0.06465,0.49863,0.42575,,,1.14566,0.24599,,,,11.92,61,0.33,2.87,,,0.089,0.583,5.512,2.8,12.7,2.5,Diurnal
+QLD,Smithburne River,-17.049,140.952,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,155.83,1003,14.69,42.88,,,0.98,0.296,3.321,2.2,9,3.3,Diurnal
+QLD,Snake Creek,-16.691,141.205,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,36.33,244,1.99,17.1,,,0.27,0.212,3.156,1.5,9.4,3.3,Diurnal
+QLD,Southern Moreton Bay,-27.74,153.447,modified,tide dominated,OTHER,30.74964,0.89393,,7.22427,7.56404,40.69088,17.84764,23.43072,0.18483,,40.2479,,,9.86764,99.57,5872,56.83,28.71,1.99,0,2.15,1.318,6.791,4.5,11.6,1.3,Semi Diurnal
+QLD,Spring Creek,-17.645,140.455,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,54.59,1690,3.41,25.91,,,0.31,0.08,3.052,0.7,8.6,3.3,Diurnal
+QLD,Staaten River,-16.398,141.295,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,90.09,25722,11.51,22.98,,,0.51,0.102,3.398,1,10,3.3,Diurnal
+QLD,Starke River,-14.781,145.018,near pristine,river dominated,TIDE-DOMINATED DELTA,,,,,,,,,,,,,,,13.44,178,0.58,6.46,,,0.29,1.149,5.759,2.7,11.3,2,Semi Diurnal
+QLD,Stewart River,-14.07,143.692,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,10.55,880,0.43,2.3,,,0.19,0.355,5.097,1.5,11,2.1,Semi Diurnal
+QLD,Styx River,-22.376,149.785,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,10.31026,39.57892,60.73144,35.13552,0.30368,,57.35185,,,12.67789,141.17,1890,75.93,35.71,,,5.97,0.23,3.183,0.9,10.3,5.6,Semi Diurnal
+QLD,Syrell Creek,-17.003,139.093,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.73,344,0.42,4.67,,,0.27,0.027,2.819,0.6,8.5,3.6,Diurnal
+QLD,Tallebudgera Creek,-28.095,153.462,modified,tide dominated,TIDAL FLAT/CREEK,,0.1312,,0.10534,0.2338,0.18276,,0.04027,,,0.75747,,0.02538,0.48912,30.36,97,1.17,8.34,0.44,0.87,0.13,0.967,6.668,2.6,10.8,1.2,Semi Diurnal
+QLD,The Narrows,-23.748,151.166,largely unmodified,tide dominated,OTHER,,,,,5.65776,30.51986,17.09728,0.23719,,,32.42945,,,4.07969,173.06,2668,40.25,27.99,2.22,,2.93,0.827,5.933,3.2,9.3,3.3,Semi Diurnal
+QLD,Theodolite/Lagoon Creek,-25.07,152.551,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,1.4719,0.08223,1.30313,2.42153,0.8857,,,0.12193,,,0.84035,8.05,240,0.25,3.71,,,0.19,0.277,5.329,1.1,10.6,2.3,Semi Diurnal
+QLD,Thirsty Sound,-22.272,149.904,largely unmodified,tide dominated,OTHER,,,,,8.88521,55.15509,18.5387,,0.9029,,63.83282,20.12685,,12.6596,185.12,311,63.19,23.17,,,7.5,0.544,5.779,2.2,9.8,5.4,Semi Diurnal
+QLD,Thompson Creek,-20.551,148.675,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,3.03274,6.47627,0.54978,0.6718,,,0.723,,,1.30692,18.79,86,1.05,4.47,0.54,,0.61,0.137,4.889,1.1,8.6,3.2,Semi Diurnal
+QLD,Tingalpa Creek,-27.468,153.2,extensively modified,river dominated,TIDE-DOMINATED DELTA,,,,1.57138,0.38472,1.33907,0.23912,,,,0.86609,,,,11.96,150,0.9,5.13,0.6,,4.1,0.5,5.857,1.2,9.7,1.7,Semi Diurnal
+QLD,Toongoowahgun Inlet,-16.639,139.386,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,153,,,,,,0.179,2.92,1.8,6.4,3.6,Diurnal
+QLD,Topsy Creek,-15.5,141.482,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,53.89,794,2.91,20.76,,,0.32,0.342,3.55,2.8,9.8,2.5,Diurnal
+QLD,Towbulbulan River,-16.464,139.686,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,14.62,29,2.2,6.11,,,1.58,0.563,3.866,4.7,9.6,3.6,Diurnal
+QLD,Trinity Inlet,-16.905,145.785,modified,tide dominated,TIDAL FLAT/CREEK,,,,1.12142,4.40509,24.38988,9.49404,,,,11.67331,,,,80.07,330,13.46,15.01,,,1.65,0.371,4.8,1.2,12.2,2,Diurnal
+QLD,Tully Inlet,-16.675,138.16,near pristine,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,14.28,4362,1.31,6.48,,,0.44,0.058,3.741,0.7,10.2,3,Diurnal
+QLD,Tully River,-18.033,146.054,modified,river dominated,WAVE-DOMINATED DELTA,0.06333,,,1.96953,0.82349,8.02953,1.42564,0.56228,,,1.10452,,,4.69501,35.58,1441,1.83,15.05,,,0.28,0.794,6.04,2.8,13.5,2.1,Semi Diurnal
+QLD,Victor Creek,-20.886,148.935,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,2.60354,2.97506,1.14697,,,,0.58553,,,,9.92,42,0.75,3.55,1,,0.61,0.17,5.084,1.2,9.5,3.8,Semi Diurnal
+QLD,Victoria Creek,-18.619,146.338,modified,river dominated,WAVE-DOMINATED DELTA,1.22628,,,6.39543,,17.0395,,1.91741,,,3.55461,,,,29.82,78,4.14,12.8,1.04,,0.77,1.125,6.038,4,12.5,2.2,Semi Diurnal
+QLD,Wadallah Creek,-22.48,150.55,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.9,22,2.02,6.51,0.35,,0.68,0.211,2.692,0.7,8.1,4.6,Semi Diurnal
+QLD,Wakooka Creek,-14.487,144.625,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,4.16,252,0.13,0.89,,,0.14,0.907,5.129,2.3,10.4,1.9,Semi Diurnal
+QLD,Walbor Inlet,-16.573,139.465,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,57,,,,,,0.335,2.939,2.4,6.5,3.6,Diurnal
+QLD,Walter Hall Creek,-21.713,149.461,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,0.85999,1.38763,1.04148,2.09183,0.17743,0.11453,,0.07142,,0.0391,,5.07,9,0.23,2.31,,,0.2,0.57,4.907,2.4,8.2,5,Semi Diurnal
+QLD,Waverly Creek,-22.34,149.669,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,0.26915,19.90898,43.52249,4.23431,,,8.39537,,7.1901,0.05327,50.92,506,15.42,20.72,,,2.85,0.309,3.501,1.1,9.2,5.9,Semi Diurnal
+QLD,Wenlock River,-12.051,141.927,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,131.09,7476,28.88,47.91,,,2.01,0.286,3.345,3,10.5,2.2,Diurnal
+QLD,West Hill Creek,-21.833,149.458,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,2.23978,4.74433,5.6167,2.22913,0.16256,,0.95258,,0.0285,,32.23,143,2.43,8.07,,,0.54,0.67,4.869,2.6,7.9,5.4,Semi Diurnal
+QLD,Williams Inlet,-17.537,139.647,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,40.55,284,2.33,19.24,,,0.13,0.024,2.735,0.6,5.9,3.5,Diurnal
+QLD,Wreck Creek,-18.191,146.01,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.17,20,0.21,3.58,,,0.36,0.577,5.87,2.2,13.8,2.3,Semi Diurnal
+QLD,Yeates Creek,-20.153,148.342,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,2.99,91,0.061,1.35,,,0.096,0.422,4.138,1.8,9.5,2.4,Semi Diurnal
+QLD,Zoe Bay,-18.382,146.332,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,13.26,39,0.38,4.08,,,0.19,0.973,5.575,4,10.6,2.2,Semi Diurnal
+SA,American River,-35.785,137.775,modified,wave dominated,OTHER,,13.08761,,3.58337,0.42082,,1.49857,0.23651,0.12841,,1.18945,,,0.44736,43.06,,17.96,9.7,2.98,3.44,0.48,,,,,,
+SA,Baird Bay,-33.152,134.36,modified,tide dominated,OTHER,,36.08003,,,3.4044,1.21973,1.01681,3.54807,0.87881,,3.71789,0.30175,0.11062,1.58877,59.01,192,43.66,21.32,4.02,6.13,2.26,2.024,8.7,7,16.4,1.2,Semi Diurnal
+SA,Blanche Port,-32.75,134.218,modified,tide dominated,OTHER,2.36647,23.76107,,,12.65963,2.49537,1.29221,,,,0.14275,,,,29.92,145,28.36,7.46,,,2.81,0.854,8.528,4.2,17.4,1.4,Semi Diurnal
+SA,Breakneck River,-35.931,136.58,near pristine,wave dominated,OTHER,0.05863,,,,0.03795,,,,0.04176,,0.02256,,,0.03071,0,,0,,,,,,,,,,
+SA,Chapman River,-35.786,138.069,largely unmodified,wave dominated,OTHER,0.1518,,,,0.04177,,0.21987,0.01349,,,0.09802,,,,15.52,,0.96,3.94,0.59,2.56,0.028,,,,,,
+SA,Cygnet River,-35.686,137.603,modified,wave dominated,OTHER,,,,0.11932,0.10471,,1.80492,,,,0.21583,,,0.11245,,,,,,,,,,,,,
+SA,Eleanor River,-35.974,137.202,largely unmodified,wave dominated,OTHER,,,,,,,,,,,0.04339,,,,0,,0,,,,,,,,,,
+SA,First Creek,-33.148,137.976,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,0.7422,1.003,1.84817,5.26742,0.0147,,,,,,,3.43,,0.1,1.53,,,0.093,,,,,,
+SA,Fisherman Creek,-33.206,137.848,modified,tide dominated,TIDAL FLAT/CREEK,,,,1.65475,0.71249,3.11692,25.19765,,,,0.52923,,,,14.43,29,0.75,3.59,,,0.64,0.34,5.463,1.5,15.4,2.2,Diurnal
+SA,Franklin Harbour,-33.731,136.977,extensively modified,tide dominated,OTHER,,43.94124,,17.03985,2.41788,8.07417,7.13294,,0.46903,,3.50924,,0.8775,0.90081,55.39,351,57.14,15.61,5.05,4.13,2.31,0.775,6.763,2.3,15.2,1.5,Diurnal
+SA,Gawler River,-34.673,138.461,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,0.54504,4.54491,1.89036,,,,0.4816,,0.1802,,6.58,,0.17,2.66,,,0.22,,,,,,
+SA,Harriet River,-35.985,137.179,largely unmodified,wave dominated,OTHER,,,,,0.13772,,,0.0039,,,0.03373,,,0.01114,0,,0,,,,,,,,,,
+SA,Hindmarsh River,-35.544,138.631,modified,river dominated,WAVE-DOMINATED DELTA,0.06226,,,,,,,,,,0.0987,,,,4.99,,0.24,2.27,,,0.31,,,,,,
+SA,Inman River,-35.56,138.616,extensively modified,wave dominated,OTHER,0.01758,,,,,,,,,,0.04075,,,,3.37,,0.13,1.57,,,0.16,,,,,,
+SA,Lake George,-37.477,140.02,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.52352,57.48832,0.2644,0.51619,0.17577,,,,,,,,,0.98923,36.85,,41.72,8.22,7.4,1.09,0.12,,,,,,
+SA,Light River Delta,-34.576,138.369,modified,river dominated,TIDE-DOMINATED DELTA,,,,0.11329,0.05712,0.89004,3.13468,,,,0.14806,,,0.12036,2.42,,0.06,1.15,,,0.082,,,,,,
+SA,Middle River,-35.665,137.075,largely unmodified,wave dominated,OTHER,0.17889,,,,0.02141,,0.02361,,0.03798,,0.0551,,,0.0204,0,,0,,,,,,,,,,
+SA,Myponga River,-35.373,138.385,extensively modified,wave dominated,OTHER,0.04267,,,,0.00341,,,,0.03529,,0.02691,,,,2.66,,0.12,1.22,,,0.077,,,,,,
+SA,Northern Spencer Gulf,-32.768,137.848,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,11.57588,,37.1921,28.65874,97.83569,14.22821,,,476.29952,,,5.84609,184.9,4582,541.94,68.6,,,15.82,0.048,6.124,0.5,17,2.6,Diurnal
+SA,Onkaparinga River,-35.165,138.47,extensively modified,river dominated,WAVE-DOMINATED DELTA,0.34768,,,,0.03492,,0.24882,,0.07001,,0.19144,,,,22.87,,1.14,11.02,,,0.1,,,,,,
+SA,Patawalonga Creek,-34.975,138.511,extensively modified,wave dominated,OTHER,0.02168,,,0.02096,0.00368,,,,,,0.24893,,,,5.6,,,2.56,,,0.1,,,,,,
+SA,Port Broughton Estuary,-33.598,137.926,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,3.55685,1.19322,3.998,19.27282,0.8682,,0.58471,,0.07415,,43.49,,19.28,11.1,,,6.4,,,,,,
+SA,Port Davis Creek/Broughton River Estuary,-33.249,137.823,modified,tide dominated,TIDAL FLAT/CREEK,,,,,1.01354,2.91972,25.17815,,,,0.77862,,,0.27289,17.99,5512,0.77,6.92,,,0.2,0.239,6.163,1.4,16.1,2.1,Diurnal
+SA,Port Douglas/Coffin Bay,-34.526,135.366,modified,tide dominated,OTHER,1.30871,94.2681,,25.51126,2.50236,0.03572,3.48686,11.39628,0.682,,3.00402,0.21398,0.35662,41.08881,131.65,416,117.59,23.53,8.33,,2.04,1.411,9.31,6.9,15.7,1.2,Diurnal
+SA,Port Pirie,-33.149,138.016,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,0.0777,12.82918,16.17582,,,,12.45534,,,0.90029,50.4,70,14.65,12.33,,,3.26,0.141,4.452,0.8,13.9,2.4,Diurnal
+SA,Port River Barker Inlet System,-34.761,138.528,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,7.17755,17.64698,6.31,30.99202,,,13.51426,,3.02904,,90.62,229,49.64,15.67,,,9.84,0.552,6.232,2.1,15.8,2.1,Semi Diurnal
+SA,Second Creek,-33.158,137.949,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,3.33127,0.30477,4.70002,17.27998,0.00922,,,0.67128,,,0.22068,8.89,16,0.7,3.07,,,0.4,0.228,4.663,1,14.5,2.4,Diurnal
+SA,Smokey Bay,-32.397,133.915,near pristine,tide dominated,OTHER,,,,9.8228,15.48088,11.34213,5.18969,0.0132,,,133.91221,,,4.32927,41.4,202,14.17,3.94,,,3.32,0.305,9.979,2,17.8,1.3,Semi Diurnal
+SA,South West River,-36.016,136.854,largely unmodified,wave dominated,OTHER,0.04208,,,,0.05196,,0.00213,,0.11666,,0.03354,,,,0.75,,,0.24,,,0.11,,,,,,
+SA,Stunsail Boom,-36.02,137.016,largely unmodified,wave dominated,OTHER,0.03772,,,,0.09311,,0.11661,0.01032,0.02381,,0.08653,,,0.02016,0,,0,,,,,,,,,,
+SA,The Coorong And Lower Lakes,-35.561,138.89,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,241.26006,192.34785,,0.64951,17.05478,0.13488,88.36789,0.51962,,,0.33192,,,5.57969,638.08,1057783,943.15,139.46,18.19,12.53,0.79,1.542,8.607,4.8,15.4,1.3,Diurnal
+SA,Third Creek,-33.18,137.92,modified,tide dominated,TIDAL FLAT/CREEK,,,,2.20152,0.46979,1.69517,9.86792,,,,0.39048,,,,6.29,16,0.35,2.51,,,10.53,0.228,4.663,1,14.5,2.3,Diurnal
+SA,Tod River,-34.592,135.902,extensively modified,river dominated,TIDE-DOMINATED DELTA,0.02275,,,0.1241,0.05887,,0.1001,,,,0.18798,,,,,,,,,,0.1,,,,,,
+SA,Tourville Bay,-32.17,133.495,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,80.32,318,52.6,10.86,6.37,,6.06,0.994,8.194,3.1,16.8,1.4,Semi Diurnal
+SA,Venus Bay,-33.229,134.66,largely unmodified,tide dominated,OTHER,,47.14513,,18.30379,3.52782,0.94691,1.78152,5.8786,0.32558,,3.05303,0.42866,0.49322,6.38228,67.08,1203,70.64,17.26,6.55,3.55,0.47,1.873,8.809,7,16.7,1.1,Diurnal
+SA,Wakefield River,-34.189,138.144,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,2.26055,0.33161,1.40709,2.45779,,,,0.25521,,,0.08072,0,,,,,,,,,,,,
+SA,Western River,-35.676,136.971,largely unmodified,wave dominated,OTHER,0.05405,,,,0.00997,,,,0.01317,,0.01994,,,,0,,0,,,,,,,,,,
+SA,Willson River,-35.864,137.935,largely unmodified,wave dominated,OTHER,0.01892,,,,,,,,,,0.07009,,,,3.05,,0.084,1.41,,,0.81,,,,,,
+TAS,Ansons Bay,-41.063,148.298,modified,wave dominated,WAVE-DOMINATED ESTUARY,2.08117,4.13874,0.04809,0.54213,0.2369,,0.04956,,0.42715,,0.24273,,,0.06896,21.65,296,4.69,8.53,2.26,2.02,0.12,0.97,6.114,3,9.9,1.3,Diurnal
+TAS,Arthur River,-41.054,144.663,near pristine,wave dominated,OTHER,0.05951,,,0.11535,0.12319,,0.2041,,0.04024,,1.64452,,,,30.23,2496,2.06,14.14,,,0.12,2.85,8.734,10.5,13.4,1.8,Semi Diurnal
+TAS,Bathurst Harbour,-43.327,145.984,near pristine,tide dominated,OTHER,1.00346,17.63404,0.02754,8.00629,0.94878,,0.77642,,0.02951,,0.7078,,,0.54917,137.5,1147,66.82,24.77,7.54,,0.9,2.882,8.853,8.5,13.7,0.6,Diurnal
+TAS,Big Lagoon,-41.18,148.271,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.97,,,1.84,0.54,0.37,0.024,,,,,,
+TAS,Black River,-40.836,145.316,near pristine,river dominated,WAVE-DOMINATED DELTA,0.05483,,,0.16011,0.39589,,0.17273,,,,0.3134,,,0.05527,6.55,279,0.17,2.97,,,0.11,0.854,4.995,4.8,10.5,2.6,Semi Diurnal
+TAS,Blackman Bay,-42.845,147.886,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.00346,17.63404,0.02754,8.00629,0.94878,,0.77642,,0.02951,,0.7078,,,22.48361,43.55,141,25.85,10.99,4.28,1.09,0.35,0.752,5.73,2.8,10.5,1.2,Diurnal
+TAS,Blythe River,-41.074,145.985,modified,river dominated,WAVE-DOMINATED DELTA,,,,0.01102,0.15991,,,,0.04979,,0.19423,,,2.37196,5.32,350,0.13,2.27,,,0.074,1.047,5.116,5.5,10.1,2.6,Semi Diurnal
+TAS,Brid River,-41.001,147.398,modified,river dominated,WAVE-DOMINATED DELTA,1.74234,,,0.27653,0.39903,,0.04819,0.07917,0.011,,0.4332,,,,8.62,257,0.2,3.99,,2.45,0.53,1.155,5.139,5.9,9.4,2.2,Semi Diurnal
+TAS,Browns River,-42.977,147.329,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,,,0.01545,0.1112,,0.02493,,,,0.08782,,,0.42155,1.47,,,0.66,,,0.07,,,,,,
+TAS,Bryans Lagoon,-42.261,148.29,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,4.09,,,1.65,0.3,1.32,0.051,,,,,,
+TAS,Buxton River,-42.269,148.015,modified,river dominated,WAVE-DOMINATED DELTA,,,,0.02083,0.02132,,0.00856,,,,0.16782,,,2.75537,2.39,,,0.99,,,0.074,,,,,,
+TAS,Cam River,-41.039,145.84,extensively modified,wave dominated,OTHER,,,,0.18598,0.14793,,0.00649,,,,0.1381,,,,5.37,262,0.11,2.53,,,0.03,0.868,5.157,4.7,10.2,2.5,Semi Diurnal
+TAS,Cameron Inlet,-40.105,148.266,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Carlton River,-42.877,147.641,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.13293,0.7167,,0.48273,0.26699,,0.34197,,,,0.50852,,,10.62858,15.18,136,1.46,6.66,0.59,1.08,0.12,1.059,6.504,4.9,12.4,1.2,Diurnal
+TAS,Catamaran River,-43.553,146.89,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,2.46,,,0.97,,,0.16,,,,,,
+TAS,Cloudy Bay Lagoon,-43.44,147.202,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,13.51,48,5.85,4.1,2.22,1.19,0.22,1.624,7.857,6.5,13.3,1.2,Diurnal
+TAS,Cockle Creek,-43.582,146.893,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.62,,,2,,,0.024,,,,,,
+TAS,Crayfish Creek,-40.857,145.398,modified,wave dominated,OTHER,0.00888,,,,0.05426,,,,,,0.02554,,,,2.32,,,1.01,,,0.026,,,,,,
+TAS,Crookes Rivulet,-43.158,146.963,modified,tide dominated,OTHER,,,0.04427,,0.0348,,0.18201,,,,1.20635,,,0.01728,2.37,,,1.01,,,0.075,,,,,,
+TAS,Curries River,-41.025,146.949,modified,wave dominated,OTHER,,,,0.02861,0.0591,,,,0.049,,0.05311,,,,0,,,,,,,,,,,,
+TAS,Denison Rivulet,-41.827,148.23,modified,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,D'Entrecasteaux Channel,-43.415,147.06,no assessment,tide dominated,OTHER,10.40682,14.10848,1.24435,0.88563,4.60972,,5.39679,0.20571,0.85007,,621.45845,2.83877,,0.00872,212.31,4368,367.61,49.88,12.46,,7.18,0.996,6.938,4.6,13.4,1.2,Diurnal
+TAS,Derwent River,-42.944,147.383,extensively modified,tide dominated,OTHER,,,3.59388,,0.44082,,,,,,74.79817,,,76.44504,130.26,9718,70.53,46.72,5.77,,4.42,0.45,4.466,1.4,9.9,1.3,Diurnal
+TAS,Detention River,-40.871,145.449,modified,river dominated,WAVE-DOMINATED DELTA,0.12931,,0.03802,0.21034,0.17343,,0.0438,0.10859,,,0.2677,,,4.41292,3.58,238,0.074,1.6,,,0.13,1.031,5.144,5.5,10.4,2.5,Semi Diurnal
+TAS,Don River,-41.16,146.335,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.02066,0.17539,0.15196,0.05243,0.08315,,,,0.03675,,0.08941,,,0.0076,7.54,135,0.3,2.68,,,0.2,1.008,4.946,5.1,9.9,2.4,Semi Diurnal
+TAS,Douglas River,-41.783,148.267,largely unmodified,wave dominated,OTHER,,,,0.07707,0.10339,,0.12294,,,,0.12972,,,,,107,,,,,,0.952,6.043,3.2,10.4,1.5,Semi Diurnal
+TAS,Dover River,-40.36,148.29,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Duck Bay,-40.794,145.107,modified,wave dominated,WAVE-DOMINATED ESTUARY,12.04812,,,18.645,2.26123,,2.84105,,,,2.04538,,,,36.05,,,8.24,3.4,,0.38,,,,,,
+TAS,Earlham Lagoon,-42.655,147.957,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,0.18497,0.42347,,1.3173,,,,0.31225,,,,6.78,117,0.49,2.28,0.42,0.49,0.036,1.083,6.125,3.7,10.6,1.1,Diurnal
+TAS,East Inlet,-40.789,145.277,largely unmodified,wave dominated,OTHER,2.87547,,,5.1361,1.16985,,0.69533,,,,0.59766,,,,13.48,36,1.48,3.84,,,0.29,0.854,4.995,4.8,10.5,2.6,Semi Diurnal
+TAS,Emu River,-41.042,145.88,extensively modified,river dominated,WAVE-DOMINATED DELTA,,,,,0.06442,,,,,,0.14836,,,,3.9,285,0.086,1.72,,,0.024,0.985,5.118,5.3,10.1,2.6,Semi Diurnal
+TAS,Esperance River,-43.341,147.06,largely unmodified,tide dominated,OTHER,,,0.31789,,0.22042,,0.07328,0.42022,,,16.84136,,,0.34807,28,339,14.6,8.99,3.7,,2.09,0.634,6.066,3,12.6,1.2,Diurnal
+TAS,Ettrick River,-40.01,143.97,modified,wave dominated,OTHER,,,,,0.05729,,,,0.01377,,0.0418,,,1.7273,,,,,,,,,,,,,
+TAS,Foochow Inlet,-39.899,148.123,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Forth River,-41.157,146.25,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,1.43808,,0.14663,,,,0.1431,,0.94111,,,,13.61,1134,0.61,3.7,0.55,0.75,0.18,0.953,4.967,5,10,2.4,Semi Diurnal
+TAS,Frederick Henry Bay,-42.993,147.587,no assessment,tide dominated,OTHER,18.92663,44.59722,2.51434,27.67619,4.24589,,1.31941,,0.1446,,406.20063,,,5.64207,175.63,1896,371.08,18.35,25.95,,5.97,1.059,6.504,4.9,12.4,1.2,Diurnal
+TAS,Freney Lagoon,-43.491,146.229,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,5.75,,,1.85,0.8,0.48,0.021,,,,,,
+TAS,Freshwater Lagoon,-42.064,148.299,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Garden Island,-43.25,147.143,modified,wave dominated,OTHER,,,,,0.13279,,,,,,0.04001,,,,1.67,,,0.74,,,0.077,,,,,,
+TAS,Georges Bay,-41.276,148.331,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.3634,12.42845,3.32943,3.28132,1.79034,,0.67922,,0.92718,,0.37371,,0.78074,1.00088,36.49,606,16.6,10.87,4.1,3.82,0.24,1.401,6.344,4,9.8,1.4,Semi Diurnal
+TAS,Giblin River,-43.067,145.684,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,8.28,350,0.17,3.85,,,0.048,2.932,8.912,8.6,13.8,0.9,Diurnal
+TAS,Grants Lagoon,-41.25,148.299,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.12717,0.34753,0.01415,0.07202,0.09688,,,,,,0.02303,,,0.14332,5.14,,,1.24,0.77,0.18,0.038,,,,,,
+TAS,Great Musselroe River,-40.829,148.173,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.37951,1.37827,0.05241,1.08488,0.36908,,,,0.10107,,0.98108,,,,31.4,376,3.01,12.54,1.49,,0.15,1.085,6.08,3,9.6,1.3,Diurnal
+TAS,Great Swanport,-42.1,148.235,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,3.74561,0.66466,0.84827,0.06265,,1.41803,,0.00966,,0.34321,,,0.31293,,1070,,,,,0.23,0.71,5.33,3.2,10.8,1.4,Diurnal
+TAS,Grindstone,-42.438,147.997,modified,wave dominated,OTHER,0.08966,,0.05663,,0.01349,,0.03671,,,,0.1488,,,1.97634,3.22,,,1.48,,0.84,0.032,,,,,,
+TAS,Henderson Lagoon,-41.508,148.268,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.51508,0.40586,,0.0354,0.16073,,0.70193,,0.01666,,0.38728,,,0.25904,,57,,,,,,0.955,6.182,3.1,10,1.5,Semi Diurnal
+TAS,Henty River,-42.061,145.251,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,13.82,530,0.59,6.69,,,0.059,2.483,9.108,8.4,14.4,1,Diurnal
+TAS,Hibbs Lagoon,-42.572,145.302,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.93,,,1.66,0.69,0.53,0.027,,,,,,
+TAS,Huon River,-43.281,147.124,modified,tide dominated,OTHER,,,,,1.699,,5.39679,,0.24506,,90.87929,,,0.99923,135.29,3068,70.84,48.88,4.95,,4.04,0.634,6.066,3,12.6,1.3,Diurnal
+TAS,Inglis River,-40.987,145.74,extensively modified,river dominated,WAVE-DOMINATED DELTA,,,,,0.33755,,,,0.25215,,0.35143,,,,8,497,0.26,3.57,,,0.13,0.868,5.157,4.7,10.2,2.4,Semi Diurnal
+TAS,Lagoon River,-41.51,144.835,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,2.77,,,1.3,,,0.035,,,,,,
+TAS,Lee River,-40.38,148.2,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Leven River,-41.168,146.37,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,1.42395,0.24806,,0.41121,,,0.04809,,,0.3875,,,7.5465,29.19,655,4.61,8.48,1.22,3.99,0.73,0.953,4.967,5,10,2.4,Semi Diurnal
+TAS,Lewis River,-42.951,145.494,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,4.08,211,0.087,1.79,,,0.13,2.832,9.018,8.7,14.1,1,Diurnal
+TAS,Lisdillon Lagoon,-42.291,148.011,modified,wave dominated,OTHER,0.07917,0.07764,0.01898,0.03392,0.07088,,0.14854,,0.0467,,0.16217,,,2.6734,5.1,,,2.17,0.3,1.42,0.035,,,,,,
+TAS,Little Forester River,-40.97,147.364,modified,river dominated,WAVE-DOMINATED DELTA,0.03609,,0.20731,0.67735,0.3089,,,,,,0.47484,,,0.23046,6.85,376,0.17,3.06,,,0.2,1.155,5.139,5.9,9.4,2.2,Semi Diurnal
+TAS,Little Henty River,-41.949,145.196,modified,river dominated,WAVE-DOMINATED DELTA,0.31739,,,0.00497,1.19412,,,,0.08822,,0.31508,,,7.45778,8.09,359,0.26,3.83,,,0.19,2.483,9.108,8.4,14.4,1,Diurnal
+TAS,Little Musselroe River,-40.763,148.038,modified,river dominated,WAVE-DOMINATED DELTA,0.65248,,0.0676,0.3935,,,0.59977,,0.01879,,0.11554,,,0.21406,3.66,100,0.11,1.64,,,0.036,1.324,5.778,5.5,9.6,1.2,Semi Diurnal
+TAS,Little Swanport,-42.312,148,modified,wave dominated,WAVE-DOMINATED ESTUARY,,3.74561,0.80899,0.84827,0.14016,,1.41803,,0.00966,,5.52407,,,20.12791,31.3,723,4.28,8.11,0.82,0.51,0.39,0.499,5.477,1.9,10.3,1.2,Diurnal
+TAS,Logan Lagoon,-40.17,148.29,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Louisa Creek,-43.516,146.345,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.72,,,2.39,,,0.031,,,,,,
+TAS,Louisa River,-43.526,146.371,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0.21,,,3.88,,,0.03,,,,,,
+TAS,Macquarie Harbour,-42.213,145.219,modified,wave dominated,WAVE-DOMINATED ESTUARY,38.38719,261.88203,4.93111,13.2989,2.02508,,,,,,13.01627,,,0.99059,210.44,7049,297.57,50.1,13.67,1.7,0.88,2.348,9.002,8.8,14.3,0.9,Diurnal
+TAS,Mainwaring River,-42.87,145.436,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,3.69,87,0.093,1.57,,,0.21,2.926,8.837,8.9,13.7,1.1,Diurnal
+TAS,Meredith River,-42.112,148.074,modified,river dominated,WAVE-DOMINATED DELTA,0.01662,,0.01932,,0.02973,,,,,,0.07952,,,,1.32,,,0.59,,,0.032,,,,,,
+TAS,Mersey River,-41.168,146.37,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,3.49981,4.50617,,0.31724,,1.04776,,0.12905,,1.49845,,,0.06885,29.19,1789,4.61,8.48,1.22,3.99,0.73,1.034,4.92,5.2,9.8,2.4,Semi Diurnal
+TAS,Middle Inlet,-39.926,148.154,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Mines Creek,-39.889,147.872,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Modder River,-40.425,148.062,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Montagu,-40.748,144.94,modified,tide dominated,TIDAL FLAT/CREEK,,,,,5.80774,,1.01736,,,,0.19058,,,0.00427,7.22,,,2.51,,,0.79,,,,,,
+TAS,Mosquito Inlet,-40.624,144.952,largely unmodified,tide dominated,OTHER,2.44361,,,7.24818,7.29781,,0.82189,0.28242,,,1.02,,,,14.51,41,4.53,3.45,2.8,,1.86,0.724,7.901,5.2,13.2,2,Semi Diurnal
+TAS,Mulcahy River,-43.112,145.715,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,1.57,,,0.67,,,0.12,,,,,,
+TAS,Nelson Bay River,-41.14,144.679,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0,95,0,,,,,2.85,8.734,10.5,13.4,1.8,Semi Diurnal
+TAS,New River,-43.554,146.601,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,29.9,325,12.46,12.72,2.57,4.69,0.14,2.681,8.843,8.5,13.8,1.1,Diurnal
+TAS,North East River,-39.789,147.977,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,North West Bay,-43.072,147.309,extensively modified,tide dominated,OTHER,,,0.8573,,0.74729,,0.14184,,,,18.69824,,,8.88228,25.83,,,8.59,4.66,,3.04,,,,,,
+TAS,Patriarch River,-39.958,148.149,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Pats River,-40.095,148,modified,wave dominated,OTHER,,,,0.30261,1.0167,,0.0125,,,,0.23153,,,9.36354,,,,,,,,,,,,,
+TAS,Payne Bay,-43.298,145.943,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,69.41,1000,42.02,19.75,,,2.76,2.882,8.853,8.5,13.7,0.6,Diurnal
+TAS,Pedder River,-41.405,144.778,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,7.6,133,0.35,3.61,,,0.049,2.775,8.864,10.1,13.6,1.4,Semi Diurnal
+TAS,Pieman River,-41.667,144.924,largely unmodified,tide dominated,OTHER,,,,0.10414,0.55104,,,,0.15243,,3.18548,,,22.02136,36.49,3925,3.81,17.31,,,0.18,2.642,8.982,9.1,14.2,1,Diurnal
+TAS,Pipeclay Lagoon,-42.96,147.539,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.31005,1.11533,,3.14858,1.07067,,0.10808,,,,0.32236,,,,13.8,,,2.6,3.7,1.48,0.23,,,,,,
+TAS,Pipers River,-41.01,147.158,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.46183,,0.20674,0.11423,0.90948,,0.18811,,0.29915,,0.52668,,,,9.48,474,0.25,4.4,,,0.034,0.565,4.633,3.2,9.5,2.4,Semi Diurnal
+TAS,Pitt Water,-42.849,147.615,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,15.98909,24.04542,2.04539,16.13324,1.27312,,0.4928,,0.03135,,4.82042,,,0.1256,80.39,1029,42.71,23.64,4.38,3.41,0.56,1.059,6.504,4.9,12.4,1.2,Diurnal
+TAS,Port Arthur,-43.193,147.887,no assessment,tide dominated,OTHER,,,0.09957,0.00714,0.4404,,0.03262,,0.38241,,23.88369,,,0.0163,34.94,100,22.08,9.8,3.48,,1.68,1.617,7.428,5.8,12.8,1.2,Diurnal
+TAS,Port Cygnet,-43.225,147.079,modified,tide dominated,OTHER,,,0.79749,,0.38757,,0.01934,,,,12.16688,,,16.8657,24.29,,,7,,,2.24,,,,,,
+TAS,Port Sorell,-41.139,146.555,modified,wave dominated,WAVE-DOMINATED ESTUARY,4.99164,,,2.2024,9.53246,,0.7135,0.77509,0.33391,,5.13806,,,0.37186,66.48,675,18.75,15.8,2.38,3.42,2.4,1.021,4.816,5.2,9.5,2.4,Semi Diurnal
+TAS,Prosser River,-42.553,147.881,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.15978,,,0.23875,0.07824,,,,,,0.21621,,,3.45956,6,743,0.19,2.6,,,0.06,0.606,5.331,2.4,10.8,1.1,Diurnal
+TAS,Ralphs Bay,-42.951,147.41,no assessment,tide dominated,OTHER,2.42495,53.64312,,,0.6009,,0.10101,,,,0.11072,,,30.88959,47.66,116,51.37,11.39,5.43,,2.72,0.45,4.466,1.4,9.9,1.3,Diurnal
+TAS,Recherche Bay,-43.557,146.917,no assessment,tide dominated,OTHER,,,0.97907,0.27753,0.61705,,,,0.04774,,11.29017,,,,24.59,213,10.07,6.07,,,2.45,1.669,7.848,6,13.3,1.2,Diurnal
+TAS,Rices River,-40.413,148.31,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Ringarooma River,-40.861,147.888,extensively modified,river dominated,WAVE-DOMINATED DELTA,1.13885,,,0.4352,,,0.31648,0.05889,,,0.76022,,,,15.97,1203,0.49,6.86,0.37,,0.11,1.044,5.187,5.5,9.9,1.5,Semi Diurnal
+TAS,Robbins Passage,-40.73,145.058,modified,tide dominated,OTHER,19.0758,,,2.46402,65.24997,,12.14903,1.47887,0.31001,,24.43962,,,0.27532,,583,,,,,4.36,0.724,7.901,5.2,13.2,2,Semi Diurnal
+TAS,Rocky Head Rivulet,-40.442,148.137,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Saltwater Lagoon,-42.04,148.278,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Scamander River,-41.465,148.264,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.2034,,2.46156,0.21011,0.2927,,0.28808,,,,1.3752,,,9.55123,,301,,,,,,0.955,6.182,3.1,10,1.5,Semi Diurnal
+TAS,Sea Elephant River,-39.916,143.987,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Seal River,-40.07,143.94,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.11089,0.56092,,,0.20861,,0.19677,,,,0.13562,,,,,,,,,,,,,,,,
+TAS,Sellars Lagoon,-40.03,148.27,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Shag Lagoon,-40.162,148.206,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Sloop Lagoon,-41.209,148.276,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,4.15,,,1.47,0.55,0.25,0.027,,,,,,
+TAS,South Cape Rivulet,-43.603,146.786,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0.96,,,0.45,,,0.026,,,,,,
+TAS,Southport,-43.447,146.961,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,4.06145,0.52811,0.85048,0.3954,,,,0.01468,,0.12817,,,0.19242,23.64,200,4.24,7.38,2.45,0.62,0.25,1.06,6.96,4.5,12.8,1.2,Diurnal
+TAS,Southport Lagoon,-43.489,146.982,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,20.93,43,10.06,3.97,5.19,0.53,0.24,1.06,6.96,4.5,12.8,1.2,Diurnal
+TAS,Spero River,-42.636,145.335,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0.88,154,0.031,0.39,,,0.036,2.815,8.989,8.5,13.9,1.1,Diurnal
+TAS,Spring Bay,-42.549,147.923,modified,tide dominated,OTHER,,,0.80899,,0.14016,,,,,,5.52407,,,8.43835,16.68,124,5.11,5.63,1.69,,1.49,0.469,6.122,2,10.5,1.1,Diurnal
+TAS,Stoney Lagoon,-42.153,148.076,modified,wave dominated,OTHER,,,0.00172,0.01499,,,,,,,0.02852,,,,0,,,,,,,,,,,,
+TAS,Tamar River,-41.069,146.776,extensively modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,21.23391,,7.42997,,0.29425,,75.15767,,,0.60395,193.97,11392,91.71,68.84,3.51,,2.87,1.12,5.021,5.5,9.5,2.4,Semi Diurnal
+TAS,Templestowe Lagoon,-41.727,148.279,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.07032,0.50103,0.06236,0.03454,0.16866,,0.26339,,,,0.04969,,,,,,,,,,,,,,,,
+TAS,Thirsty Lagoon,-40.39,148.438,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAS,Tomahawk River,-40.865,147.761,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.02156,,,0.16718,0.13343,,0.03225,,,,0.17739,,,,4.15,228,0.07,1.96,,,0.071,1.159,5.286,5.9,9.9,1.6,Semi Diurnal
+TAS,Wanderer River,-42.733,145.387,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,8.56,351,0.15,4.17,,,0.044,2.675,9.006,8.2,14,1.1,Diurnal
+TAS,Welcome Inlet,-40.717,144.771,modified,tide dominated,TIDAL FLAT/CREEK,,,,,8.1305,,1.06954,,,,1.96116,,,,,361,,,,,,1.918,9.065,8.6,14.4,1.9,Semi Diurnal
+TAS,West Inlet,-40.787,145.261,modified,tide dominated,TIDAL FLAT/CREEK,3.52998,,,6.70608,1.03052,,0.6233,,,,0.6691,,,,10.88,33,2.37,3.89,1.06,,0.95,0.854,4.995,4.8,10.5,2.6,Semi Diurnal
+TAS,Yarra Creek,-40.009,144.108,modified,wave dominated,OTHER,0.00425,0.00879,,,,,,,,,0.01836,,,1.59218,,,,,,,,,,,,,
+TAS,Yellow Rock River,-39.72,143.91,modified,wave dominated,OTHER,0.07678,,,0.03044,0.11775,,0.03586,,,,0.08864,,,,,,,,,,,,,,,,
+VIC,Aire River,-38.807,143.461,modified,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,18.82,279,1.46,6.89,0.39,2.95,0.031,2.315,8.914,8,14.4,1,Diurnal
+VIC,Anderson Creek,-38.755,143.656,largely unmodified,wave dominated,OTHER,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+VIC,Anderson Inlet,-38.65,145.721,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.4693,,0.83757,2.71268,13.25415,0.96114,5.58578,0.21311,,,7.7043,,,0.06494,82.4,1715,12.648,17.65,0.69,,1.54,1.541,8.508,5.3,14.8,2,Semi Diurnal
+VIC,Anglesea River,-38.413,144.191,modified,river dominated,WAVE-DOMINATED DELTA,0.02066,,,0.01919,0.15637,,,,0.0258,,0.11086,,,,2.04,,0.045,0.94,0.082,,0.045,,,,,,
+VIC,Barham River,-38.766,143.668,modified,wave dominated,STRANDPLAIN,0.01129,,,,0.14536,,,,,,0.13568,,,0.05223,0,,0,,,,,,,,,,
+VIC,Barwon River,-38.286,144.501,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.3792,8.33747,0.48088,0.43088,1.91563,0.22153,11.98214,,1.12542,,2.02118,,,1.38428,75.06,4496,15,18.9,3.17,9.88,0.86,1.103,7.66,3.9,13.9,1.1,Semi Diurnal
+VIC,Benedore River,-37.7,149.622,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,3.19,,0.064,1.46,0.1,,0.063,,,,,,
+VIC,Betka River,-37.585,149.742,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,13.49,171,0.45,5.77,0.26,,0.085,1.391,6.721,5.1,11.6,1,Diurnal
+VIC,Corner Inlet,-38.781,146.484,largely unmodified,tide dominated,OTHER,10.71301,,,10.81198,387.10413,18.59332,65.51435,6.89234,0.07687,,163.49541,,,78.06328,280.89,2106,377.6,22.14,21.57,3.59,1.89,0.34,4.78,1.2,10.5,2.3,Semi Diurnal
+VIC,Cumberland River,-38.576,143.948,largely unmodified,wave dominated,OTHER,,,,,,,,,,,,,,,0,,0,,,,,,,,,,
+VIC,Curdies Inlet,-38.608,142.883,modified,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,,1006,,,,,,2.291,8.906,8.1,14.6,0.9,Diurnal
+VIC,Darby River,-38.989,146.268,largely unmodified,wave dominated,OTHER,,,,,,,,,,,,,,,0.26,,0.004,0.1,0.06,,0.013,,,,,,
+VIC,Easby Creek,-37.741,149.522,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.01979,,,0.01414,0.0066,,0.00634,,,,0.04645,,,,2.1,,0.051,1.02,0.07,,0.075,,,,,,
+VIC,Elliot River,-38.794,143.618,no assessment,wave dominated,OTHER,0.00503,,,,,,,,0.01774,,0.00834,,,,0,,0,,,,,,,,,,
+VIC,Erskine River,-38.532,143.979,largely unmodified,wave dominated,STRANDPLAIN,0.00723,,,,0.028,0.04256,,,,,0.02529,,,,0,,0,,,,,,,,,,
+VIC,Fitzroy River,-38.263,141.85,modified,wave dominated,STRANDPLAIN,0.0538,,,,0.20277,,,0.0259,0.02721,,0.57285,,,0.08011,8.38,1467,0.42,4.06,,,0.098,1.359,8.374,4.6,14.7,0.8,Diurnal
+VIC,Gellibrand River,-38.707,143.157,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.011,0.07912,,0.03474,0.03161,,2.05052,,,,0.18932,,,,6.87,,0.24,3.14,0.29,0.32,0.081,,,,,,
+VIC,Gippsland Lakes,-37.889,147.971,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,676.73,20449,485.56,98.35,8.92,15.04,0.36,0.522,5.789,2.2,12.2,0.9,Semi Diurnal
+VIC,Glenelg River,-38.061,140.984,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.05892,0.40564,,0.15887,0.74842,,0.66133,,0.05139,,0.66276,,,,37.58,11841,2.73,16.67,0.89,2.17,0.27,2.014,8.934,7,14.9,0.9,Diurnal
+VIC,Grey River,-38.687,143.839,largely unmodified,wave dominated,OTHER,,,,,,,,,,,,,,,0,,0,,,,,,,,,,
+VIC,Hopkins River,-38.399,142.509,modified,river dominated,WAVE-DOMINATED DELTA,0.04896,0.25273,,0.03891,0.4208,,0.30376,,,,1.32503,,,,,8984,,,,,,2.266,8.819,7.8,14.6,0.8,Diurnal
+VIC,Jack Smith Lake,-38.497,147.04,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,,1.27068,0.14518,0.91885,6.17077,,5.17006,,,,0.53759,,,,49.75,246,10.74,8.55,2.27,1.15,0.16,0.872,5.888,2.6,9.7,2,Semi Diurnal
+VIC,Jamieson River,-38.596,143.919,largely unmodified,wave dominated,OTHER,0.02147,,,0.01896,0.02787,,,,,,0.03154,,,,0,,0,,,,,,,,,,
+VIC,Kennett River,-38.667,143.862,largely unmodified,wave dominated,OTHER,0.01909,,,,0.00919,,0.00634,,0.00305,,0.02245,,,,0,,0,,,,,,,,,,
+VIC,Kororoit Creek,-37.859,144.866,extensively modified,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,3.42,346,0.1,1.63,0.64,,0.038,0.513,6.303,2.2,14.5,0.8,Diurnal
+VIC,Lake Tyers,-37.859,148.088,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.30295,7.49772,0.44372,0.83073,1.29182,,1.58591,,,,2.04442,,,1.02248,91.53,572,13.06,22.57,2.39,0.79,0.14,0.905,5.859,3.1,10.4,0.9,Semi Diurnal
+VIC,Lake Yambuk,-38.337,142.04,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,7.93,1022,0.95,2.8,0.69,0.66,0.13,2.108,8.943,7.3,15.1,0.8,Diurnal
+VIC,Laverton Creek,-37.881,144.807,extensively modified,tide dominated,OTHER,,,,,,,,,,,,,,,5.41,45,0.18,2.37,0.34,,0.07,0.466,5.611,2,13.6,0.9,Semi Diurnal
+VIC,Limeburners Bay,-38.075,144.401,modified,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.27,282,1.19,3.57,0.7,,0.58,0.214,2.657,1,6.7,0.9,Semi Diurnal
+VIC,Little River,-38.005,144.592,modified,tide dominated,OTHER,,,,,,,,,,,,,,,6,890,0.15,2.77,0.12,,0.066,0.285,2.877,1.2,6.9,1.1,Semi Diurnal
+VIC,Mallacoota Inlet,-37.569,149.763,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.86063,19.76209,1.87327,0.95698,3.86887,,1.00609,0.06924,0.1705,,5.77364,,,,142.05,1846,33.13,24.67,5.09,1.54,0.22,1.391,6.721,5.1,11.6,1,Diurnal
+VIC,Merri River,-38.361,142.478,extensively modified,wave dominated,OTHER,,,,0.01938,0.01427,,,,0.01248,,0.21102,,,0.00961,,,,,,,,,,,,,
+VIC,Merriman Creek,-38.426,147.13,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,12.74,,1.25,5.07,0.7,3.45,0.067,,,,,,
+VIC,Moyne River,-38.384,142.242,modified,wave dominated,WAVE-DOMINATED ESTUARY,,0.8029,0.26745,0.02379,0.31764,,0.50733,0.01364,0.08622,,0.27154,,,0.55146,,687,,,,,,1.668,8.952,5.8,15.1,0.8,Diurnal
+VIC,Mueller River,-37.781,149.326,no assessment,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,13.56,573,0.44,5.18,0.16,,0.092,1.099,6.607,4.1,11.8,1.1,Diurnal
+VIC,Painkalac Creek/Aireys Inlet,-38.467,144.094,largely unmodified,wave dominated,STRANDPLAIN,0.00711,,,,0.0945,,0.0111,,,,0.09726,,,,0,,0,,,,,,,,,,
+VIC,Patterson River,-38.074,145.119,modified,tide dominated,OTHER,,,,,,,,,,,,,,,15.36,684,0.75,5.48,0.15,,0.062,0.475,6.454,2.2,15.3,1.5,Semi Diurnal
+VIC,Port Campbell River,-38.632,142.98,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,0.01002,,,0.00965,0.00518,,0.09131,,0.12431,,0.0794,,,,0,,0,,,,,,,,,,
+VIC,Port Phillip Bay,-38.297,144.632,modified,tide dominated,OTHER,,,,,,,,,,,,,,,257.36,15709,1897.42,63.52,53.63,3.43,3.46,0.612,6.697,2.4,14.3,1.2,Semi Diurnal
+VIC,Powlett River,-38.583,145.511,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,1.09,,0.027,0.47,0.076,,0.022,,,,,,
+VIC,Red River,-37.727,149.563,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.06418,0.05363,0.04748,0.03546,0.02974,,0.11225,,,,0.1093,,,,4.05,,0.083,1.92,0.067,,0.046,,,,,,
+VIC,Saint George River,-38.569,143.965,near pristine,wave dominated,OTHER,,,,,0.08793,0.03006,0.02087,,,,0.00301,,,,0,,0,,,,,,,,,,
+VIC,Shallow Inlet,-38.871,146.184,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,2.99533,,,0.42845,7.04799,,11.67968,0.11473,0.10634,,2.98393,,,0.14586,48.52,83,5.03,14,0.26,1.82,0.29,1.597,8.455,6.1,14.5,2.1,Semi Diurnal
+VIC,Sherbrook River,-38.644,143.057,largely unmodified,wave dominated,OTHER,0.00711,,,,0.04393,,,,0.00366,,0.02863,,,,1.17,,0.029,0.54,0.077,,0.048,,,,,,
+VIC,Shipwreck Creek,-37.649,149.699,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,0,,0,,,,,,,,,,
+VIC,Skeleton Creek,-37.899,144.8,modified,wave dominated,OTHER,,,,,,,,,,,,,,,12.72,115,0.59,4.19,0.32,,0.035,0.466,5.611,2,13.6,0.9,Semi Diurnal
+VIC,Skenes Creek,-38.725,143.712,modified,wave dominated,OTHER,,,,0.01003,0.08013,,,,0.02447,,0.01602,,,,0,,0,,,,,,,,,,
+VIC,Snowy River,-37.805,148.557,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.99424,5.03053,0.38535,0.31979,1.2373,,6.04228,,,,3.87305,,,0.50016,71.99,15096,9.81,13.96,0.53,6.23,0.24,1.238,6.341,4,10.6,1.1,Semi Diurnal
+VIC,Spring Creek,-38.341,144.32,modified,river dominated,WAVE-DOMINATED DELTA,0.00868,,,,0.00259,,0.01262,,0.00819,,0.072,,,,0,,,,,,,,,,,,
+VIC,Surrey River,-38.26,141.704,largely unmodified,wave dominated,STRANDPLAIN,0.03366,,,,,,0.32999,,,,0.18336,,,,2.9,370,0.085,1.4,,,0.051,1.187,8.13,4.1,14.7,0.8,Diurnal
+VIC,Swan Bay,-38.231,144.697,modified,tide dominated,OTHER,,,,,,,,,,,,,,,40.17,192,27.42,10.09,4.11,,2.13,1.278,8.313,4.5,14.9,1.2,Semi Diurnal
+VIC,Sydenham Inlet,-37.781,149.017,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.54957,9.91461,0.67093,0.1674,1.44033,,7.11582,,,,0.94002,,,0.11081,56.16,1109,13.55,13.95,4.59,2.22,0.34,1.106,6.318,4.2,11.8,1.1,Semi Diurnal
+VIC,Tamboon Inlet,-37.779,149.148,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.30325,5.74239,0.40109,0.01528,0.38371,,1.66415,0.08147,,,0.97658,,,0.07341,36.63,1216,8.06,13.99,2.44,1.39,0.12,1.167,6.407,4.4,12.4,1.1,Diurnal
+VIC,Thompson Creek,-38.305,144.377,modified,wave dominated,STRANDPLAIN,0.12177,,,0.0156,0.07182,,2.86322,,0.00843,,0.41139,,,0.75183,5.83,230,0.15,2.64,0.11,,0.072,0.853,7.349,3.1,13.9,1,Semi Diurnal
+VIC,Thurra River,-37.784,149.311,near pristine,wave dominated,OTHER,,,,,,,,,,,,,,,12.04,,0.28,5.5,0.12,,0.12,,,,,,
+VIC,Tidal River,-39.035822,146.31218,largely unmodified,wave dominated,STRANDPLAIN,0.07508,,,0.06019,0.0445,,0.05981,,0.00204,,0.06227,,,,0,,0,,,,,,,,,,
+VIC,Werribee River,-37.98,144.688,modified,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,13.41,1484,0.49,5.98,0.19,,0.28,0.265,2.805,1,5.2,1,Semi Diurnal
+VIC,Western Port Bay,-38.429,145.216,modified,tide dominated,OTHER,,,4.13857,3.46703,90.57019,15.36289,29.65951,3.69584,5.51959,,577.74547,,,259.39728,197,3652,469.45,38.57,7.16,,4.87,1.441,8.323,5.1,14.4,2.3,Semi Diurnal
+VIC,Wild Dog Creek,-38.734,143.689,largely unmodified,wave dominated,OTHER,0.01145,,,,0.00452,,,,,,0.02128,,,,0,,,,,,,,,,,,
+VIC,Wingan Inlet,-37.749,149.513,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.06507,,0.11934,0.28279,0.37995,,0.73667,,0.02322,,0.71609,,,0.00589,22.35,520,1.5,9.68,0.64,0.56,0.12,1.573,6.731,5.6,11.4,1.1,Diurnal
+VIC,Wye River,-38.635,143.891,largely unmodified,wave dominated,STRANDPLAIN,0.01752,,,,0.01493,,0.00245,,,,0.02124,,,,0,,0,,,,,,,,,,
+VIC,Yarra River,-37.852,144.905,modified,river dominated,WAVE-DOMINATED DELTA,,,,,,,,,,,,,,,37.73,5481,3.48,13.08,0.4,,0.9,0.513,6.303,2.2,14.5,0.8,Diurnal
+VIC,Yeerung River,-37.791,148.775,near pristine,wave dominated,STRANDPLAIN,0.05276,,,0.00133,0.0256,,0.06841,,,,0.19176,,,,3.51,176,0.15,1.6,0.14,,0.048,0.625,6.358,2.8,12.6,1.1,Semi Diurnal
+WA,Ashburton River,-21.69,114.914,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,,2.87303,2.98174,28.12473,0.05251,,,3.28681,,,2.70283,44.12,78420,3.78,21.47,,,0.66,0.384,3.388,1.6,7.7,1.8,Semi Diurnal
+WA,Baldwin Creek,-17.017,122.367,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,74,,,,,,0.66,5.039,4,12.9,6.5,Semi Diurnal
+WA,Banningarra Creek,-20,119.717,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,1340,,,,,,0.218,3.895,0.9,9.2,5.9,Semi Diurnal
+WA,Barker Inlet,-33.821,121.35,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.06729,1.41736,0.27162,,0.0347,,,,,,,,,,7.62,,1.44,2.49,1.23,0.82,0.044,,,,,,
+WA,Beagle Bay,-16.942,122.563,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,26.87,1659,8.35,6.93,,,3.85,0.264,4.982,3.1,12.2,6.9,Semi Diurnal
+WA,Beaufort Inlet,-34.472,118.902,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.40786,4.24005,0.24196,,0.18425,,0.41858,,,,2.19181,,,21.52876,35.59,6260,6.81,13.89,1.48,0.21,0.259,1.543,7.522,4.3,14.4,0.6,Diurnal
+WA,Beebingarra Creek,-20.327,118.672,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,1.48838,4.76641,16.2892,,,,15.79853,,,9.51612,32.23,483,3.13,2.69,,,1.37,0.028,4.554,0.4,9.7,5.8,Semi Diurnal
+WA,Berkeley River,-14.349,127.781,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,62.01,5149,6.61,24.82,,,0.62,0.495,3.974,4.4,8.7,4,Diurnal
+WA,Boongaree Island Creek,-15.047,125.136,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,93.49,374,51.32,19.42,4.65,,3.09,0.429,4.557,4.7,9.4,6.5,Semi Diurnal
+WA,Bowes River,-28.412,114.454,modified,river dominated,WAVE-DOMINATED DELTA,0.03141,,,,0.07926,0.09294,,,0.01842,,0.23906,,,0.01882,5.78,,0.15,2.83,,,0.069,,,,,,
+WA,Broke Inlet,-34.937,116.373,near pristine,wave dominated,WAVE-DOMINATED ESTUARY,0.11924,41.03584,4.78425,0.81619,1.44994,,,,0.02768,,0.82087,,,0.53683,65.58,2061,36.23,16.25,5.86,4.25,0.2,2.157,8.63,10.3,13.8,0.4,Diurnal
+WA,Buckle Head Creek,-14.451,127.832,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,0.80632,2.85879,5.15172,1.68782,,,0.88152,,5.52284,0.16649,14.73,115,0.61,6.23,,,0.81,0.496,4.1,4.5,8.8,4.4,Semi Diurnal
+WA,Cane River,-21.546,115.378,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,2.23558,0.9327,14.87645,,,,0.60923,,,3.36509,8.17,4472,0.24,2.7,,,0.22,0.317,3.705,1.2,9.9,2.4,Semi Diurnal
+WA,Cape Londonderry Creeks,-13.945,127.205,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.24,96,2.09,3.47,,,1.28,0.553,4.814,4.4,8.5,2.9,Diurnal
+WA,Cape Londonderry Creeks,-13.746,126.9,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,27.8,134,11.33,9.21,,,3.48,0.675,4.814,5.1,8.6,3.1,Diurnal
+WA,Cape Londonderry Creeks,-13.887,127.081,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.31,668,2.54,4.09,,,1.88,0.128,4.701,2.8,8.9,3,Diurnal
+WA,Cape Londonderry Creeks,-13.766,126.835,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,31.69,261,16.59,7.74,,,3.29,0.704,5.003,5.6,8.5,3,Diurnal
+WA,Cape Torrens Embayment,-15.042,125.093,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.52,74,7.91,8.33,,,2.59,0.429,4.557,4.7,9.4,6.6,Semi Diurnal
+WA,Cape Whiskey Creek,-14.064,127.457,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.99,157,0.46,2.3,,,0.21,0.559,4.443,4.7,8.6,3.4,Diurnal
+WA,Carnot Bay,-17.151,122.263,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,,1483,,,,,,0.506,5.019,3.3,13.6,6.6,Semi Diurnal
+WA,Cascade Bay,-16.598,123.516,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,122.68,370,60.42,21.09,5.44,,1.13,0.294,3.151,2.2,7.2,7.8,Semi Diurnal
+WA,Chapman River,-28.728,114.619,no assessment,wave dominated,OTHER,0.01553,,,0.0076,0.01591,0.03681,0.0083,,,,0.05472,,,,4.06,,,1.94,,,0.039,,,,,,
+WA,Cheyne Inlet,-34.603,118.756,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.03245,0.09443,,0.01064,0.01237,,0.04045,,0.01651,,0.12869,,,,2.91,,0.068,1.15,0.12,0.19,0.025,,,,,,
+WA,Chile Creek,-16.522,122.85,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.89,39,1.87,4.9,,,0.99,0.696,5.231,4.9,11.9,7.1,Semi Diurnal
+WA,Cone Bay,-16.507,123.578,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,38.71,296,11.6,13.54,,,2.16,0.199,3.145,1.8,7.7,8.1,Semi Diurnal
+WA,Coppermine Creek,-16.165,123.57,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,44.03,72,10.55,10.5,,,1.7,0.499,4.474,3.9,9,8.5,Semi Diurnal
+WA,Culham Inlet,-33.922,120.044,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,2.7169,8.59499,3.18684,0.25838,0.55466,,,,,,1.30191,,,,,2485,,,,,,1.565,7.472,4.7,14.9,0.7,Diurnal
+WA,Dampier Creek (Broome),-17.961,122.25,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,8.97,111,0.57,2.73,,,0.76,0.169,5.539,1.6,13.6,8.3,Semi Diurnal
+WA,De Grey River,-19.99,119.16,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,12.30917,1.6347,27.69745,0.19599,,,12.1035,,,0.10662,,54752,,,,,,0.363,3.737,1.7,8.2,5.9,Semi Diurnal
+WA,Deception Bay,-15.631,124.413,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,48.13,241,21.68,9.95,8.42,,1.69,0.547,5.25,4.7,12.5,8.8,Semi Diurnal
+WA,Dempster Inlet,-34.079,119.669,modified,wave dominated,WAVE-DOMINATED ESTUARY,2.06916,1.47528,0.51785,0.2731,0.20582,,,,,,0.17347,,,,11.83,,2.56,5.2,0.83,0.98,0.12,,,,,,
+WA,Disaster Bay,-16.916,123.156,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,21.93,541,1.23,5.59,,,0.84,0.21,3.079,2.1,6.2,7.7,Semi Diurnal
+WA,Doctors Creek,-17.185,123.635,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,161.25,287,62.21,31.16,,,2.35,0.122,2.657,0.9,7.7,9.3,Semi Diurnal
+WA,Donnelly Inlet,-34.488,115.677,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.69449,0.43972,1.03199,0.10218,0.53515,,,0.00941,,,0.24727,,,,16.41,,0.7,6.5,,,0.1,,,,,,
+WA,Doubtful Bay East,-16.118,124.584,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,65.97,163,10.64,11.33,,,1.82,0.21,3.179,1.9,8.5,9.1,Semi Diurnal
+WA,Doubtful Bay South,-16.157,124.521,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,87.01,635,11.59,14.54,,,2.89,0.21,3.179,1.9,8.5,9.5,Semi Diurnal
+WA,Drysdale River,-13.947,126.8,modified,tide dominated,TIDE-DOMINATED ESTUARY,,,,0.36391,5.46149,27.30168,6.95178,21.07454,,,24.98439,,,2.48897,130.82,15106,41.73,25.77,,,4.64,0.049,3.538,1.2,8.6,2.8,Diurnal
+WA,Eagle Point,-16.177,124.431,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,25.83,21,1.54,5.18,,,0.75,0.213,2.965,1.8,7.8,9.7,Semi Diurnal
+WA,False Mouth Of Ord,-14.851,128.37,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,639.15,2298,200.59,38.89,,,16.51,0.351,3.665,3.3,8.7,5.2,Semi Diurnal
+WA,Fitzgerald Inlet,-34.106,119.634,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,1.93652,4.62466,3.28074,0.53353,0.32861,,0.10026,,,,0.60782,,,,29.26,,8.36,10.36,1.98,1.87,0.15,,,,,,
+WA,Fitzroy River,-17.39,123.542,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,39.06878,30.30006,580.64973,13.84961,,,67.76276,,,9.44507,161.26,103900,62.21,31.16,,,3.84,0.151,2.629,1.5,6.1,9.3,Semi Diurnal
+WA,Fortescue River,-20.997,116.103,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,8.27375,1.19094,13.7771,0.05152,,,4.05968,,,7.49194,36.15,50006,2.053,8.44,,,0.75,0.042,4.314,0.5,8.2,3.4,Semi Diurnal
+WA,Fraser River,-17.297,123.397,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,33.61,2752,3.68,11.39,,,0.8,0.164,2.692,1.7,5.7,9,Semi Diurnal
+WA,Gardener Lake,-34.973,118.178,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,0.01419,0.033,,0.01013,,,,0.14779,,,,10.84,,2.1,4.36,1.85,2.1,0.093,,,,,,
+WA,Gascoyne River,-24.867,113.614,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,0.33771,2.85613,11.38826,5.43582,22.92387,,,25.79944,,,6.95724,16.88,78548,4.04,7.48,,,0.75,0.646,6.028,2.1,13.3,0.9,Diurnal
+WA,George River,-20.736,117.381,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,3.62552,2.73764,37.93188,0.14097,,,4.07671,,,4.90234,18.39,61,2.49,5.75,,,1.33,0.269,3.673,1.2,7.5,4.5,Semi Diurnal
+WA,George Water,-15.956,124.589,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,294.61,2824,197.6,62.52,7.55,6.71,2.1,0.179,3.57,1.5,10,8.6,Semi Diurnal
+WA,Giralia Bay,-22.437,114.346,largely unmodified,tide dominated,OTHER,,,,,17.37811,16.09773,27.23488,0.19024,,,31.47847,,,0.10079,,1214,,,,,6.72,0.205,2.985,1,7.1,1.6,Semi Diurnal
+WA,Goodenough Bay,-16.779,123.115,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,32.63,161,3.75,6.74,,,1.95,0.041,3.372,1.3,6.9,7.4,Semi Diurnal
+WA,Gordon Inlet,-34.29,119.504,modified,wave dominated,WAVE-DOMINATED ESTUARY,2.43258,2.68768,,0.20931,0.41485,,0.68368,,,,0.46265,,,,27.17,,2.91,11.66,1.54,0.78,0.3,,,,,,
+WA,Greenough River,-28.865,114.636,extensively modified,wave dominated,STRANDPLAIN,0.0606,,,,0.55433,1.03657,,,0.22305,,0.65791,,,,11.33,,0.81,5.43,,,0.14,,,,,,
+WA,Hamersley Inlet,-33.969,119.908,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.46053,1.22707,0.42303,0.22507,0.55475,,,,0.01521,,0.27872,,,0.01376,18.27,,1.99,7.52,1.08,0.89,0.13,,,,,,
+WA,Hampton Harbour (Dampier),-20.688,116.653,modified,tide dominated,OTHER,,,,,,,,,,,,,,,46.16,248,10.73,9.42,,,1.54,0.235,3.333,0.8,9.6,3.7,Semi Diurnal
+WA,Hanover Bay,-15.304,124.775,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,26.67,47,7.02,6.92,,,0.97,0.101,4.585,4,9,7.6,Semi Diurnal
+WA,Harding River,-20.675,117.196,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,0.35095,2.94736,3.99643,0.78207,,,1.73267,,,2.31025,24.27,1797,2.52,5.2,,,0.61,0.469,4.021,2.2,7.4,4.6,Semi Diurnal
+WA,Hardy Inlet,-34.324,115.176,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.47713,6.22106,6.76775,0.92045,0.09842,,4.54447,0.02068,0.12048,,2.3707,,,0.03006,89.51,21223,12.53,30.65,,,0.53,1.562,8.532,9.8,14.4,0.6,Diurnal
+WA,Helby River,-14.748,128.182,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,1.13034,10.92309,18.2104,11.68389,0.04675,,2.90595,,,,27.08,105,2.06,7.67,,,0.51,0.432,3.795,3.5,8.5,4.9,Semi Diurnal
+WA,High Bluff Creek,-16.241,124.403,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,21.98,41,1.45,6.65,,,1.94,0.213,2.965,1.8,7.8,10,Semi Diurnal
+WA,Hill River,-30.387,115.05,modified,wave dominated,STRANDPLAIN,0.02199,,,,0.15893,0.08351,,,,,0.12778,,,,0,,0,,,,,,,,,,
+WA,Hoon Creek,-17.109,123.293,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,21.93,976,1.25,5.59,,,0.42,0.24,3.015,2.3,6,8.5,Semi Diurnal
+WA,Hunter River,-15.042,125.379,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,64.6,408,19.62,17.58,,,2.45,0.314,4.378,3,10.7,6,Semi Diurnal
+WA,Hutt Lagoon,-28.222,114.305,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,0.0905,,,,0.30463,0.1162,,0.00536,,,0.15561,,,,9.44,,0.19,4.64,,,0.044,,,,,,
+WA,Irwin Inlet,-35.021,116.958,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.56274,8.7605,0.2798,2.70454,0.30569,,0.34095,,,,0.71379,,,0.01614,20.87,344,10.37,4.8,5.13,2.22,0.11,2.308,8.412,9.7,13.6,0.5,Diurnal
+WA,Irwin River,-29.259,114.92,extensively modified,wave dominated,OTHER,0.04365,,,,0.06368,0.11706,0.05524,,0.03143,,0.2043,,,0.02156,,,,,,,,,,,,,
+WA,Jaubert Creek,-18.95,121.571,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,179,,,,,,0.156,5.142,1.1,11.7,7.8,Semi Diurnal
+WA,Jerdacuttup Lakes,-33.936,120.258,modified,other,OTHER,,,,,,,,,,,,,,,57.35,,23.45,13.65,5.74,,,,,,,,
+WA,Jinunga River,-16.326,123.602,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,84.21,244,49.85,13.49,12.94,,0.65,0.244,3.432,2.2,9.2,8.4,Semi Diurnal
+WA,Jones River,-20.734,117.356,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,4.01386,2.65253,30.07283,0.76122,,,5.22806,,,2.77059,17.4,728,2.78,5,,,1.24,0.269,3.673,1.2,7.5,4.5,Semi Diurnal
+WA,Kammargoorh River,-16.394,123.624,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,78.71,272,31.47,13.58,,,5.44,0.244,3.432,2.2,9.2,8.4,Semi Diurnal
+WA,Kelk Creek,-16.738,122.765,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,30.88,563,9.01,9.89,,,1.67,0.552,4.776,4,11.2,7.2,Semi Diurnal
+WA,King Edward River,-14.179,126.587,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,1.108,9.20693,2.68662,8.52849,0.06824,,19.69312,,,1.46454,95.1,9002,25.78,28.96,,,4.31,0.079,4.789,2.3,8.5,2.8,Diurnal
+WA,King George River,-13.958,127.33,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,62.96,2776,9.14,18.24,0.48,,1.13,0.596,4.77,5.1,8.4,2.9,Diurnal
+WA,King Sound (Goodenough To Cascade),-16.703,123.31,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,306.06,136668,3293.25,81.02,,,44.27,0.278,2.997,2.4,5.9,8.7,Semi Diurnal
+WA,Lake Macleod/Cardabia Crk/Lyndon/Minilya,-24.217,113.643,near pristine,other,OTHER,,,,,,,,,,,,,,,261.9,,,,,,,,,,,,
+WA,Lawley River,-14.632,125.917,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,75.58,1201,12.64,10.18,,,3.24,0.217,3.416,2.1,7.6,6,Semi Diurnal
+WA,Leschenault Inlet,-33.304,115.672,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,10.8788,21.93965,2.66441,0.52001,1.29873,,2.10326,,,,1.72021,,,0.07762,54.44,4552,26.16,13.27,11.01,0.65,0.27,1.273,6.872,8.3,12.3,0.5,Diurnal
+WA,Little Sherlock River,-20.732,117.431,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,5.39179,1.69084,29.07291,0.19487,,,6.37021,,,10.50374,18.51,2165,1.31,4.51,,,1,0.269,3.673,1.2,7.5,4.5,Semi Diurnal
+WA,Lombadina Creek,-16.541,122.819,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.27,56,2.26,3.97,,,0.92,0.696,5.231,4.9,11.9,7.1,Semi Diurnal
+WA,Lyne River,-14.861,128.15,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,1.02235,22.30617,33.78592,0.21298,,,13.4538,,,1.40853,101.4,335,15.65,20.35,,,4.55,0.344,3.611,2.9,8,5.2,Semi Diurnal
+WA,Maitland River,-20.777,116.514,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,5.04301,3.20029,9.20035,0.30325,,,4.35763,,,8.45323,7.46,2123,0.3,3.07,,,0.49,0.235,3.333,0.8,9.6,3.6,Semi Diurnal
+WA,Margaret River,-33.972,114.986,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.15073,0.08399,0.01119,,0.03122,,,,0.12883,,0.12032,,,,5.46,518,0.25,2.58,,,0.14,2.405,8.182,12.1,13.5,0.7,Diurnal
+WA,May River,-17.074,123.789,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,123.05,13188,73.43,32.5,,,6.92,0.012,2.868,0.5,9.5,9,Semi Diurnal
+WA,Mckelson Creek,-18.817,121.65,near pristine,wave dominated,STRANDPLAIN,,,,,,,,,,,,,,,,211,,,,,,0.546,4.496,1.7,10.9,7.8,Semi Diurnal
+WA,Meda River,-16.968,123.817,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,81.22,3467,24.68,23.76,,,4.82,0.169,2.72,1.3,7.6,8.8,Semi Diurnal
+WA,Mission Cove,-14.123,126.697,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,27.32,170,4.25,4.59,,,2.64,0.323,4.062,3.4,8.4,2.4,Diurnal
+WA,Mitchell River,-14.427,125.697,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,3.92555,33.58597,15.34718,,,,97.10273,,,31.52752,130.14,3704,64.92,37.22,,,5.81,0.4,4.325,2.7,8.5,5.7,Semi Diurnal
+WA,Montague Sound Creeks,-14.537,125.453,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,84.25,184,35.06,14.51,,,3.01,0.329,3.866,3.4,7.6,5.6,Semi Diurnal
+WA,Montague Sound Creeks,-14.412,125.664,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,12.45,30,0.54,3.58,,,0.49,0.4,4.325,2.7,8.5,5.6,Semi Diurnal
+WA,Montague Sound Creeks,-14.34,125.675,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.62,64,1.17,1.78,,,1.25,0.335,3.992,2.4,7.7,5.6,Semi Diurnal
+WA,Montague Sound Creeks,-14.39,125.658,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,9.88,27,0.99,2.24,,,1.35,0.4,4.325,2.7,8.5,5.6,Semi Diurnal
+WA,Moore River Estuary,-31.353,115.499,extensively modified,river dominated,WAVE-DOMINATED DELTA,0.02897,,,0.03909,0.06684,0.23107,0.02356,,,,0.86058,,,0.01241,12.26,,0.46,5.89,,,0.065,,,,,,
+WA,Mt Connor Creek,-14.535,126.043,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,11.6,100,0.59,5.41,,,0.45,0.166,3.122,1.5,7.7,5.8,Semi Diurnal
+WA,Mt Waterloo Creeks,-15.19,124.861,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.8,46,4.79,4.92,,,1.31,0.528,4.775,5.5,9.2,7.3,Semi Diurnal
+WA,Mudge Bay,-14.569,125.374,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,18.96,60,3.73,6.75,,,1.45,0.329,3.866,3.4,7.6,5.6,Semi Diurnal
+WA,Murchison River,-27.708,114.159,modified,wave dominated,WAVE-DOMINATED ESTUARY,,,,,,,,,,,,,,,34.11,89184,3.04,15.81,0.77,1.92,0.21,1.836,7.416,5.8,14,0.4,Diurnal
+WA,Myridi Bay,-16.16,123.618,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,18.76,31,2.36,6.42,,,0.8,0.499,4.474,3.9,9,8.7,Semi Diurnal
+WA,Nickol River,-20.712,116.925,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,2.05391,3.46491,18.71995,,,,3.85865,,,1.5358,9.85,622,0.29,3.6,,,0.19,0.213,4.242,1.4,7.6,4,Semi Diurnal
+WA,Ningbing Range Creeks,-14.777,128.525,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.98,81,1.94,6.09,,,0.97,0.466,3.858,4,8.7,5.3,Semi Diurnal
+WA,Ningbing Range Creeks,-14.795,128.609,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,22.8,176,2.78,8.09,,,1.04,0.303,3.557,2.8,8.7,5.3,Semi Diurnal
+WA,Ningbing Range Creeks,-14.833,128.745,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,28.02,355,3.84,11.2,,,1.23,0.317,3.554,2.9,8.5,5.3,Semi Diurnal
+WA,Normans Inlet,-34.924,118.217,modified,wave dominated,OTHER,0.0665,0.13606,,,,,,,,,0.18742,,,,2.33,,0.13,0.89,,,0.051,,,,,,
+WA,Oakajee River,-28.583,114.582,modified,river dominated,WAVE-DOMINATED DELTA,,,,,0.20923,0.19973,,,0.01106,,,,,,6.45,,0.23,3.13,,,0.11,,,,,,
+WA,Oldfield Estuary,-33.888,120.787,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.14265,0.51751,,0.17141,0.02898,,,,0.36626,,0.37024,,,0.01543,12.72,,1.14,5.33,0.71,1.13,0.13,,,,,,
+WA,Ord River,-14.764,128.307,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,12.89795,418.79311,1385.89413,28.66881,0.14998,,1248.52621,,,170.20654,857.11,85213,1084.1,119.37,,,22.2,0.283,3.524,2.6,8.4,6,Semi Diurnal
+WA,Oyster Harbour,-35,117.949,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,,11.76691,3.43782,0.81274,2.43648,,0.83272,,0.0706,,0.3051,,,0.06758,43.04,3030,18.34,14.11,3.19,0.31,0.19,1.71,8.062,5.3,14.4,0.6,Diurnal
+WA,Pardoo Creek,-20.081,119.577,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,5.73894,1.00451,9.27387,,,,0.49622,,,0.34661,,2607,,,,,,0.433,3.693,1.4,8.7,5.9,Semi Diurnal
+WA,Parry Inlet,-35.031,117.162,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,,0.85759,0.02749,0.1526,0.49923,,0.02631,,,,0.28763,,,0.02684,9.6,1352,1.27,4.15,1.27,2.08,0.08,2.273,8.517,9.6,13.7,0.5,Diurnal
+WA,Pauline Bay,-14.183,126.345,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,11.48,158,2.18,3.5,,,1.85,0.293,4.088,2.9,7.6,3.1,Diurnal
+WA,Peawah River,-20.535,117.926,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,5.81956,5.6004,41.85387,1.08484,,,5.74189,,,3.79797,32.84,1893,5.56,5.59,,,1.63,0.224,4.07,1,8.5,4.9,Semi Diurnal
+WA,Peel-Harvey Estuary,-32.526,115.71,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,26.68578,121.10552,27.47919,10.97612,2.75064,,3.002,0.12123,,,1.28183,,,1.37735,123.14,10767,131,28.48,9.66,5.21,0.46,1.194,7.531,7.3,13.5,0.4,Diurnal
+WA,Petermarer Creek,-20.289,118.756,largely unmodified,river dominated,WAVE-DOMINATED DELTA,,,,,2.72016,3.83389,20.33483,0.12923,0.01208,,6.19486,,,11.39159,25.54,560,2.45,4.81,,,2,0.028,4.554,0.4,9.7,5.8,Semi Diurnal
+WA,Point Torment Creeks,-17.003,123.61,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,0.58211,,0.17503,,0.11373,,28.15257,,,,19.8,49,1.27,6.66,,,0.51,0.127,2.91,1.7,6.8,8.8,Semi Diurnal
+WA,Point Torment Creeks,-17.037,123.693,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,107.21,222,22.64,20.14,,,3.59,0.016,2.958,0.8,8.7,9,Semi Diurnal
+WA,Port Hedland Harbour,-20.307,118.575,modified,tide dominated,OTHER,1.87507,,,,8.48195,20.00031,31.14374,1.36179,0.82131,,21.78703,,,16.25275,82.77,613,17.05,6.97,,,1.47,0.104,4.469,0.8,9.1,5.9,Semi Diurnal
+WA,Port Robinson,-20.62,117.092,largely unmodified,tide dominated,OTHER,,,,,7.07445,3.35385,5.68585,,0.09765,,10.45448,,,7.08591,23.34,70,10.02,6.72,,,0.95,0.213,4.242,1.4,7.6,4.3,Semi Diurnal
+WA,Port Smith,-18.51,121.795,near pristine,wave dominated,STRANDPLAIN,,,,,2.09713,4.9952,5.07908,,,,2.52513,,,0.10652,,140,,,,,,0.75,4.878,2.8,11,7.8,Semi Diurnal
+WA,Prince Regent River,-15.246,124.86,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,590.23,4964,425.56,81.44,18.18,14.91,2.74,0.528,4.775,5.5,9.2,7.4,Semi Diurnal
+WA,Princess Royal Harbour,-35.039,117.919,modified,tide dominated,OTHER,,,,,0.58211,,0.17503,,0.11373,,28.15257,,,,25.66,117,28.54,5.43,8.41,0.91,0.56,1.71,8.062,5.3,14.4,0.6,Diurnal
+WA,Prior Point Creek,-15.727,124.397,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,15.01,138,1.75,4.23,1.1,1.4,0.15,0.157,5.659,3.4,13.9,8.8,Semi Diurnal
+WA,Ridley River,-20.224,118.853,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,2.79867,0.99584,6.43816,0.94211,,,1.60949,,,4.35597,13.23,647,1.49,4.88,,,0.84,0.135,4.144,0.7,10.5,5.8,Semi Diurnal
+WA,Robe River,-21.279,115.71,largely unmodified,river dominated,TIDE-DOMINATED DELTA,,,,,1.92523,1.40003,10.12829,0.26233,,,3.10066,,,2.32783,33.93,7487,1.89,7.83,,,1.31,0.452,4.025,1.7,10.9,2.9,Semi Diurnal
+WA,Robinson River,-16.932,123.81,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,62.72,3329,50.02,10.74,,,0.54,0.169,2.72,1.3,7.6,8.7,Semi Diurnal
+WA,Rocky Cove,-14.22,126.245,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,34.59,155,7.53,10.08,2.75,,1.51,0.265,4.81,2.7,11.8,3,Diurnal
+WA,Roe River,-15.133,125.373,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,104.82,3625,29.85,28.33,,,3.08,0.314,4.378,3,10.7,6.2,Semi Diurnal
+WA,Saddle Hill Creeks,-16.763,123.7,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,51.51,186,5.93,9.55,,,2.8,0.193,2.807,1.3,8.1,8.4,Semi Diurnal
+WA,Saddle Hill Creeks,-16.841,123.757,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,50.67,62,3.73,10.74,,,0.54,0.193,2.807,1.3,8.1,8.5,Semi Diurnal
+WA,Saddle Hill Creeks,-16.793,123.721,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,30.36,73,2.17,14.37,,,0.85,0.193,2.807,1.3,8.1,8.4,Semi Diurnal
+WA,Saint Marys River,-34.163,119.578,no assessment,wave dominated,WAVE-DOMINATED ESTUARY,0.08714,,0.20729,0.01983,0.01536,,0.13186,,,,0.16351,,,,7.42,,,3.38,0.33,0.72,0.17,,,,,,
+WA,Sale River,-15.972,124.597,near pristine,tide dominated,OTHER,,,,,0.93585,4.80759,0.1548,1.21349,,,5.56581,,,0.08498,58.29,1438,8.66,26.3,,,0.75,0.179,3.57,1.5,10,8.7,Semi Diurnal
+WA,Sampson Inlet,-15.512,124.459,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,4.18,98,22.99,8.1,1,2.45,0.83,0.148,5.989,3,13.7,8.4,Semi Diurnal
+WA,Scott Straight Creeks,-14.664,125.211,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,80.43,411,23.63,16.96,3.21,,1.66,0.359,6.004,3.3,13.8,5.8,Semi Diurnal
+WA,Scott Straight Creeks,-14.974,125.234,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,16.98,13,6.32,4.33,,,1.47,0.388,4.594,4.1,10,6.2,Semi Diurnal
+WA,Scott Straight Creeks,-14.887,125.306,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,13.77,104,2.78,3.88,2.17,,0.97,0.359,5.166,2.8,12.8,5.9,Semi Diurnal
+WA,Scott Straight Creeks,-14.979,125.272,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.1,29,6.12,5.44,,,1.38,0.314,4.378,3,10.7,6.1,Semi Diurnal
+WA,Scott Straight Creeks,-14.865,125.23,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,15.48,63,3.04,4.67,,,1.01,0.461,5.353,3.7,11.6,6,Semi Diurnal
+WA,Secure Bay,-16.416,124.331,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,233.04,1778,72.39,27.85,3.56,1.47,1.2,0.19,2.823,1.7,6.2,10.5,Semi Diurnal
+WA,Shark Bay,-25.404,113.357,largely unmodified,tide dominated,OTHER,,,,,,,,,,,,,,,1106.2,49608,9567.1,,,,95.5,0.84,5.35,2.9,13.1,0.9,Diurnal
+WA,Sherlock River,-20.664,117.652,largely unmodified,tide dominated,TIDE-DOMINATED ESTUARY,,,,,10.46389,9.96757,48.91269,0.3693,0.04264,,13.77678,,,1.45545,50.47,5168,10.81,9.37,,,3.43,0.32,3.768,1.2,7.4,4.9,Semi Diurnal
+WA,Shoal Bay,-16.346,124.207,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,63.29,174,22.73,9.82,,,4.03,0.19,2.823,1.7,6.2,10.3,Semi Diurnal
+WA,Stokes Inlet,-33.855,121.136,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.1834,8.62475,1.51265,0.03174,1.50793,,,,0.4304,,0.79879,,,0.0909,46.3,6384,11.57,12.85,2.46,2.23,0.079,1.484,8.204,5.2,15.2,0.7,Diurnal
+WA,Swan River,-32.055,115.735,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,13.89036,32.96842,6.94898,,2.07434,0.04265,1.32747,0.38509,0.1517,,3.43946,,,0.41985,111.22,18440,37.65,36.34,3.62,9.28,0.39,1.205,8.032,7.3,14.3,0.4,Diurnal
+WA,Tabba Tabba Creek,-20.265,118.822,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,4.44861,4.29987,14.10361,0.12331,,,4.08491,,,1.24986,17.92,621,1.87,4.63,,,0.85,0.135,4.144,0.7,10.5,5.8,Semi Diurnal
+WA,Talbot Bay,-16.211,123.866,near pristine,tide dominated,OTHER,,,,,,,,,,,,,,,276.71,1024,283.24,28.38,17.87,,1.54,0.103,3.362,1.2,6.2,8.7,Semi Diurnal
+WA,Tappers Inlet,-16.816,122.554,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,10.42,84,2.8,2.83,2.06,,0.71,0.67,5.048,4.5,11.6,7,Semi Diurnal
+WA,Taylor Inlet,-34.999,118.063,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.79676,0.42209,,0.01662,0.00138,,,,0.01836,,0.00415,,,,5.56,,0.48,1.49,1.19,0.31,0.067,,,,,,
+WA,Thompson River,-14.898,128.131,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,1.1084,16.1941,25.39033,,,,14.15721,,,0.2405,51.14,167,6.48,19.64,,,3.64,0.283,3.524,2.6,8.4,5.6,Semi Diurnal
+WA,Thurburn Creek,-14.581,127.956,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,1.7961,3.76781,6.4534,0.62476,,,3.48727,,0.34642,0.01488,19.18,547,1.35,6.76,,,1.12,0.483,3.938,4.4,8.8,4.9,Semi Diurnal
+WA,Tobys Inlet,-33.632,115.153,modified,wave dominated,STRANDPLAIN,1.59615,,,0.01489,0.2739,0.03034,0.38169,,,,0.38289,,,0.01145,2.84,,0.17,1.32,,,0.1,,,,,,
+WA,Torbay Inlet,-35.046,117.676,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.25903,2.1098,,0.26974,0.03723,,0.38033,,,,0.35222,,,,17.24,,2.37,6.39,1.08,3.02,0.34,,,,,,
+WA,Torradup River,-33.861,121.016,modified,wave dominated,WAVE-DOMINATED ESTUARY,0.09745,0.06193,0.05309,,,,,,,,0.31678,,,0.00352,9.35,,0.47,3.78,,,0.028,,,,,,
+WA,Turner River,-20.35,118.405,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,1.18812,2.22029,5.55477,0.17128,,,2.82157,,,0.79942,10.45,4555,0.87,2.51,,,1.11,0.374,3.867,1.2,8.3,5.8,Semi Diurnal
+WA,Unnamed East Of Roe,-15.151,125.324,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,31.83,171,3.91,11.01,,,1.69,0.314,4.378,3,10.7,6.3,Semi Diurnal
+WA,Unnamed North Of Roe,-15.088,125.373,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,29.59,71,9.83,7.1,,,3.03,0.314,4.378,3,10.7,6.1,Semi Diurnal
+WA,Vasse-Wonnerup Estuary,-33.619,115.414,extensively modified,wave dominated,WAVE-DOMINATED ESTUARY,8.05042,7.49539,1.11435,0.00605,,,1.12473,0.02266,,,1.32437,,,4.91275,37.49,725,8.29,5.76,1.28,2.6,0.2,0.621,4.08,4.3,10.1,0.5,Diurnal
+WA,Wade Creek,-14.22,126.297,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,15.21,524,2.72,5.59,,,2.34,0.265,4.81,2.7,11.8,3.1,Diurnal
+WA,Walcott Inlet,-16.343,124.394,near pristine,tide dominated,TIDE-DOMINATED ESTUARY,,,,,,,,,,,,,,,269.58,12732,256.92,65.86,9.25,9.46,0.87,0.188,2.785,1.5,7.1,10.5,Semi Diurnal
+WA,Walpole/Nornalup Inlet,-35.03,116.739,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,0.37468,10.04828,3.65174,1.21981,0.20532,,0.25626,,,,1.26084,,,0.04023,53.71,5632,15.09,14.31,3.34,1.38,0.29,2.315,8.42,10.3,13.7,0.5,Diurnal
+WA,Warren River,-34.611,115.829,largely unmodified,wave dominated,WAVE-DOMINATED ESTUARY,1.68393,0.06316,0.02159,0.09784,,,0.20899,0.05775,,,0.25716,,,,4.77,4236,0.19,2.16,,,0.13,2.107,8.537,10.6,13.8,0.4,Diurnal
+WA,Waychinicup Inlet,-34.899,118.33,modified,tide dominated,OTHER,,,,,,,,,,,0.11473,,,3.10911,2.65,,0.12,1.02,,,0.81,,,,,,
+WA,Wedge Hill Creeks,-15.885,124.447,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,112.31,234,49.56,22.12,,,7.37,0.335,3.874,3.4,8.7,8.7,Semi Diurnal
+WA,Wellstead Estuary,-34.392,119.399,modified,wave dominated,WAVE-DOMINATED ESTUARY,1.0333,1.72053,,0.37599,0.57518,,0.98435,,,,1.21671,,,,32.28,1481,3.2,12.86,1.03,0.8,0.11,0.981,8.23,3.5,15.2,0.7,Diurnal
+WA,Willies Creek,-17.767,122.2,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,,84,,,,,,0.305,5.448,1.9,13.7,8.1,Semi Diurnal
+WA,Wilson Inlet,-35.026,117.333,modified,wave dominated,WAVE-DOMINATED ESTUARY,2.39566,47.33173,0.81469,1.32508,0.53624,,0.31013,,0.11353,,0.57477,,,0.03303,54.91,2911,45.23,18.46,4.34,1.5,0.58,2.251,8.57,9.5,13.7,0.6,Diurnal
+WA,Wooramel River,-25.851252,114.25367,largely unmodified,tide dominated,OTHER,,,,,,,,,,,,,,,0,,0,,,,,,,,,,
+WA,Woppinbie Creek,-14.15,126.517,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,5.32,222,0.24,1.79,,,0.38,0.079,4.789,2.3,8.5,2.9,Diurnal
+WA,Yammaderry Creek,-21.502,115.466,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,55.33,101,7.06,5.94,,,1.4,0.317,3.705,1.2,9.9,2.6,Semi Diurnal
+WA,Yanyare River,-20.826,116.44,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,1.44238,0.52672,2.90385,,,,0.41794,,,,6.78,987,0.4,2.52,,,0.74,0.22,3.501,1.1,7.7,3.5,Semi Diurnal
+WA,Yardie Creek,-22.326,113.811,near pristine,tide dominated,OTHER,0.00961,,,0.01746,0.02844,0.01948,,,,0.18537,0.09791,,,,,120,,,,,,0.286,3.09,1.1,7.2,1.7,Semi Diurnal
+WA,Yardoogarra Creek,-18.224,122.198,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,20.19,18,3.66,5.94,,,0.77,0.231,4.999,1.1,13.3,8.2,Semi Diurnal
+WA,Yule River,-20.371,118.208,largely unmodified,tide dominated,TIDAL FLAT/CREEK,,,,,3.35757,5.15254,22.35944,0.50877,,,5.99885,,,5.40308,18.27,10845,2.22,3.65,,,0.98,0.602,4.136,1.9,8.5,5.3,Semi Diurnal
+WA,Yuraddagi River,-16.222,123.553,near pristine,tide dominated,TIDAL FLAT/CREEK,,,,,,,,,,,,,,,82.93,73,26.33,11.4,,,9.37,0.363,4.722,3.4,10.5,8.4,Semi Diurnal
