@@ -2,8 +2,8 @@
 .Rhistory
 .Rapp.history
 
-# Session Data files
-.RData
+# all RData files
+*.RData
 
 # Example code in package build process
 *-Ex.R
