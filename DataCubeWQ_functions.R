@@ -341,7 +341,7 @@ plot.Deriv <- function(x, alpha = 0.05, polygon = TRUE,
 }
 
 
-plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, gam.sum=F, return.dat=F) {
+plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, return.yhat=F, gam.sum=F, return.dat=F) {
   
   # there is the option of using gamm() here - i.e. penalised regression as a mixed model (using MAS:::glmmPQL and nlme:::lme)
   # the penalty is part of the variance component and is estimated, so no need for an explicit penalty coef, apparently
@@ -440,6 +440,13 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
     abline(h=0, lty=1)
     plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
     abline(h=0, lty=1)
+    
+    if (return.yhat == T) {
+      yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "response")
+      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "response")
+      yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
+      return(yhat_df)
+    }
   }
   
   if (which==5) {

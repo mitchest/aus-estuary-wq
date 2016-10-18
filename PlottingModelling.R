@@ -534,8 +534,9 @@ barplot(as.numeric(rain.dat[param[[1]],]), ylim=param[[2]])
 dev.off()
 
 
-
-
+# correlation between yhats
+tully_yhats <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=4, return.yhat = T)
+plot(tully_yhats$yhat_SeasonTime ~ tully_yhats$yhat_SeasonTimeRain)
 
 
 
