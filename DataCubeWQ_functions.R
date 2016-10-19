@@ -468,7 +468,7 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   }
   
   if (which==7) {
-    termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE, ylim=c(-0.21,0.22),
+    termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
              data=dat, col.term="black", col.se="black", lty.se=1)
     abline(h=0, lty=1)
   }
