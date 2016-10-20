@@ -69,8 +69,7 @@ detach(package:raster) # fucks with dplry select
 # sum(model.data$NEAR_INFRARED < 500, na.rm = T)
 
 
-############## -> maybe do it per estuary?
-############## -> loop through, create threshold for each estuary, then loop through all rows, conditionally filtering
+############## -> original implementation had this per estuary, taking the mean of the time-series... i don't know what happened to it
 
 model.data.filter = 
   model.data %>%
