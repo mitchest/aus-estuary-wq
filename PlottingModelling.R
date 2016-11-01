@@ -584,9 +584,13 @@ ggplot(data = ISonly, aes(x = date)) +
   facet_wrap(~estuary.fac)
 
 # check individual metrics etc.
-ggplot(data = ISonly, aes(x = date, y = Turbidity)) +
-  geom_line() +
-  facet_wrap(~estuary.fac)
+for (i in c("Turbidity","Secchi","Chl","TSS","Carot")) {
+  print(
+    ggplot(data = ISonly, aes_string(x = "date", y = i)) +
+    geom_line() +
+    facet_wrap(~estuary.fac)
+  )
+}
 
 
 
