@@ -341,11 +341,14 @@ plot.Deriv <- function(x, alpha = 0.05, polygon = TRUE,
 }
 
 
-plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, return.yhat=F, gam.sum=F, return.dat=F) {
+plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, return.yhat=F, return.partial = F, gam.sum=F, return.dat=F) {
   
   # there is the option of using gamm() here - i.e. penalised regression as a mixed model (using MAS:::glmmPQL and nlme:::lme)
   # the penalty is part of the variance component and is estimated, so no need for an explicit penalty coef, apparently
   # i am not toally sure i understand that though, so a gcv (with mgcv:::gam) routine to pick the best penalty term is more tractable for me
+  
+  if (all(return.yhat, return.partial)) {stop("Only one of return.yhat= or return.partial= can be TRUE")}
+  if (return.dat == T & any(return.yhat, return.partial)) {stop("Only one of return.dat=, return.yhat= or return.partial= can be TRUE")}
   
   if (ratio=="rg") {
     dat = 
@@ -431,20 +434,27 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   }
   
   if (which==4) {
+    
     par(mfrow=c(2,2))
     plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=1)
     abline(h=0, lty=1)
     plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=2)
     abline(h=0, lty=1)
-    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=1)
+    partial_dat <- plot(ft.SeasonTimeRain, n=100000, rug=F, shade=T, select=1)
     abline(h=0, lty=1)
     plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
     abline(h=0, lty=1)
     
+    # reset par
+    par(mfrow=c(1,1))
+    
+    if (return.partial == T) { return(partial_dat) }
+    
     if (return.yhat == T) {
-      yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "response")
-      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "response")
-      yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
+      #yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "terms")
+      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "terms")
+      #yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
+      yhat_df <- data.frame(yhat_SeasonTimeRain)
       return(yhat_df)
     }
   }
@@ -487,4 +497,15 @@ daily.from.cum = function(X) {
     if (i!=1) {x.out[i] = X[i] - X[i-1]}
   }
   return(x.out)
+}
+
+time_partial_cor <- function(par1, par2, plot = T) { #output from plot.detailed.gam(return.partial=T)
+  # extract where time covariate overlaps
+  time_match <- par1[[2]]$x == par1[[2]]$x
+  par.eff1 <- par1[[2]]$fit[time_match]
+  par.eff2 <- par2[[2]]$fit[time_match]
+  # test correlation
+  if (plot == T) { plot(par.eff1, par.eff2) }
+  message("Pearson: ", cor(par.eff1, par.eff2, method = "pearson"))
+  message("Spearman: ", cor(par.eff1, par.eff2, method = "spearman"))
 }

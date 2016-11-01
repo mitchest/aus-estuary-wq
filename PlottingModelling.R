@@ -534,9 +534,59 @@ barplot(as.numeric(rain.dat[param[[1]],]), ylim=param[[2]])
 dev.off()
 
 
-# correlation between yhats
+# return yhats (for each component of the linear predictor)
 tully_yhats <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=4, return.yhat = T)
-plot(tully_yhats$yhat_SeasonTime ~ tully_yhats$yhat_SeasonTimeRain)
+
+# return partial effects and test correlation over time
+# first for two rivers we expect to be correlated
+tully_partials <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=4, return.partial = T)
+hull_partials <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Hull River", which=4, return.partial = T)
+time_partial_cor(tully_partials, hull_partials)
+# now for two rivers we expect to be quite different
+derwent_partials <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Derwent River", which=4, return.partial = T)
+time_partial_cor(tully_partials, derwent_partials, plot = F)
+pjackson_partials <- plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Port Jackson", which=4, return.partial = T)
+time_partial_cor(tully_partials, pjackson_partials, plot = T)
+
+# in-situ / RS analysis titbits
+load("IS.RS.rain.data.RData")
+IS.RSonly <- IS.RS.rain.data[IS.RS.rain.data$data.source=="RS",]
+RSonly <- IS.RS.rain.data[IS.RS.rain.data$data.source=="IS",]
+
+# check data
+summary(IS.RSonly$RB); which(IS.RSonly$RB <= 0)
+summary(IS.RSonly$RG)
+
+summary(IS.RSonly$RED)
+summary(IS.RSonly$GREEN)
+summary(IS.RSonly$BLUE); which(IS.RSonly$BLUE <= 0)
+summary(IS.RSonly$NEAR_INFRARED)
+
+# check n for each IS measurement
+for (i in unique(ISonly$EstuaryName)) {
+  message(paste0("Estuary: ", i))
+  temp_dat <- ISonly[ISonly$EstuaryName==i,c("Turbidity","Secchi","Chl","TSS","Carot","Lat_GDA94","Long_GDA94")]
+  cat(paste0(" - Turbidity(", sum(!is.na(temp_dat$Turbidity)),") "))
+  cat(paste0(" - Secchi(", sum(!is.na(temp_dat$Secchi)),") "))
+  cat(paste0(" - Chl(", sum(!is.na(temp_dat$Chl)),") "))
+  cat(paste0(" - TSS(", sum(!is.na(temp_dat$TSS)),") "))
+  cat(paste0(" - Carot(", sum(!is.na(temp_dat$Carot)),") "))
+  if (sum(!is.na(temp_dat$Lat_GDA94))==0) {
+    message(paste0("No lat/lon data for ",i))
+  } else {
+    print(plot(temp_dat$Lat_GDA94 ~ temp_dat$Long_GDA94, main = i))
+  }
+}
+
+# check for appropriate date ranges
+ggplot(data = ISonly, aes(x = date)) +
+  geom_histogram() +
+  facet_wrap(~estuary.fac)
+
+# check individual metrics etc.
+ggplot(data = ISonly, aes(x = date, y = Turbidity)) +
+  geom_line() +
+  facet_wrap(~estuary.fac)
 
 
 
