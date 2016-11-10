@@ -316,8 +316,6 @@ dev.off()
 # write off coeff data
 write.csv(linear.fits.rb, file="linear.fits.rb.csv", row.names=F)
 write.csv(linear.fits.rg, file="linear.fits.rg.csv", row.names=F)
-write.csv(estcov.rb, file="gamfits.covar.rb.csv", row.names=F)
-write.csv(estcov.rg, file="gamfits.covar.rg.csv", row.names=F)
 write.csv(gam.trend.test,file="POSTER/trend-test_locs.csv", row.names=F)
 
 
@@ -328,6 +326,9 @@ write.csv(gam.trend.test,file="POSTER/trend-test_locs.csv", row.names=F)
 # estcov.rb = merge(x=gamm.fits.rb, y=estcovars, by="estuary")
 # estcov.rg = merge(x=gamm.fits.rg, y=estcovars, by="estuary")
 # 
+# write.csv(estcov.rb, file="gamfits.covar.rb.csv", row.names=F)
+# write.csv(estcov.rg, file="gamfits.covar.rg.csv", row.names=F)
+#
 # facs = c(7,10:12,39)# sapply(estcov.rg, is.factor) # don't really want to plot everyting...
 # nums = c(13:38)
 # 
