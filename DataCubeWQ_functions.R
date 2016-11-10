@@ -43,79 +43,101 @@ combine.all.pixels = function(path, file.prefix, lat.long.pos) {
 ##  - could do it and choose via AIC?
 ##  - few tests suggest not a big deal in our dataset, since the obs are weeks/months apart
 
-## get rid of redundant rain covariates (i.e. if no rain in last 30 days, they're all zero)
 ## polynomial terms for rain (i.e. some rain could decrease clarity, lots could clear it up??)
 
+## penalize the parametric rain terms, to allow them to shrink towards zero (think penalised GLM)
+## the full model should fit most of the time, but for some of the data limted estuaries, reduced df models are tried
 
 log.plusk = function(X) {
   as.numeric(log(X+0.0001))
 }
 
-# list of models to fir on each estuary
-gam.functions = list(
+# list of models to fit on each estuary
+gam.functions <- list(
   
-  fit.gam1 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 +
-               time, # the thing we're interested in
-             data=dat
+  fit.gam1 <- function(dat) {
+    pen.list = list()
+    for (i in 1:30) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                              rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
+                              rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
+                              rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
+                              time,
+                            data=dat, paraPen = pen.list
     )
     return(fm)
   },
   
   fit.gam2 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 + rain3 +
-               time,
-             data=dat
+    pen.list = list()
+    for (i in seq(1,30,2)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + 
+                rain17 + rain19 + rain21 + rain23 + rain25 + rain27 + rain29 + 
+                time,
+              data=dat, paraPen = pen.list
     )
     return(fm)
   },
   
   fit.gam3 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 + rain3 + rain5 +
-               time,
-             data=dat
+    pen.list = list()
+    for (i in seq(1,30,3)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain4 + rain7 + rain10 + rain13 + rain16 + rain19 + rain22 + rain25 + rain28 +
+                time,
+              data=dat, paraPen = pen.list
     )
     return(fm)
   },
   
   fit.gam4 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 + rain3 + rain5 + rain10 +
-               time,
-             data=dat
+    pen.list = list()
+    for (i in seq(1,30,4)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain5 + rain9 + rain13 + rain17 + rain21 + rain25 + rain29 +
+                time,
+              data=dat, paraPen = pen.list
     )
     return(fm)
   },
   
   fit.gam5 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 + rain3 + rain5 + rain10 + rain15 +
-               time,
-             data=dat
+    pen.list = list()
+    for (i in seq(1,30,5)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain6 + rain11 + rain16 + rain21 + rain26 +
+                time,
+              data=dat, paraPen = pen.list
     )
     return(fm)
   },
   
   fit.gam6 = function(dat) {
-    k = length(unique(dat$month))
-    fm = gam(formula=mean.ratio ~ 
-               s(month, bs="cc", k=k) + 
-               rain1 + rain3 + rain5 + rain10 + rain15 + rain25 +
-               time,
-             data=dat
+    pen.list = list()
+    for (i in seq(1,30,9)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain10 + rain19 + rain28 +
+                time,
+              data=dat, paraPen = pen.list
     )
     return(fm)
   }
@@ -172,9 +194,11 @@ fit.gams = function(data, yvar) {
       slopes[i] = NA; pvals[i] = NA; s.pvals[i] = NA
       next()
     }
-    best.idx = which.min(lapply(fms.out.list, AIC))
-    if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[best.idx])))}
-    fm = fms.out.list[[best.idx]]
+    ## no need for model selection on shrinkage route
+    #best.idx = which.min(lapply(fms.out.list, AIC))
+    #if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[1])))}
+    fm = fms.out.list[[1]] # the first non-NULL element will be the fullest shrunk model that was able to be fit
+    if (round(i/50)==(i/50)) {print(paste0("Terms included: ", paste0(names(fm$sp), collapse = ", ")))}
     # fill in the blanks
     fm.summary = summary(fm)
     slopes[i] = fm.summary$p.coeff["time"]
@@ -373,17 +397,30 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   
   ft.SeasonTime = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + s(time), data=dat)
   
-  ft.SeasonTimeRain = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
-                            rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + rain17 + rain19 + 
-                            rain21 + rain23 + rain25 + rain27 + rain29 +
-                            s(time),
-                          data=dat)
+  # ft.SeasonTimeRain = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
+  #                           rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + rain17 + rain19 + 
+  #                           rain21 + rain23 + rain25 + rain27 + rain29 +
+  #                           s(time),
+  #                         data=dat)
   
-  ft.SeasonTimeRain.lin = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
-                            rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + rain17 + rain19 + 
-                            rain21 + rain23 + rain25 + rain27 + rain29 +
-                            time,
-                          data=dat)
+  # penalise the parametric terms - let them shrink towards zero
+  pen.list = list()
+  for (i in 1:30) {
+    pen.list[[paste0("rain",i)]] = list(diag(1))
+  }
+  ft.SeasonTimeRain <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
+                                   rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
+                                   rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
+                                   rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
+                                   s(time),
+                                 data=dat, paraPen = pen.list)
+  
+  ft.SeasonTimeRain.lin <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
+                                 rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
+                                 rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
+                                 rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
+                                 time,
+                               data=dat, paraPen = pen.list)
   
   if (gam.sum==T) {print(summary(ft.SeasonTimeRain))}
   
@@ -435,11 +472,11 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   
   if (which==4) {
     
-    par(mfrow=c(2,2))
-    plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=1)
-    abline(h=0, lty=1)
-    plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=2)
-    abline(h=0, lty=1)
+    par(mfrow=c(1,2))
+    #plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=1)
+    #abline(h=0, lty=1)
+    #plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=2)
+    #abline(h=0, lty=1)
     partial_dat <- plot(ft.SeasonTimeRain, n=100000, rug=F, shade=T, select=1)
     abline(h=0, lty=1)
     plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
