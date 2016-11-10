@@ -175,9 +175,9 @@ dev.off()
 
 # models - linear trends --------------------------------------------------
 
-# fit LM models
-linear.fits.rg = fit.lms(model.data.filter.lite, "mean.rgratio")
-linear.fits.rb = fit.lms(model.data.filter.lite, "mean.rbratio")
+# # fit LM models
+# linear.fits.rg = fit.lms(model.data.filter.lite, "mean.rgratio")
+# linear.fits.rb = fit.lms(model.data.filter.lite, "mean.rbratio")
 # fit GAM models
 gamm.fits.rg = fit.gams(model.data.filter.lite, "mean.rgratio")
 gamm.fits.rb = fit.gams(model.data.filter.lite, "mean.rbratio")
@@ -314,8 +314,8 @@ dev.off()
 # dev.off()
 
 # write off coeff data
-write.csv(linear.fits.rb, file="linear.fits.rb.csv", row.names=F)
-write.csv(linear.fits.rg, file="linear.fits.rg.csv", row.names=F)
+# write.csv(linear.fits.rb, file="linear.fits.rb.csv", row.names=F)
+# write.csv(linear.fits.rg, file="linear.fits.rg.csv", row.names=F)
 write.csv(gam.trend.test,file="POSTER/trend-test_locs.csv", row.names=F)
 
 
