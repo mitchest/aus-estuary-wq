@@ -141,7 +141,7 @@ save(model.data.filter.lite, file="AllEstuariesFilterLite.RData")
 
 
 ## In-situ data sites w/ coincident Landsat pixels
-load("IS.RS.data.RData")
+IS.RS.data <- get(load("IS.RS.data.RData"))
 
 test.out = get(load("rainfall/metrics/out1.RData"))
 nlags = length(test.out[[1]])

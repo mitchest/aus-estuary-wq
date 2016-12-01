@@ -316,7 +316,7 @@ dev.off()
 # write off coeff data
 # write.csv(linear.fits.rb, file="linear.fits.rb.csv", row.names=F)
 # write.csv(linear.fits.rg, file="linear.fits.rg.csv", row.names=F)
-write.csv(gam.trend.test,file="POSTER/trend-test_locs.csv", row.names=F)
+write.csv(gam.trend.test,file="trend-test_locs.csv", row.names=F)
 
 
 # ## posthoc estuary covariates coef plots - seasonal term + linear term models
