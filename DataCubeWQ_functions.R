@@ -55,7 +55,7 @@ log.plusk = function(X) {
 # list of models to fit on each estuary
 gam.functions <- list(
   
-  fit.gam1 <- function(dat) {
+  fit.gam1 = function(dat) {
     pen.list = list()
     for (i in 1:30) {
       pen.list[[paste0("rain",i)]] = list(diag(1))
@@ -144,6 +144,60 @@ gam.functions <- list(
   
 )  
 
+# models for testing effect of rainfall
+gam.functions.rain <- list(
+  
+  fit.gam1 = function(dat) {
+    pen.list = list()
+    for (i in 1:30) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
+                rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
+                rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
+                s(time),
+              data=dat, paraPen = pen.list
+    )
+    return(fm)
+  },
+  
+  fit.gam2 = function(dat) {
+    pen.list = list()
+    for (i in seq(1,30,2)) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + 
+                rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + 
+                rain17 + rain19 + rain21 + rain23 + rain25 + rain27 + rain29 + 
+                s(time),
+              data=dat, paraPen = pen.list
+    )
+    return(fm)
+  }
+)  
+
+gam.functions.norain <- list(
+  
+  fit.gam1 = function(dat) {
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + s(time),
+              data=dat
+    )
+    return(fm)
+  },
+  
+  fit.gam2 = function(dat) {
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + s(time),
+              data=dat
+    )
+    return(fm)
+  }
+)  
+
 # function to fit models
 fit.gam.functions = function(X, gam.functions, dat) {
   fit.fn = gam.functions[[X]]
@@ -151,8 +205,21 @@ fit.gam.functions = function(X, gam.functions, dat) {
   return(fm.out)
 }
 
+# function to fit models for rain vs. no rain
+fit.gam.functions.rain = function(X, gam.functions, dat) {
+  fit.fn = gam.functions.rain[[X]]
+  fm.out = try(fit.fn(dat),silent=T); if (inherits(fm.out, "try-error")) fm.out = NULL
+  return(fm.out)
+}
 
-## models to test for significant linear trend
+fit.gam.functions.norain = function(X, gam.functions, dat) {
+  fit.fn = gam.functions.norain[[X]]
+  fm.out = try(fit.fn(dat),silent=T); if (inherits(fm.out, "try-error")) fm.out = NULL
+  return(fm.out)
+}
+
+
+# models to test for significant linear trend
 fit.lms = function(data, yvar) {
   unique.estuaries = unique(data$estuary.fac)
   slopes = numeric(length(unique.estuaries))
@@ -168,8 +235,7 @@ fit.lms = function(data, yvar) {
   return(data.frame(slopes=slopes, pvals=pvals, estuary=unique.estuaries))
 }
 
-## models to test for significant linear trend after seasonality and covariates
-# fit models and get info from them
+# models to test for significant linear trend after seasonality and covariates
 fit.gams = function(data, yvar) {
   unique.estuaries = unique(data$estuary.fac)
   slopes = numeric(length(unique.estuaries))
@@ -213,9 +279,78 @@ fit.gams = function(data, yvar) {
 }
 
 
+# extract info needed to test rain vs. norain
+fit.gams.rain = function(data, yvar) {
+  unique.estuaries = unique(data$estuary.fac)
+  dev = numeric(length(unique.estuaries))
+  
+  for (i in 1:length(unique.estuaries)) {
+    if (round(i/50)==(i/50)) {print(paste0(i,": ",unique.estuaries[i]))}
+    dat = 
+      data %>%
+      filter(estuary.fac==unique.estuaries[i]) %>%
+      #mutate(mean.ratio = log(mean.rgratio)) %>%
+      mutate_each(funs(log.plusk), rain1:rain30)
+    dat$mean.ratio = log(dat[,yvar])
+    fms.out.list = lapply(as.list(1:length(gam.functions.rain)), FUN=fit.gam.functions.rain, 
+                          gam.functions=gam.functions.rain, dat=dat) ## could exit here and keep all models for further diagnostics
+    fms.out.list = fms.out.list[!unlist(lapply(fms.out.list, is.null))]
+    # get best model
+    if (length(fms.out.list)==0) {
+      dev[i] = NA
+      next()
+    }
+    ## no need for model selection on shrinkage route
+    #best.idx = which.min(lapply(fms.out.list, AIC))
+    #if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[1])))}
+    fm = fms.out.list[[1]] # the first non-NULL element will be the fullest shrunk model that was able to be fit
+    if (round(i/50)==(i/50)) {print(paste0("Terms included: ", paste0(names(fm$sp), collapse = ", ")))}
+    # fill in the blanks
+    fm.summary = summary(fm)
+    dev[i] = fm.summary$dev.expl
+  }
+  
+  return(data.frame(dev_expl=dev, estuary=unique.estuaries))
+}
+
+fit.gams.norain = function(data, yvar) {
+  unique.estuaries = unique(data$estuary.fac)
+  dev = numeric(length(unique.estuaries))
+  
+  for (i in 1:length(unique.estuaries)) {
+    if (round(i/50)==(i/50)) {print(paste0(i,": ",unique.estuaries[i]))}
+    dat = 
+      data %>%
+      filter(estuary.fac==unique.estuaries[i])
+      #mutate(mean.ratio = log(mean.rgratio)) %>%
+      #mutate_each(funs(log.plusk), rain1:rain30)
+    dat$mean.ratio = log(dat[,yvar])
+    fms.out.list = lapply(as.list(1:length(gam.functions.norain)), FUN=fit.gam.functions.norain, 
+                          gam.functions=gam.functions.norain, dat=dat) ## could exit here and keep all models for further diagnostics
+    fms.out.list = fms.out.list[!unlist(lapply(fms.out.list, is.null))]
+    # get best model
+    if (length(fms.out.list)==0) {
+      dev[i] = NA
+      next()
+    }
+    ## no need for model selection on shrinkage route
+    #best.idx = which.min(lapply(fms.out.list, AIC))
+    #if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[1])))}
+    fm = fms.out.list[[1]] # the first non-NULL element will be the fullest shrunk model that was able to be fit
+    if (round(i/50)==(i/50)) {print(paste0("Terms included: ", paste0(names(fm$sp), collapse = ", ")))}
+    # fill in the blanks
+    fm.summary = summary(fm)
+    dev[i] = fm.summary$dev.expl
+  }
+  
+  return(data.frame(dev_expl=dev, estuary=unique.estuaries))
+}
+
+
 ################################################
 ## Functions for derivatives of GAM(M) models ##
 ################################################
+## Stolen from gavis simpson:
 ## https://gist.github.com/gavinsimpson/e73f011fdaaab4bb5a30
 
 Deriv <- function(mod, n = 200, eps = 1e-7, newdata, term) {
@@ -390,37 +525,31 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   
-  #print(estuary)
-  #print(paste0("There are ",nrow(dat)," observations for this estuary"))
-  
   ft.time = gam(formula=mean.ratio ~ s(time), data=dat)
-  
+  ft.time.lin = gam(formula=mean.ratio ~ time, data=dat)
   ft.SeasonTime = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + s(time), data=dat)
-  
-  # ft.SeasonTimeRain = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
-  #                           rain1 + rain3 + rain5 + rain7 + rain9 + rain11 + rain13 + rain15 + rain17 + rain19 + 
-  #                           rain21 + rain23 + rain25 + rain27 + rain29 +
-  #                           s(time),
-  #                         data=dat)
+  ft.SeasonTime.lin = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + time, data=dat)
   
   # penalise the parametric terms - let them shrink towards zero
-  pen.list = list()
-  for (i in 1:30) {
-    pen.list[[paste0("rain",i)]] = list(diag(1))
-  }
-  ft.SeasonTimeRain <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
+  if (which %in% c(4,5,6,9,12)) {
+    pen.list = list()
+    for (i in 1:30) {
+      pen.list[[paste0("rain",i)]] = list(diag(1))
+    }
+    ft.SeasonTimeRain <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
+                                     rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
+                                     rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
+                                     rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
+                                     s(time),
+                                   data=dat, paraPen = pen.list)
+    
+    ft.SeasonTimeRain.lin <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
                                    rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
                                    rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
                                    rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
-                                   s(time),
+                                   time,
                                  data=dat, paraPen = pen.list)
-  
-  ft.SeasonTimeRain.lin <- gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + 
-                                 rain1 + rain2 + rain3 + rain4 + rain5 + rain6 + rain7 + rain8 + rain9 + rain10 + 
-                                 rain11 + rain12 + rain13 + rain14 + rain15 + rain16 + rain17 + rain18 + rain19 + rain20 + 
-                                 rain21 + rain22 + rain23 + rain24 + rain25 + rain26 + rain27 + rain28 + rain29 + rain30 + 
-                                 time,
-                               data=dat, paraPen = pen.list)
+  }
   
   if (gam.sum==T) {print(summary(ft.SeasonTimeRain))}
   
@@ -472,7 +601,7 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   
   if (which==4) {
     
-    par(mfrow=c(1,2))
+    par(mfrow=c(1,2), mar=c(5,5,2,2), oma=c(0,0,2,0))
     #plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=1)
     #abline(h=0, lty=1)
     #plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",ratio,"; n=",nrow(dat),")"), shade=T, select=2)
@@ -481,6 +610,8 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
     abline(h=0, lty=1)
     plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
     abline(h=0, lty=1)
+    if(ratio=="rg") {title(paste0(estuary, " - red:green ratio"), outer = T)}
+    if(ratio=="rb") {title(paste0(estuary, " - red:blue ratio"), outer = T)}
     
     # reset par
     par(mfrow=c(1,1))
@@ -514,17 +645,51 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
     lines(unlist(ft.SeasonTimeRain.dsig$decr) ~ date, data = pdat, col = "red", lwd = 3)
   }
   
+  # single plots of the 'time' term with no graphics over-ride
   if (which==7) {
+    termplot(ft.time.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
+             data=dat, col.term="black", col.se="black", lty.se=2)
+    abline(h=0, lty=1, col="red")
+  }
+  if (which==8) {
+    termplot(ft.SeasonTime.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
+             data=dat, col.term="black", col.se="black", lty.se=2)
+    abline(h=0, lty=1, col="red")
+  }
+  if (which==9) {
     termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
-             data=dat, col.term="black", col.se="black", lty.se=1)
-    abline(h=0, lty=1)
+             data=dat, col.term="black", col.se="black", lty.se=2)
+    abline(h=0, lty=1, col="red")
+  }
+  if (which==10) {
+    plot(ft.time, n=1000, rug=F, shade=T, select=1)
+    abline(h=0, lty=1, col="red")
+  }
+  if (which==11) {
+    plot(ft.SeasonTime, n=1000, rug=F, shade=T, select=2)
+    abline(h=0, lty=1, col="red")
+  }
+  if (which==12) {
+    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
+    abline(h=0, lty=1, col="red")
+  }
+  # single plots of the 'month' term with no graphics over-ride
+  if (which==13) {
+    plot(ft.SeasonTime, n=1000, rug=F, shade=T, select=1)
+    abline(h=0, lty=1, col="red")
   }
   
-  # reset par
-  par(mfrow=c(1,1))
+  ##--> once we decide on a configuration for the panel plot, we'll put that here too, to avoid excess fitting
+  
+  
+  # reset par if it's been changed
+  if (which < 7) {par(mfrow=c(1,1))}
   
   if (return.dat==T) {return(dat)}
 }
+
+  
+  
 
 daily.from.cum = function(X) {
   X = as.numeric(X)

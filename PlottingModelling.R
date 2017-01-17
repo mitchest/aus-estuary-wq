@@ -9,6 +9,8 @@ library(tidyr)
 source("DataCubeWQ_functions.R")
 
 
+# load main data set -> run this whole section! ---------------------------
+
 # load data
 setwd("B:/0_scratchProcessing/Bugnot_LandsatWQ")
 
@@ -183,7 +185,7 @@ gamm.fits.rg = fit.gams(model.data.filter.lite, "mean.rgratio")
 gamm.fits.rb = fit.gams(model.data.filter.lite, "mean.rbratio")
 
 ##################################
-# get estuary lat/longs
+# # get estuary lat/longs
 # library(data.table)
 # load("AllEstuaries.RData")
 # latlongs = data.frame(lat=model.data$lat, lon=model.data$lon, estuary=model.data$estuary)
@@ -443,6 +445,49 @@ write.csv(gam.trend.test,file="trend-test_locs.csv", row.names=F)
 
 
 
+# map comparison of models with/without rainfall covariates ---------------
+
+# fit the models
+# rg
+gam_rg_rain <- fit.gams.rain(model.data.filter.lite, "mean.rgratio")
+gam_rg_norain <- fit.gams.norain(model.data.filter.lite, "mean.rgratio")
+# rb
+gam_rb_rain <- fit.gams.rain(model.data.filter.lite, "mean.rbratio")
+gam_rb_norain <- fit.gams.norain(model.data.filter.lite, "mean.rbratio")
+
+# calcualte difference in deviance explained
+dev_expl <- data.frame(rg_dev_rain = gam_rg_rain$dev_expl, 
+                       rg_dev_norain = gam_rg_norain$dev_expl, 
+                       rg_dev_diff = gam_rg_rain$dev_expl - gam_rg_norain$dev_expl,
+                       rb_dev_rain = gam_rb_rain$dev_expl, 
+                       rb_dev_norain = gam_rb_norain$dev_expl, 
+                       rb_dev_diff = gam_rb_rain$dev_expl - gam_rb_norain$dev_expl)
+# round
+dev_expl <- round(dev_expl, 2)
+
+# join to estuary data
+load("est.locs.RData")
+dev_expl$estuary <- as.character(gam_rg_rain$estuary)
+dev_expl = inner_join(x=est.locs, y=dev_expl, by="estuary")
+
+# make categories for easy plotting
+dev_expl$rg_dev_diff_cat <- as.factor(cut(dev_expl$rg_dev_diff, breaks = c(-0.1,0.0,0.05,0.1,0.15,0.2,0.5), 
+                                labels = NULL, include.lowest = T))
+dev_expl$rb_dev_diff_cat <- as.factor(cut(dev_expl$rb_dev_diff, breaks = c(-0.1,0.0,0.05,0.1,0.15,0.2,0.5), 
+                                labels = NULL, include.lowest = T))
+
+# quick check
+ggplot(data=dev_expl, aes(x=lon, y=lat)) +
+  geom_point(size=2, aes(colour=rg_dev_diff_cat)) + 
+  scale_colour_brewer(palette = "YlGnBu") + theme_bw()
+ggplot(data=dev_expl, aes(x=lon, y=lat)) +
+  geom_point(size=2, aes(colour=rb_dev_diff_cat)) + 
+  scale_colour_brewer(palette = "YlGnBu") + theme_bw()
+
+# save off
+write.csv(dev_expl, file="dev_expl_rain-no-rain.csv")
+
+
 
 # detailed GAM analysis --------------------------------------------------
 
@@ -460,28 +505,28 @@ library(tidyr)
 source("DataCubeWQ_functions.R")
 
 # get rain data - ########### OR LOAD BELOW #################
-daily.rain.dat =
-  model.data.filter.lite %>%
-  select(rain1:rain30)
-# apply cumulative -> daily function
-daily.rain.dat = data.frame(t(apply(as.matrix(daily.rain.dat), 1, daily.from.cum)))
-names(daily.rain.dat) = paste0("rain",1:30)
-# make model.data again
-model.data.dailyrain =
-  model.data.filter.lite %>%
-  select(-rain1:-rain30)
-model.data.dailyrain = data.frame(model.data.dailyrain, daily.rain.dat)
-rm(daily.rain.dat)
-model.data.dailyrain =
-  model.data.dailyrain %>%
-  rowwise() %>% # this is clunky as hell, the : operator (ie. rain1:rain5) didn't work, but i wanted to find a dplyr way of doing this
-  mutate(rainsum5 = sum(rain1,rain2,rain3,rain4,rain5),
-         rainsum10 = sum(rain6,rain7,rain8,rain9,rain10),
-         rainsum15 = sum(rain11,rain12,rain13,rain14,rain15),
-         rainsum20 = sum(rain16,rain17,rain18,rain19,rain20),
-         rainsum25 = sum(rain21,rain22,rain23,rain24,rain25),
-         rainsum30 = sum(rain26,rain27,rain28,rain29,rain30))
-save(model.data.dailyrain, file="AllEstuaries_dailyrain.RData")
+# daily.rain.dat =
+#   model.data.filter.lite %>%
+#   select(rain1:rain30)
+# # apply cumulative -> daily function
+# daily.rain.dat = data.frame(t(apply(as.matrix(daily.rain.dat), 1, daily.from.cum)))
+# names(daily.rain.dat) = paste0("rain",1:30)
+# # make model.data again
+# model.data.dailyrain =
+#   model.data.filter.lite %>%
+#   select(-rain1:-rain30)
+# model.data.dailyrain = data.frame(model.data.dailyrain, daily.rain.dat)
+# rm(daily.rain.dat)
+# model.data.dailyrain =
+#   model.data.dailyrain %>%
+#   rowwise() %>% # this is clunky as hell, the : operator (ie. rain1:rain5) didn't work, but i wanted to find a dplyr way of doing this
+#   mutate(rainsum5 = sum(rain1,rain2,rain3,rain4,rain5),
+#          rainsum10 = sum(rain6,rain7,rain8,rain9,rain10),
+#          rainsum15 = sum(rain11,rain12,rain13,rain14,rain15),
+#          rainsum20 = sum(rain16,rain17,rain18,rain19,rain20),
+#          rainsum25 = sum(rain21,rain22,rain23,rain24,rain25),
+#          rainsum30 = sum(rain26,rain27,rain28,rain29,rain30))
+# save(model.data.dailyrain, file="AllEstuaries_dailyrain.RData")
 
 load("AllEstuaries_dailyrain.RData")
 
@@ -510,7 +555,7 @@ for (i in examples) {
 # dev.off()
 # 
 # CairoPDF(file="POSTER/gam_tully_lin.pdf", width=20, height=20)
-# plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=7)
+# plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=9)
 # dev.off()
 # 
 # 
@@ -595,6 +640,34 @@ for (i in c("Turbidity","Secchi","Chl","TSS","Carot")) {
 
 
 
+# compare various linear and smooth terms 
 
+# Tully River
+par(mfcol=c(3,2))
+for (i in 7:12) {
+  plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Tully River", which=i)
+}
+par(mfcol=c(3,2))
+for (i in 7:12) {
+  plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=i)
+}
+
+# Tully River
+par(mfcol=c(3,2))
+for (i in 7:12) {
+  plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Mainwaring River", which=i)
+}
+par(mfcol=c(3,2))
+for (i in 7:12) {
+  plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Mainwaring River", which=i)
+}
+
+
+
+
+
+
+
+# then peel them all off **still to do
 
 
