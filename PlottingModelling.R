@@ -652,7 +652,7 @@ for (i in 7:12) {
   plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=i)
 }
 
-# Tully River
+# Mainwaring River
 par(mfcol=c(3,2))
 for (i in 7:12) {
   plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Mainwaring River", which=i)
