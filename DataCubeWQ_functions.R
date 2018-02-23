@@ -198,6 +198,27 @@ gam.functions.norain <- list(
   }
 )  
 
+# models for testing effect of season term
+gam.functions.season <- list(
+  
+  fit.gam1 = function(dat) {
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(month, bs="cc", k=k) + s(time),
+              data=dat)
+    return(fm)
+  }
+)  
+
+gam.functions.noseason <- list(
+  
+  fit.gam1 = function(dat) {
+    k <- length(unique(dat$month))
+    fm <- gam(formula=mean.ratio ~ s(time),
+              data=dat)
+    return(fm)
+  }
+)  
+
 # function to fit models
 fit.gam.functions = function(X, gam.functions, dat) {
   fit.fn = gam.functions[[X]]
@@ -214,6 +235,19 @@ fit.gam.functions.rain = function(X, gam.functions, dat) {
 
 fit.gam.functions.norain = function(X, gam.functions, dat) {
   fit.fn = gam.functions.norain[[X]]
+  fm.out = try(fit.fn(dat),silent=T); if (inherits(fm.out, "try-error")) fm.out = NULL
+  return(fm.out)
+}
+
+# function to fit models for season vs. no season
+fit.gam.functions.season = function(X, gam.functions, dat) {
+  fit.fn = gam.functions.season[[X]]
+  fm.out = try(fit.fn(dat),silent=T); if (inherits(fm.out, "try-error")) fm.out = NULL
+  return(fm.out)
+}
+
+fit.gam.functions.noseason = function(X, gam.functions, dat) {
+  fit.fn = gam.functions.noseason[[X]]
   fm.out = try(fit.fn(dat),silent=T); if (inherits(fm.out, "try-error")) fm.out = NULL
   return(fm.out)
 }
@@ -327,6 +361,73 @@ fit.gams.norain = function(data, yvar) {
     dat$mean.ratio = log(dat[,yvar])
     fms.out.list = lapply(as.list(1:length(gam.functions.norain)), FUN=fit.gam.functions.norain, 
                           gam.functions=gam.functions.norain, dat=dat) ## could exit here and keep all models for further diagnostics
+    fms.out.list = fms.out.list[!unlist(lapply(fms.out.list, is.null))]
+    # get best model
+    if (length(fms.out.list)==0) {
+      dev[i] = NA
+      next()
+    }
+    ## no need for model selection on shrinkage route
+    #best.idx = which.min(lapply(fms.out.list, AIC))
+    #if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[1])))}
+    fm = fms.out.list[[1]] # the first non-NULL element will be the fullest shrunk model that was able to be fit
+    if (round(i/50)==(i/50)) {print(paste0("Terms included: ", paste0(names(fm$sp), collapse = ", ")))}
+    # fill in the blanks
+    fm.summary = summary(fm)
+    dev[i] = fm.summary$dev.expl
+  }
+  
+  return(data.frame(dev_expl=dev, estuary=unique.estuaries))
+}
+
+# extract info needed to test season vs. no season
+fit.gams.season = function(data, yvar) {
+  unique.estuaries = unique(data$estuary.fac)
+  dev = numeric(length(unique.estuaries))
+  
+  for (i in 1:length(unique.estuaries)) {
+    if (round(i/50)==(i/50)) {print(paste0(i,": ",unique.estuaries[i]))}
+    dat = 
+      data %>%
+      filter(estuary.fac==unique.estuaries[i]) %>%
+      #mutate(mean.ratio = log(mean.rgratio)) %>%
+      mutate_each(funs(log.plusk), rain1:rain30)
+    dat$mean.ratio = log(dat[,yvar])
+    fms.out.list = lapply(as.list(1:length(gam.functions.season)), FUN=fit.gam.functions.season, 
+                          gam.functions=gam.functions.season, dat=dat) ## could exit here and keep all models for further diagnostics
+    fms.out.list = fms.out.list[!unlist(lapply(fms.out.list, is.null))]
+    # get best model
+    if (length(fms.out.list)==0) {
+      dev[i] = NA
+      next()
+    }
+    ## no need for model selection on shrinkage route
+    #best.idx = which.min(lapply(fms.out.list, AIC))
+    #if (round(i/50)==(i/50)) {print(paste0("Best model is ",names(gam.functions[1])))}
+    fm = fms.out.list[[1]] # the first non-NULL element will be the fullest shrunk model that was able to be fit
+    if (round(i/50)==(i/50)) {print(paste0("Terms included: ", paste0(names(fm$sp), collapse = ", ")))}
+    # fill in the blanks
+    fm.summary = summary(fm)
+    dev[i] = fm.summary$dev.expl
+  }
+  
+  return(data.frame(dev_expl=dev, estuary=unique.estuaries))
+}
+
+fit.gams.noseason = function(data, yvar) {
+  unique.estuaries = unique(data$estuary.fac)
+  dev = numeric(length(unique.estuaries))
+  
+  for (i in 1:length(unique.estuaries)) {
+    if (round(i/50)==(i/50)) {print(paste0(i,": ",unique.estuaries[i]))}
+    dat = 
+      data %>%
+      filter(estuary.fac==unique.estuaries[i])
+    #mutate(mean.ratio = log(mean.rgratio)) %>%
+    #mutate_each(funs(log.plusk), rain1:rain30)
+    dat$mean.ratio = log(dat[,yvar])
+    fms.out.list = lapply(as.list(1:length(gam.functions.noseason)), FUN=fit.gam.functions.noseason, 
+                          gam.functions=gam.functions.noseason, dat=dat) ## could exit here and keep all models for further diagnostics
     fms.out.list = fms.out.list[!unlist(lapply(fms.out.list, is.null))]
     # get best model
     if (length(fms.out.list)==0) {
@@ -531,7 +632,7 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   ft.SeasonTime.lin = gam(formula=mean.ratio ~ s(month, bs="cc", k=12) + time, data=dat)
   
   # penalise the parametric terms - let them shrink towards zero
-  if (which %in% c(4,5,6,9,12)) {
+  if (which %in% c(4,5,6,9,12,13,14)) {
     pen.list = list()
     for (i in 1:30) {
       pen.list[[paste0("rain",i)]] = list(diag(1))
@@ -551,7 +652,7 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
                                  data=dat, paraPen = pen.list)
   }
   
-  if (gam.sum==T) {print(summary(ft.SeasonTimeRain))}
+  if (gam.sum==T) {print(summary(ft.SeasonTimeRain, digits = 4))}
   
   
   if (which==5 | which==6) {
@@ -647,40 +748,56 @@ plot.detailed.gam = function(data, ratio="rg", estuary="Port Jackson", which=4, 
   
   # single plots of the 'time' term with no graphics over-ride
   if (which==7) {
-    termplot(ft.time.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
-             data=dat, col.term="black", col.se="black", lty.se=2)
+    termplot(ft.time.lin, terms="time", se=TRUE, ylim=c(-0.20,0.20),
+             data=dat, col.term="black", col.se="black", lty.se=2, xaxt="n")
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   if (which==8) {
-    termplot(ft.SeasonTime.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
-             data=dat, col.term="black", col.se="black", lty.se=2)
+    termplot(ft.SeasonTime.lin, terms="time", se=TRUE, ylim=c(-0.20,0.20),
+             data=dat, col.term="black", col.se="black", lty.se=2, xaxt="n")
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   if (which==9) {
-    termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
-             data=dat, col.term="black", col.se="black", lty.se=2)
+    termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE, ylim=c(-0.20,0.20),
+             data=dat, col.term="black", col.se="black", lty.se=2, xaxt="n")
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   if (which==10) {
-    plot(ft.time, n=1000, rug=F, shade=T, select=1)
+    plot(ft.time, n=1000, rug=F, shade=T, select=1, xaxt="n", ylim=c(-0.20,0.20))
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   if (which==11) {
-    plot(ft.SeasonTime, n=1000, rug=F, shade=T, select=2)
+    plot(ft.SeasonTime, n=1000, rug=F, shade=T, select=2, xaxt="n", ylim=c(-0.20,0.20))
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   if (which==12) {
-    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
+    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2, xaxt="n", ylim=c(-0.20,0.20),
+         xlab = "Long-term time trend")
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
     abline(h=0, lty=1, col="red")
   }
   # single plots of the 'month' term with no graphics over-ride
   if (which==13) {
-    plot(ft.SeasonTime, n=1000, rug=F, shade=T, select=1)
+    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=1, xlab = "Seasonal trend")
     abline(h=0, lty=1, col="red")
   }
   
   ##--> once we decide on a configuration for the panel plot, we'll put that here too, to avoid excess fitting
   
+  if (which==14) {
+    plot(ft.SeasonTimeRain, n=100000, rug=F, shade=T, select=1)
+    abline(h=0, lty=1)
+    if(ratio=="rg") {title(paste0(estuary, " - red:green ratio"), outer = F)}
+    if(ratio=="rb") {title(paste0(estuary, " - red:blue ratio"), outer = F)}
+    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2, xaxt="n")
+    axis(1, at=c(8000,12000,16000), labels=as.Date(c(8000,12000,16000), origin = "1970-01-01"))
+    abline(h=0, lty=1)
+  }
   
   # reset par if it's been changed
   if (which < 7) {par(mfrow=c(1,1))}

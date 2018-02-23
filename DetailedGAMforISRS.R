@@ -295,13 +295,42 @@ plot.Deriv <- function(x, alpha = 0.05, polygon = TRUE,
   invisible(x)
 }
 
-plot.detailed.gam = function(data, var="rg", estuary="Port Jackson", which=4, return.yhat=F, gam.sum=F, return.dat=F) {
+#output from plot.detailed.gam(return.partial=T)
+time_partial_cor <- function(par1, par2, plot = F) {
+  # extract where time covariate overlaps
+  par1dat <- data.frame(time = par1[[2]][["x"]],
+                        fit = par1[[2]][["fit"]])
+  par2dat <- data.frame(time = par2[[2]][["x"]],
+                        fit = par2[[2]][["fit"]])
+  fitted1 <- par1dat %>%
+    mutate(time = floor(time)) %>%
+    group_by(time) %>%
+    summarise(fitted1 = mean(fit))
+  fitted2 <- par2dat %>%
+    mutate(time = floor(time)) %>%
+    group_by(time) %>%
+    summarise(fitted2 = mean(fit))
+  
+  joined_fits <- inner_join(x = fitted1, y = fitted2, by = "time")
+  
+  # test correlation
+  if (plot == T) { plot(joined_fits$fitted1, joined_fits$fitted2) }
+  #PearsonR <- cor(par.eff1, par.eff2, method = "pearson")
+  SpearmanR <- cor(joined_fits$fitted1, joined_fits$fitted2, method = "spearman")
+  #Corr <- as.data.frame(list(Pearson=PearsonR,Spearman=SpearmanR))
+  return(SpearmanR)
+}
+
+plot.detailed.gam = function(data, var="Green:Red", estuary="Port Jackson", which=4, return.yhat=F, return.partial = F, gam.sum=F, return.dat=F) {
   
   # there is the option of using gamm() here - i.e. penalised regression as a mixed model (using MAS:::glmmPQL and nlme:::lme)
   # the penalty is part of the variance component and is estimated, so no need for an explicit penalty coef, apparently
   # i am not toally sure i understand that though, so a gcv (with mgcv:::gam) routine to pick the best penalty term is more tractable for me
+
+  if (all(return.yhat, return.partial)) {stop("Only one of return.yhat= or return.partial= can be TRUE")}
+  if (return.dat == T & any(return.yhat, return.partial)) {stop("Only one of return.dat=, return.yhat= or return.partial= can be TRUE")}
   
-  if (var=="rg") {
+  if (var=="GreenRed") {
     dat = 
       data[data$data.source=="RS",] %>%
       filter(estuary.fac==estuary) %>%
@@ -309,7 +338,7 @@ plot.detailed.gam = function(data, var="rg", estuary="Port Jackson", which=4, re
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   
-  if (var=="rb") {
+  if (var=="BlueRed") {
     dat = 
       data[data$data.source=="RS",] %>%
       filter(estuary.fac==estuary) %>%
@@ -320,28 +349,28 @@ plot.detailed.gam = function(data, var="rg", estuary="Port Jackson", which=4, re
     dat = 
       data[data$data.source=="IS",] %>%
       filter(estuary.fac==estuary) %>%
-      mutate(mean.var = Turbidity) %>%
+      mutate(mean.var = log.plusk(Turbidity)) %>%
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   if (var=="Secchi") {
     dat = 
       data[data$data.source=="IS",] %>%
       filter(estuary.fac==estuary) %>%
-      mutate(mean.var = Secchi) %>%
+      mutate(mean.var = log(Secchi)) %>%
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   if (var=="Chl") {
     dat = 
       data[data$data.source=="IS",] %>%
       filter(estuary.fac==estuary) %>%
-      mutate(mean.var = Chl) %>%
+      mutate(mean.var = log(Chl)) %>%
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   if (var=="TSS") {
     dat = 
       data[data$data.source=="IS",] %>%
       filter(estuary.fac==estuary) %>%
-      mutate(mean.var = TSS) %>%
+      mutate(mean.var = log(TSS)) %>%
       mutate_each(funs(log.plusk), rain1:rainsum30)
   }
   #print(estuary)
@@ -417,18 +446,25 @@ plot.detailed.gam = function(data, var="rg", estuary="Port Jackson", which=4, re
     abline(h=0, lty=1)
     plot(ft.SeasonTime, n=1000, rug=F, main=paste0(estuary," (",var,"; n=",nrow(dat),")"), shade=T, select=2)
     abline(h=0, lty=1)
-    plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=1)
+    partial_dat <- plot(ft.SeasonTimeRain, n=100000, rug=F, shade=T, select=1)
     abline(h=0, lty=1)
     plot(ft.SeasonTimeRain, n=1000, rug=F, shade=T, select=2)
     abline(h=0, lty=1)
     
+    # reset par
+    par(mfrow=c(1,1))
+    
+    if (return.partial == T) { return(partial_dat) }
+    
     if (return.yhat == T) {
-      yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "response")
-      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "response")
-      yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
-      write.csv(file=paste0("Data/yhat-",substr(estuaries[i],1,5),"-",var,".csv"),yhat_df)
+      #yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "terms")
+      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "terms")
+      #yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
+      yhat_df <- data.frame(yhat_SeasonTimeRain)
+      return(yhat_df)
     }
   }
+ 
   
   if (which==5) {
     par(mfrow=c(1,1))
@@ -450,13 +486,32 @@ plot.detailed.gam = function(data, var="rg", estuary="Port Jackson", which=4, re
   
   if (which==7) {
     termplot(ft.SeasonTimeRain.lin, terms="time", se=TRUE,# ylim=c(-0.21,0.22),
-             data=dat, col.term="black", col.se="black", lty.se=1,main=paste0(estuary," (",var,"; n=",nrow(dat),")"))
+             data=dat, col.term="black", col.se="black", lty.se=1,
+             main=paste0(estuary," (",var,"; n=",nrow(dat),";r.sq=",round(summary(ft.SeasonTimeRain.lin)$r.sq,4),";p=",round(summary(ft.SeasonTimeRain.lin)$pTerms.pv,2),")"))
     abline(h=0, lty=1)
+    
+    coef <- summary(ft.SeasonTimeRain.lin)$p.table
+    write.csv(file=paste0("Data/LinCoef-",estuary,"-",var,".csv"),as.data.frame(coef))
   }
   
-  # reset par
-  par(mfrow=c(1,1))
+  if (which==8) {
+    
+    ylab = paste0("",var,"; Dev expl = ",round(as.numeric(summary(ft.SeasonTimeRain)[14])*100,1),"")
+    partial_dat <- plot(ft.SeasonTimeRain, n=100000, ylab=ylab, rug=F, shade=T, select=2, xlab="Year", xaxt='n')
+    abline(h=0, lty=1)
+    
+    if (return.partial == T) { return(partial_dat) }
+    
+    if (return.yhat == T) {
+      #yhat_SeasonTime <- predict.gam(ft.SeasonTime, type = "terms")
+      yhat_SeasonTimeRain <- predict.gam(ft.SeasonTimeRain, type = "terms")
+      #yhat_df <- data.frame(yhat_SeasonTime, yhat_SeasonTimeRain)
+      yhat_df <- data.frame(yhat_SeasonTimeRain)
+      #return(yhat_df)
+    }
+  }
   
   if (return.dat==T) {return(dat)}
 }
+
 

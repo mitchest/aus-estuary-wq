@@ -489,6 +489,50 @@ write.csv(dev_expl, file="dev_expl_rain-no-rain.csv")
 
 
 
+# map comparison of models with/without season covariate ---------------
+
+# fit the models
+# rg
+gam_rg_season <- fit.gams.season(model.data.filter.lite, "mean.rgratio")
+gam_rg_noseason <- fit.gams.noseason(model.data.filter.lite, "mean.rgratio")
+# rb
+gam_rb_season <- fit.gams.season(model.data.filter.lite, "mean.rbratio")
+gam_rb_noseason <- fit.gams.noseason(model.data.filter.lite, "mean.rbratio")
+
+# calcualte difference in deviance explained
+dev_expl <- data.frame(rg_dev_season = gam_rg_season$dev_expl, 
+                       rg_dev_noseason = gam_rg_noseason$dev_expl, 
+                       rg_dev_diff = gam_rg_season$dev_expl - gam_rg_noseason$dev_expl,
+                       rb_dev_season = gam_rb_season$dev_expl, 
+                       rb_dev_noseason = gam_rb_noseason$dev_expl, 
+                       rb_dev_diff = gam_rb_season$dev_expl - gam_rb_noseason$dev_expl)
+# round
+dev_expl <- round(dev_expl, 2)
+
+# join to estuary data
+load("est.locs.RData")
+dev_expl$estuary <- as.character(gam_rg_season$estuary)
+dev_expl = inner_join(x=est.locs, y=dev_expl, by="estuary")
+
+# make categories for easy plotting
+dev_expl$rg_dev_diff_cat <- as.factor(cut(dev_expl$rg_dev_diff, breaks = c(-0.3,0.0,0.05,0.1,0.15,0.2,0.5), 
+                                          labels = NULL, include.lowest = T))
+dev_expl$rb_dev_diff_cat <- as.factor(cut(dev_expl$rb_dev_diff, breaks = c(-0.3,0.0,0.05,0.1,0.15,0.2,0.5), 
+                                          labels = NULL, include.lowest = T))
+
+# quick check
+ggplot(data=dev_expl, aes(x=lon, y=lat)) +
+  geom_point(size=2, aes(colour=rg_dev_diff_cat)) + 
+  scale_colour_brewer(palette = "YlGnBu") + theme_bw()
+ggplot(data=dev_expl, aes(x=lon, y=lat)) +
+  geom_point(size=2, aes(colour=rb_dev_diff_cat)) + 
+  scale_colour_brewer(palette = "YlGnBu") + theme_bw()
+
+# save off
+write.csv(dev_expl, file="dev_expl_season-no-season.csv")
+
+
+
 # detailed GAM analysis --------------------------------------------------
 
 ## make some more combinations of daily rain sums instead of daily cummulative
@@ -645,7 +689,7 @@ for (i in c("Turbidity","Secchi","Chl","TSS","Carot")) {
 # Tully River
 par(mfcol=c(3,2))
 for (i in 7:12) {
-  plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Tully River", which=i)
+  plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Tully River", which=i, gam.sum = T)
 }
 par(mfcol=c(3,2))
 for (i in 7:12) {
@@ -663,11 +707,37 @@ for (i in 7:12) {
 }
 
 
-
-
-
-
-
 # then peel them all off **still to do
+setwd("B:/0_scratchProcessing/Bugnot_LandsatWQ/detailed-gam-plots/")
+
+for (estuary in unique(model.data.dailyrain$estuary.fac)) {
+  print(estuary)
+  CairoPNG(filename = paste0(estuary,".png"), width = 1000, height = 700)
+  par(mfrow=c(2,2), mar=c(5,5,2,2), oma=c(0,0,2,0))
+  try(plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary=estuary, which=14), silent = T)
+  try(plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary=estuary, which=14), silent = T)
+  dev.off()
+}
+
+
+# multi-panel figure 
+
+par(mfcol=c(3,2), mar=c(5,5,2,2), oma=c(0,0,2,0))
+# Tully r:g
+plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River - red:blue ratio", which=12)
+title("Tully River")
+title("Partial effect on water clarity ratio", outer = T)
+plot.detailed.gam(model.data.dailyrain, ratio="rb", estuary="Tully River", which=13)
+barplot(c(343.6,468.8,480.2,359.0,238.0,150.5,124.6,100.4,82.6,94.7,120.3,188.7), 
+        names.arg = seq(1,12,1), space = 0, ylab=("Rainfall (mm)"), xlab=("Mean monthly rainfall"))
+# Tully r:b (or another estuary)
+plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Tully River", which=12)
+title("Tully River")
+title("Partial effect on water clarity ratio", outer = T)
+plot.detailed.gam(model.data.dailyrain, ratio="rg", estuary="Tully River - red:green tatio", which=13)
+barplot(c(343.6,468.8,480.2,359.0,238.0,150.5,124.6,100.4,82.6,94.7,120.3,188.7), 
+        names.arg = seq(1,12,1), space = 0, ylab=("Rainfall (mm)"), xlab=("Mean monthly rainfall"))
+
+
 
 
